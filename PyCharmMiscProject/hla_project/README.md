@@ -7,7 +7,13 @@ Automated pipeline for extracting HLA-disease associations from published litera
 - Multiple Sclerosis (MS)
 - Neuromyelitis Optica Spectrum Disorder (NMOSD)
 - Myasthenia Gravis (MG)
-- Guillain-Barre Syndrome (GBS)
+- Guillain-Barré syndrome (GBS)
+- Transverse Myelitis (TM)
+- Optic Neuritis
+- Autoimmune Encephalitis (AIE / AE)
+- Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)
+- Acute Disseminated Encephalomyelitis (ADEM)
+- MOG Antibody Disease (MOGAD / MOG-IgG-associated disease)
 
 ## Architecture
 
