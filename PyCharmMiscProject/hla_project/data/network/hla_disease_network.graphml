@@ -1,0 +1,4395 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d12" for="edge" attr.name="effect" attr.type="string" />
+  <key id="d11" for="edge" attr.name="population" attr.type="string" />
+  <key id="d10" for="edge" attr.name="study_count" attr.type="long" />
+  <key id="d9" for="edge" attr.name="p_value" attr.type="double" />
+  <key id="d8" for="edge" attr.name="ci_upper" attr.type="double" />
+  <key id="d7" for="edge" attr.name="ci_lower" attr.type="double" />
+  <key id="d6" for="edge" attr.name="odds_ratio" attr.type="double" />
+  <key id="d5" for="edge" attr.name="raw_weight" attr.type="double" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="community" attr.type="long" />
+  <key id="d2" for="node" attr.name="color" attr.type="string" />
+  <key id="d1" for="node" attr.name="locus" attr.type="string" />
+  <key id="d0" for="node" attr.name="node_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="HLA-DR2">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DR</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="Multiple Sclerosis">
+      <data key="d0">Disease</data>
+      <data key="d1" />
+      <data key="d2">#e91e63</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*04:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="HLA-DRB1*03:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-DRB1*04:08">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-A*11">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">A</data>
+      <data key="d2">#e74c3c</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DR1">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DR</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">3</data>
+    </node>
+    <node id="HLA-DRB1*11">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*14">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*04">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">4</data>
+    </node>
+    <node id="HLA-DQB1*02:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DRB1*13">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DRB1*10:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DRB1*15:03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DQA1*01:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DQB1*03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*15:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="HLA-DQB1*06:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DRB1*10">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">8</data>
+    </node>
+    <node id="HLA-DR3">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DR</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*16">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-B*44:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DQB1*06:03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-A*02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">A</data>
+      <data key="d2">#e74c3c</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB5*01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-C*08">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">C</data>
+      <data key="d2">#f1c40f</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*04:03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DRB1*07">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="null">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">null</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*17">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">9</data>
+    </node>
+    <node id="HLA-DRB1*04:05">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*08">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DPB1*02:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DPB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">10</data>
+    </node>
+    <node id="HLA-DRB1*15">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="HLA-DQB1*06">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*09:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DRB1*09">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DQB1*06:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*17:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-A*02:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">A</data>
+      <data key="d2">#e74c3c</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-DRB1*13:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-DRB1*07:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-A*03:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">A</data>
+      <data key="d2">#e74c3c</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DQB1*03:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DRB1*08:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DQB2">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DQA1*01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">11</data>
+    </node>
+    <node id="HLA-TNFa*107">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">TNFa</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*15:XX">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*12:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">12</data>
+    </node>
+    <node id="HLA-DRB1*13:03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DPB1*05:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DPB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-A*03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">A</data>
+      <data key="d2">#e74c3c</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*12">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-A">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">A</data>
+      <data key="d2">#e74c3c</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-B*52">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-MICB*004">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">MICB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*11:04">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">13</data>
+    </node>
+    <node id="HLA-DRB1">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">14</data>
+    </node>
+    <node id="HLA-DRB1*13:XX">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-B*16">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DQB1*05:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DRB1*01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-C1_3_2*354">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">C</data>
+      <data key="d2">#f1c40f</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-A*30:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">A</data>
+      <data key="d2">#e74c3c</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-C*01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">C</data>
+      <data key="d2">#f1c40f</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DQB1*03:19">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">16</data>
+    </node>
+    <node id="HLA-B*37:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-E*01:03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">E</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">17</data>
+    </node>
+    <node id="HLA-DQB1*03:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DQA1*05">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*14:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-B*07:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DRA">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-B*53:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">18</data>
+    </node>
+    <node id="HLA-B*39:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*07:XX">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">19</data>
+    </node>
+    <node id="bv3s1*1">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">bv</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">20</data>
+    </node>
+    <node id="HLA-DOB">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DOB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">21</data>
+    </node>
+    <node id="HLA-C*03:03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">C</data>
+      <data key="d2">#f1c40f</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DQA1">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*13:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-DRB1*01:03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DPB1">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DPB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">22</data>
+    </node>
+    <node id="bv8s1*2">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">bv</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">23</data>
+    </node>
+    <node id="HLA-DQB1*04:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-Cw*05:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">Cw</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*11:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DRB1*09:XX">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">24</data>
+    </node>
+    <node id="HLA-C*03:04">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">C</data>
+      <data key="d2">#f1c40f</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRA*01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DPA1*02:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DPA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*15:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="HLA-C*02:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">C</data>
+      <data key="d2">#f1c40f</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB3*02:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">25</data>
+    </node>
+    <node id="HLA-A*11:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">A</data>
+      <data key="d2">#e74c3c</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*04:XX">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DPB1*04">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DPB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">26</data>
+    </node>
+    <node id="HLA-Bw4">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">Bw</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">27</data>
+    </node>
+    <node id="HLA-C*07:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">C</data>
+      <data key="d2">#f1c40f</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DQA1*03:03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DQA1*04:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DQA1*01:03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-A*24:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">A</data>
+      <data key="d2">#e74c3c</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-C*05:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">C</data>
+      <data key="d2">#f1c40f</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-E">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">E</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*04:04">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-B*38:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-B*44">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">28</data>
+    </node>
+    <node id="HLA-DPB1*04:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DPB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DPB1*03:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DPB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-B*15:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*16:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*14:04:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*01:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*null">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-B*null">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-C*02:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">C</data>
+      <data key="d2">#f1c40f</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-E*01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">E</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB3*02:02:01:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-B*55:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB3*03:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-DR6">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DR</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-A*68:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">A</data>
+      <data key="d2">#e74c3c</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*15:01:01:26">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="rs9267649">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">rs</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-SNP-string (a2)">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">SNP-string (a</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*01:01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*15:01:01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB5*01:01:01v1_STR1">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-B*35:03:01:03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRA*01:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*04:01:01:01SG">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DPB1*02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DPB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">29</data>
+    </node>
+    <node id="HLA-DQA1*05:05:01:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="rs2227956">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">rs</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-B*27:05:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB1*15:01:01:01SG">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DPB1*09:01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DPB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-LMP2 60HH">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">LMP</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-C*04:01:01:14">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">C</data>
+      <data key="d2">#f1c40f</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB6*01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">30</data>
+    </node>
+    <node id="HLA-DRB1*03:01:01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-MOG-142L">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">MOG-</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DPB1*104:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DPB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="HLA-DRB5*01:01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d0">Disease</data>
+      <data key="d1" />
+      <data key="d2">#e91e63</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DRB1*08:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DRB1*16:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-DQB1*04:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DQA1*02:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DQB1*05:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-B*08:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-C*07:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">C</data>
+      <data key="d2">#f1c40f</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DQA1*05:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DQB1*02:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DRB1 amino acid position 11 (Serine)">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-CD33*null">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">CD</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DRB1*14:06">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DRB1 amino acid position 11 (Valine)">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="HLA-DRB1 amino acid position 11 (Leucine)">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="Myasthenia Gravis">
+      <data key="d0">Disease</data>
+      <data key="d1" />
+      <data key="d2">#e91e63</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-B*40">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DQB1*03:03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-B*08">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-A*25:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">A</data>
+      <data key="d2">#e74c3c</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-B*52:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DQA1*null">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-8.1">
+      <data key="d0">HLAAllele</data>
+      <data key="d1" />
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-C*01:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">C</data>
+      <data key="d2">#f1c40f</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-DQB1*03:03:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DLA-DQB1*00301">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DLA-DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DQA1*03:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DQB1*02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">31</data>
+    </node>
+    <node id="HLA-DQB1*06:04">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DRB1*08:03">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">32</data>
+    </node>
+    <node id="HLA-B*73">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-B*08:01:01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-B*47">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DQA1*05:01:01:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-B*08:01:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DRB1*13:01:01:01SG">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DRB1*13:01:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-B*57:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DQB1*06:03:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-DRB1*14:54">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-A*02:36">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">A</data>
+      <data key="d2">#e74c3c</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-B*47:27">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="HLA-B*50">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">6</data>
+    </node>
+    <node id="Guillain-Barre Syndrome">
+      <data key="d0">Disease</data>
+      <data key="d1" />
+      <data key="d2">#e91e63</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-DQB1*060x">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DQB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-B*57:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">33</data>
+    </node>
+    <node id="Transverse Myelitis">
+      <data key="d0">Disease</data>
+      <data key="d1" />
+      <data key="d2">#e91e63</data>
+      <data key="d3">34</data>
+    </node>
+    <node id="Optic Neuritis">
+      <data key="d0">Disease</data>
+      <data key="d1" />
+      <data key="d2">#e91e63</data>
+      <data key="d3">35</data>
+    </node>
+    <node id="HLA-B*35:08:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">35</data>
+    </node>
+    <node id="Autoimmune Encephalitis">
+      <data key="d0">Disease</data>
+      <data key="d1" />
+      <data key="d2">#e91e63</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-DRB1*04:02">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-B*27:05">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">B</data>
+      <data key="d2">#e67e22</data>
+      <data key="d3">2</data>
+    </node>
+    <node id="HLA-DRB4*01:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">36</data>
+    </node>
+    <node id="HLA-IA*">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">IA</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">37</data>
+    </node>
+    <node id="Chronic Inflammatory Demyelinating Polyneuropathy">
+      <data key="d0">Disease</data>
+      <data key="d1" />
+      <data key="d2">#e91e63</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="Acute Disseminated Encephalomyelitis">
+      <data key="d0">Disease</data>
+      <data key="d1" />
+      <data key="d2">#e91e63</data>
+      <data key="d3">5</data>
+    </node>
+    <node id="HLA-DRB1*13:04">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">DRB</data>
+      <data key="d2">#95a5a6</data>
+      <data key="d3">15</data>
+    </node>
+    <node id="MOG Antibody Disease">
+      <data key="d0">Disease</data>
+      <data key="d1" />
+      <data key="d2">#e91e63</data>
+      <data key="d3">7</data>
+    </node>
+    <node id="HLA-A*68:01">
+      <data key="d0">HLAAllele</data>
+      <data key="d1">A</data>
+      <data key="d2">#e74c3c</data>
+      <data key="d3">7</data>
+    </node>
+    <edge source="HLA-DR2" target="Multiple Sclerosis">
+      <data key="d4">5.123735381848257</data>
+      <data key="d5">5.123735381848257</data>
+      <data key="d6">3.6</data>
+      <data key="d7">2.4</data>
+      <data key="d8">5.400000000000001</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">6</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*04:01" target="Multiple Sclerosis">
+      <data key="d4">5.204555782591354</data>
+      <data key="d5">5.204555782591354</data>
+      <data key="d6">6.3020000000000005</data>
+      <data key="d7">1.0992307692307692</data>
+      <data key="d8">4.317692307692308</data>
+      <data key="d9">1.4e-18</data>
+      <data key="d10">62</data>
+      <data key="d11">null, Jordanian, North-east Italian, Scandinavian, northern European, Swedish and German, Russians, Southern European, Swedish, Italian, non-Hispanic European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*04:01" target="Myasthenia Gravis">
+      <data key="d4">1.2911094438646475</data>
+      <data key="d5">1.2911094438646475</data>
+      <data key="d6">2.23</data>
+      <data key="d7">1.14</data>
+      <data key="d8">4.27</data>
+      <data key="d9">0.02</data>
+      <data key="d10">10</data>
+      <data key="d11">Caucasian, Iranian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*04:01" target="Chronic Inflammatory Demyelinating Polyneuropathy">
+      <data key="d4">8.001684619745864</data>
+      <data key="d5">8.001684619745864</data>
+      <data key="d6">14.4</data>
+      <data key="d7">5.91</data>
+      <data key="d8">35.08</data>
+      <data key="d9">0.001</data>
+      <data key="d10">5</data>
+      <data key="d11">Korean</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*03:01" target="Multiple Sclerosis">
+      <data key="d4">2.009592706808201</data>
+      <data key="d5">2.009592706808201</data>
+      <data key="d6">1.7226666666666666</data>
+      <data key="d7">1.3077777777777777</data>
+      <data key="d8">2.311777777777778</data>
+      <data key="d9">1.3e-30</data>
+      <data key="d10">76</data>
+      <data key="d11">African American, European, non-Hispanic European, Spanish, Lithuanian, Jordanian, Scandinavian, Israeli Arab, Sardinian, Swedish and German, Southern European, Australian, Portuguese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*03:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">2.5618435074227395</data>
+      <data key="d5">2.5618435074227395</data>
+      <data key="d6">3.139133333333333</data>
+      <data key="d7">1.3461333333333334</data>
+      <data key="d8">8.6814</data>
+      <data key="d9">1.9e-12</data>
+      <data key="d10">20</data>
+      <data key="d11">Brazilian Mulatto, European, French, null, Mexican, Afro-Caribbean from French West Indies, Korean</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*03:01" target="Myasthenia Gravis">
+      <data key="d4">1.3509767544828863</data>
+      <data key="d5">1.3509767544828863</data>
+      <data key="d6">4.675918918918919</data>
+      <data key="d7">0.27499999999999997</data>
+      <data key="d8">0.61</data>
+      <data key="d9">9.7e-74</data>
+      <data key="d10">43</data>
+      <data key="d11">North European, European, Turkish, Italian, Caucasian, Iranian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*03:01" target="Autoimmune Encephalitis">
+      <data key="d4">5.201913831528755</data>
+      <data key="d5">5.201913831528755</data>
+      <data key="d6">9.355</data>
+      <data key="d7">2.83</data>
+      <data key="d8">32.475</data>
+      <data key="d9">0.000275</data>
+      <data key="d10">8</data>
+      <data key="d11">Han Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*04:08" target="Multiple Sclerosis">
+      <data key="d4">3.1618091254945453</data>
+      <data key="d5">3.1618091254945453</data>
+      <data key="d6">9.6</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.04</data>
+      <data key="d10">1</data>
+      <data key="d11">northern European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-A*11" target="Multiple Sclerosis">
+      <data key="d4">0.9555114450274363</data>
+      <data key="d5">0.9555114450274363</data>
+      <data key="d6">2.6</data>
+      <data key="d7">1.1</data>
+      <data key="d8">3.0499999999999994</data>
+      <data key="d9">0.0</data>
+      <data key="d10">6</data>
+      <data key="d11">Western Indian non-Parsi</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DR1" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.012</data>
+      <data key="d10">9</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*11" target="Multiple Sclerosis">
+      <data key="d4">1.0327431508608116</data>
+      <data key="d5">-1.0327431508608116</data>
+      <data key="d6">0.68</data>
+      <data key="d7">0.5599999999999999</data>
+      <data key="d8">0.8300000000000001</data>
+      <data key="d9">0.0011</data>
+      <data key="d10">9</data>
+      <data key="d11">Hellenic, Sardinian, Maltese, Russian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*14" target="Multiple Sclerosis">
+      <data key="d4">0.6348782724359695</data>
+      <data key="d5">-0.6348782724359695</data>
+      <data key="d6">0.53</data>
+      <data key="d7">0.42</data>
+      <data key="d8">0.66</data>
+      <data key="d9">3.2e-05</data>
+      <data key="d10">27</data>
+      <data key="d11">Caucasian American</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*04" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.006</data>
+      <data key="d10">15</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*04" target="Myasthenia Gravis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.005</data>
+      <data key="d10">5</data>
+      <data key="d11">Tunisian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB1*02:01" target="Multiple Sclerosis">
+      <data key="d4">2.8423061008798034</data>
+      <data key="d5">2.8423061008798034</data>
+      <data key="d6">5.004814814814814</data>
+      <data key="d7">6.557142857142857</data>
+      <data key="d8">10.337142857142856</data>
+      <data key="d9">6.24e-06</data>
+      <data key="d10">33</data>
+      <data key="d11">Swedish and German, Israeli Arab, Moroccan, Saudi</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*02:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">10.37903506814552</data>
+      <data key="d5">10.37903506814552</data>
+      <data key="d6">4.145</data>
+      <data key="d7">1.525</data>
+      <data key="d8">16.735</data>
+      <data key="d9">1.12e-11</data>
+      <data key="d10">2</data>
+      <data key="d11">null, European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*02:01" target="Myasthenia Gravis">
+      <data key="d4">0.9121995772618792</data>
+      <data key="d5">0.9121995772618792</data>
+      <data key="d6">1.57</data>
+      <data key="d7">1.13</data>
+      <data key="d8">2.19</data>
+      <data key="d9">0.0095</data>
+      <data key="d10">1</data>
+      <data key="d11">Italian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*02:01" target="Guillain-Barre Syndrome">
+      <data key="d4">1.5463879457890437</data>
+      <data key="d5">1.5463879457890437</data>
+      <data key="d6">2.68</data>
+      <data key="d7">1.17</data>
+      <data key="d8">6.17</data>
+      <data key="d9">0.027</data>
+      <data key="d10">1</data>
+      <data key="d11">Bangladeshi</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*02:01" target="Autoimmune Encephalitis">
+      <data key="d4">2.6026896854443837</data>
+      <data key="d5">2.6026896854443837</data>
+      <data key="d6">13.5</data>
+      <data key="d7">3.5</data>
+      <data key="d8">52.0</data>
+      <data key="d9">0.0</data>
+      <data key="d10">4</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*02:01" target="Chronic Inflammatory Demyelinating Polyneuropathy">
+      <data key="d4">5.768245169809519</data>
+      <data key="d5">5.768245169809519</data>
+      <data key="d6">4.82</data>
+      <data key="d7">2.06</data>
+      <data key="d8">11.3</data>
+      <data key="d9">0.000215</data>
+      <data key="d10">5</data>
+      <data key="d11">Iranian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*13" target="Multiple Sclerosis">
+      <data key="d4">3.199529330092269</data>
+      <data key="d5">-3.199529330092269</data>
+      <data key="d6">0.39</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0004</data>
+      <data key="d10">9</data>
+      <data key="d11">Caucasian Central European Slovak</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*13" target="Myasthenia Gravis">
+      <data key="d4">4.735019049201892</data>
+      <data key="d5">-4.735019049201892</data>
+      <data key="d6">0.1111</data>
+      <data key="d7">0.02</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.002</data>
+      <data key="d10">6</data>
+      <data key="d11">Eastern European Romanian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*10:01" target="Multiple Sclerosis">
+      <data key="d4">0.02715740225253993</data>
+      <data key="d5">-0.02715740225253993</data>
+      <data key="d6">1.8399999999999999</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0004</data>
+      <data key="d10">15</data>
+      <data key="d11">Canadian, Continental Italian, Iranian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*10:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">2.1410424860722057</data>
+      <data key="d5">2.1410424860722057</data>
+      <data key="d6">2.9549999999999996</data>
+      <data key="d7">1.3</data>
+      <data key="d8">6.665000000000001</data>
+      <data key="d9">0.005</data>
+      <data key="d10">20</data>
+      <data key="d11">Muslim Arab Israeli, Mexican, South Indians</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*15:03" target="Multiple Sclerosis">
+      <data key="d4">1.4325945942845266</data>
+      <data key="d5">1.4325945942845266</data>
+      <data key="d6">1.7910526315789475</data>
+      <data key="d7">1.2163157894736842</data>
+      <data key="d8">2.8626315789473686</data>
+      <data key="d9">0.001</data>
+      <data key="d10">19</data>
+      <data key="d11">Colombian, African American</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQA1*01:02" target="Multiple Sclerosis">
+      <data key="d4">1.2079594227259072</data>
+      <data key="d5">-1.2079594227259072</data>
+      <data key="d6">1.2191666666666667</data>
+      <data key="d7">1.19</data>
+      <data key="d8">3.25</data>
+      <data key="d9">4.8e-11</data>
+      <data key="d10">21</data>
+      <data key="d11">Swedish and German, Japanese, Caucasian, Iranian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*03" target="Multiple Sclerosis">
+      <data key="d4">2.3906826287509926</data>
+      <data key="d5">2.3906826287509926</data>
+      <data key="d6">1.9835</data>
+      <data key="d7">1.1190909090909091</data>
+      <data key="d8">1.5572727272727276</data>
+      <data key="d9">5e-05</data>
+      <data key="d10">37</data>
+      <data key="d11">Hellenic, Indian, north of Portugal, Caucasian American, Russian, Caucasian Central European Slovak, Iranian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*03" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">1.429797405100774</data>
+      <data key="d5">1.429797405100774</data>
+      <data key="d6">2.32</data>
+      <data key="d7">1.32</data>
+      <data key="d8">4.04</data>
+      <data key="d9">0.02</data>
+      <data key="d10">1</data>
+      <data key="d11">Caucasian (France)</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*03" target="Myasthenia Gravis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">3e-06</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB1*03" target="Multiple Sclerosis">
+      <data key="d4">3.106115157995985</data>
+      <data key="d5">-3.106115157995985</data>
+      <data key="d6">0.4600000000000001</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">9</data>
+      <data key="d11">Caucasian Central European Slovak</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB1*03" target="Myasthenia Gravis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.007</data>
+      <data key="d10">5</data>
+      <data key="d11">Tunisian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*15:01" target="Multiple Sclerosis">
+      <data key="d4">7.3228812249965305</data>
+      <data key="d5">7.3228812249965305</data>
+      <data key="d6">4.7097344753747326</data>
+      <data key="d7">2.544092879256966</data>
+      <data key="d8">9.852644891640868</data>
+      <data key="d9">0.0</data>
+      <data key="d10">668</data>
+      <data key="d11">White, Caucasian (Spanish), northern-European ancestry, null, UK Biobank, European American, non-Latinx whites, northern-European, Nordic origin (Sweden, Norway, Denmark), Russian, Central European Slovak, Australian, Ashkenazi Jews, Maltese, Austrian, Saudi, children, Tunisian, Canadian and British, European, Swiss, American, Canadian, Japanese, Spanish, Albanian, Lithuanian, Jordanian, Northern European ancestry, predominantly Anglo Celtic and Southern European, Indian, White Brazilian, European-American, European or European-American, Norwegian, white non-Hispanic individuals (European ancestry), First Nations Canadians, Swedish, Italian, Portuguese, Slovaks, Iranian, Belgian, Hellenic, pediatric and adult MS patients from the United States and Australia, African American, German, Brazilian Caucasian, Dutch, Scandinavian, Swedish and German, pediatric MS patients in the United States, Latvian, Non-Hispanic White, Caucasian Spanish, white, Iranian Arabs from Khuzestan Province, French, female progressive MS patients, Continental Italian, Caucasian Scandinavian, Moroccan, Brazilian (Rio de Janeiro State), Caucasian and Indian, Slovak, white and of European descent, HLA-DR2 positive MS subjects, Sardinian, Slovak Caucasian, Pennsylvania Dutch, Colombian, Hispanic, Caucasian Argentine, Caucasian, Turkish</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*15:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">0.6428328555728405</data>
+      <data key="d5">-0.6428328555728405</data>
+      <data key="d6">0.7442857142857143</data>
+      <data key="d7">0.4985714285714286</data>
+      <data key="d8">1.122857142857143</data>
+      <data key="d9">0.000139</data>
+      <data key="d10">7</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*15:01" target="Myasthenia Gravis">
+      <data key="d4">4.941579670052735</data>
+      <data key="d5">4.941579670052735</data>
+      <data key="d6">2.38</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">2e-06</data>
+      <data key="d10">5</data>
+      <data key="d11">Norwegian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*15:01" target="Optic Neuritis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.03</data>
+      <data key="d10">5</data>
+      <data key="d11">Danish</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*15:01" target="Chronic Inflammatory Demyelinating Polyneuropathy">
+      <data key="d4">1.9671123567059163</data>
+      <data key="d5">1.9671123567059163</data>
+      <data key="d6">7.15</data>
+      <data key="d7">2.366</data>
+      <data key="d8">21.61</data>
+      <data key="d9">0.0</data>
+      <data key="d10">1</data>
+      <data key="d11">Spanish</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*15:01" target="MOG Antibody Disease">
+      <data key="d4">1.8723344367592705</data>
+      <data key="d5">1.8723344367592705</data>
+      <data key="d6">2.12</data>
+      <data key="d7">1.127</data>
+      <data key="d8">3.949</data>
+      <data key="d9">0.00041</data>
+      <data key="d10">2</data>
+      <data key="d11">Dutch, European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*06:01" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.012</data>
+      <data key="d10">1</data>
+      <data key="d11">Jordanian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB1*06:01" target="Myasthenia Gravis">
+      <data key="d4">2.748872195622465</data>
+      <data key="d5">-2.748872195622465</data>
+      <data key="d6">0.4</data>
+      <data key="d7">0.22000000000000003</data>
+      <data key="d8">0.5</data>
+      <data key="d9">0.001</data>
+      <data key="d10">5</data>
+      <data key="d11">Han Chinese</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB1*06:01" target="Guillain-Barre Syndrome">
+      <data key="d4">1.0848250987386392</data>
+      <data key="d5">-1.0848250987386392</data>
+      <data key="d6">0.5</data>
+      <data key="d7">0.27666666666666667</data>
+      <data key="d8">0.9199999999999999</data>
+      <data key="d9">0.022</data>
+      <data key="d10">3</data>
+      <data key="d11">Bangladeshi</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*10" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.002</data>
+      <data key="d10">9</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DR3" target="Multiple Sclerosis">
+      <data key="d4">1.874508628262876</data>
+      <data key="d5">1.874508628262876</data>
+      <data key="d6">2.5</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.009</data>
+      <data key="d10">1</data>
+      <data key="d11">Spanish</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*16" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.035</data>
+      <data key="d10">9</data>
+      <data key="d11">Iranian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*16" target="Myasthenia Gravis">
+      <data key="d4">1.2265593410034594</data>
+      <data key="d5">1.2265593410034594</data>
+      <data key="d6">2.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.017</data>
+      <data key="d10">2</data>
+      <data key="d11">Eastern European Romanian, Italian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*44:02" target="Multiple Sclerosis">
+      <data key="d4">4.813152509227608</data>
+      <data key="d5">-4.813152509227608</data>
+      <data key="d6">0.3983333333333334</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0</data>
+      <data key="d10">22</data>
+      <data key="d11">White, Northern European and African descended populations, Italian, European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB1*06:03" target="Multiple Sclerosis">
+      <data key="d4">1.76753508033719</data>
+      <data key="d5">1.76753508033719</data>
+      <data key="d6">2.42</data>
+      <data key="d7">1.16</data>
+      <data key="d8">5.25</data>
+      <data key="d9">0.002</data>
+      <data key="d10">10</data>
+      <data key="d11">Jordanian, Saudi</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-A*02" target="Multiple Sclerosis">
+      <data key="d4">0.9555285943474447</data>
+      <data key="d5">-0.9555285943474447</data>
+      <data key="d6">0.73</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.00092</data>
+      <data key="d10">9</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB5*01:01" target="Multiple Sclerosis">
+      <data key="d4">3.2808742414712118</data>
+      <data key="d5">-3.2808742414712118</data>
+      <data key="d6">0.335</data>
+      <data key="d7">0.208</data>
+      <data key="d8">0.539</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">6</data>
+      <data key="d11">Iranian Arabs from Khuzestan Province, northern-European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-C*08" target="Multiple Sclerosis">
+      <data key="d4">1.249760115616554</data>
+      <data key="d5">1.249760115616554</data>
+      <data key="d6">1.8500000000000003</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0093</data>
+      <data key="d10">9</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*04:03" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.001</data>
+      <data key="d10">1</data>
+      <data key="d11">Jordanian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*04:03" target="Myasthenia Gravis">
+      <data key="d4">7.812110467296709</data>
+      <data key="d5">7.812110467296709</data>
+      <data key="d6">7.05</data>
+      <data key="d7">2.62</data>
+      <data key="d8">18.92</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">5</data>
+      <data key="d11">Caucasian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*07" target="Multiple Sclerosis">
+      <data key="d4">0.8875217376748273</data>
+      <data key="d5">-0.8875217376748273</data>
+      <data key="d6">0.64</data>
+      <data key="d7">0.64</data>
+      <data key="d8">0.87</data>
+      <data key="d9">0.04</data>
+      <data key="d10">18</data>
+      <data key="d11">Caucasian American, Caucasian Central European Slovak</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*07" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.003</data>
+      <data key="d10">5</data>
+      <data key="d11">Muslim Arab Israeli</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="null" target="Multiple Sclerosis">
+      <data key="d4">4.067640903390642</data>
+      <data key="d5">-4.067640903390642</data>
+      <data key="d6">0.805</data>
+      <data key="d7">0.77</data>
+      <data key="d8">0.845</data>
+      <data key="d9">2.38e-23</data>
+      <data key="d10">2</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*17" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.00027</data>
+      <data key="d10">9</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*04:05" target="Multiple Sclerosis">
+      <data key="d4">1.2044520641508378</data>
+      <data key="d5">1.2044520641508378</data>
+      <data key="d6">1.998090909090909</data>
+      <data key="d7">1.4206190476190474</data>
+      <data key="d8">4.704714285714286</data>
+      <data key="d9">9.7e-08</data>
+      <data key="d10">33</data>
+      <data key="d11">Japanese, African American, Sardinian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*08" target="Multiple Sclerosis">
+      <data key="d4">1.2936316072515053</data>
+      <data key="d5">1.2936316072515053</data>
+      <data key="d6">2.575</data>
+      <data key="d7">1.05</data>
+      <data key="d8">2.87</data>
+      <data key="d9">0.033</data>
+      <data key="d10">2</data>
+      <data key="d11">north of Portugal, Swedish</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DPB1*02:01" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.009</data>
+      <data key="d10">1</data>
+      <data key="d11">white-western European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*15" target="Multiple Sclerosis">
+      <data key="d4">2.7002077330544663</data>
+      <data key="d5">2.7002077330544663</data>
+      <data key="d6">3.3415441176470586</data>
+      <data key="d7">1.6619008264462811</data>
+      <data key="d8">7.972892561983471</data>
+      <data key="d9">6.9e-11</data>
+      <data key="d10">181</data>
+      <data key="d11">Western Indian non-Parsi, Caucasian Central European Slovak, Canadian, Spanish, Japanese, Lebanese, Caucasian, north of Portugal, Caucasian American, French, Italian, Northern European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*15" target="Chronic Inflammatory Demyelinating Polyneuropathy">
+      <data key="d4">2.995732273553991</data>
+      <data key="d5">2.995732273553991</data>
+      <data key="d6">20.0</data>
+      <data key="d7">4.035</data>
+      <data key="d8">99.13</data>
+      <data key="d9">0.0</data>
+      <data key="d10">1</data>
+      <data key="d11">Spanish</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*06" target="Multiple Sclerosis">
+      <data key="d4">2.170997320483553</data>
+      <data key="d5">2.170997320483553</data>
+      <data key="d6">1.99</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0007</data>
+      <data key="d10">9</data>
+      <data key="d11">Caucasian Central European Slovak</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*06" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">7.6e-10</data>
+      <data key="d10">1</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*09:01" target="Multiple Sclerosis">
+      <data key="d4">2.3912782251950953</data>
+      <data key="d5">-2.3912782251950953</data>
+      <data key="d6">0.35</data>
+      <data key="d7">0.2575</data>
+      <data key="d8">0.629</data>
+      <data key="d9">0.0002</data>
+      <data key="d10">10</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*09:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">3.350802357691441</data>
+      <data key="d5">-3.350802357691441</data>
+      <data key="d6">0.20666666666666667</data>
+      <data key="d7">0.059166666666666666</data>
+      <data key="d8">0.8083333333333332</data>
+      <data key="d9">1.06e-05</data>
+      <data key="d10">6</data>
+      <data key="d11">Japanese, Southern Han Chinese</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*09:01" target="Myasthenia Gravis">
+      <data key="d4">8.560264653985083</data>
+      <data key="d5">8.560264653985083</data>
+      <data key="d6">8.5</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">5</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*09" target="Multiple Sclerosis">
+      <data key="d4">3.6307874683128163</data>
+      <data key="d5">-3.6307874683128163</data>
+      <data key="d6">0.2397142857142857</data>
+      <data key="d7">0.0962857142857143</data>
+      <data key="d8">0.5468571428571429</data>
+      <data key="d9">0.004</data>
+      <data key="d10">7</data>
+      <data key="d11">Japanese, north of Portugal</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*01" target="Multiple Sclerosis">
+      <data key="d4">1.9176269319491668</data>
+      <data key="d5">-1.9176269319491668</data>
+      <data key="d6">0.3588571428571429</data>
+      <data key="d7">0.14685714285714285</data>
+      <data key="d8">0.854</data>
+      <data key="d9">0.00062</data>
+      <data key="d10">23</data>
+      <data key="d11">Japanese, Russian, Indian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB1*06:02" target="Multiple Sclerosis">
+      <data key="d4">14.95983974800716</data>
+      <data key="d5">14.95983974800716</data>
+      <data key="d6">2.883095238095238</data>
+      <data key="d7">1.6500000000000001</data>
+      <data key="d8">4.90625</data>
+      <data key="d9">0.0</data>
+      <data key="d10">68</data>
+      <data key="d11">Belgian, Ashkenazi Jews, European, Japanese, Jordanian, Pennsylvania Dutch, Colombian, Hispanic, Italian, Caucasian, Saudi</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*06:02" target="Guillain-Barre Syndrome">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.009</data>
+      <data key="d10">5</data>
+      <data key="d11">northern Chinese</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB1*06:02" target="Optic Neuritis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.03</data>
+      <data key="d10">5</data>
+      <data key="d11">Danish</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*17:01" target="Multiple Sclerosis">
+      <data key="d4">0.6610371535855208</data>
+      <data key="d5">0.6610371535855208</data>
+      <data key="d6">1.28</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0021</data>
+      <data key="d10">6</data>
+      <data key="d11">Canadian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-A*02:01" target="Multiple Sclerosis">
+      <data key="d4">3.671794315327378</data>
+      <data key="d5">-3.671794315327378</data>
+      <data key="d6">2.050931818181818</data>
+      <data key="d7">1.6056785714285715</data>
+      <data key="d8">5.231107142857143</data>
+      <data key="d9">7.8e-70</data>
+      <data key="d10">59</data>
+      <data key="d11">Belgian, African American, European, null, UK Biobank, Swedish, non-Latinx whites, Scandinavian, Sardinian, white non-Hispanic individuals (European ancestry), white-western European, Hispanic, Italian, non-Hispanic European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-A*02:01" target="Myasthenia Gravis">
+      <data key="d4">3.8279029753172544</data>
+      <data key="d5">-3.8279029753172544</data>
+      <data key="d6">0.323</data>
+      <data key="d7">0.11300000000000002</data>
+      <data key="d8">0.756</data>
+      <data key="d9">0.00041</data>
+      <data key="d10">5</data>
+      <data key="d11">French Caucasian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-A*02:01" target="Autoimmune Encephalitis">
+      <data key="d4">5.850554670135758</data>
+      <data key="d5">-5.850554670135758</data>
+      <data key="d6">0.19</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0003</data>
+      <data key="d10">4</data>
+      <data key="d11">Spanish</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*13:02" target="Multiple Sclerosis">
+      <data key="d4">3.355153298451622</data>
+      <data key="d5">-3.355153298451622</data>
+      <data key="d6">0.295</data>
+      <data key="d7">0.16499999999999998</data>
+      <data key="d8">0.515</data>
+      <data key="d9">0.001</data>
+      <data key="d10">2</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*13:02" target="Myasthenia Gravis">
+      <data key="d4">6.818992368953701</data>
+      <data key="d5">6.818992368953701</data>
+      <data key="d6">5.5</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">5</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*13:02" target="Autoimmune Encephalitis">
+      <data key="d4">3.2919011966783835</data>
+      <data key="d5">3.2919011966783835</data>
+      <data key="d6">4.4</data>
+      <data key="d7">1.5</data>
+      <data key="d8">13.1</data>
+      <data key="d9">0.006</data>
+      <data key="d10">4</data>
+      <data key="d11">European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*07:01" target="Multiple Sclerosis">
+      <data key="d4">1.0608456038844072</data>
+      <data key="d5">1.0608456038844072</data>
+      <data key="d6">1.6157142857142859</data>
+      <data key="d7">0.9325000000000001</data>
+      <data key="d8">4.6775</data>
+      <data key="d9">6e-05</data>
+      <data key="d10">39</data>
+      <data key="d11">Belgian, African American, Continental Italian, Moroccan, Jordanian, Scandinavian, Central European Slovak, Southern European, Italian, non-Hispanic European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*07:01" target="Myasthenia Gravis">
+      <data key="d4">1.8737283430792813</data>
+      <data key="d5">-1.8737283430792813</data>
+      <data key="d6">1.3835333333333333</data>
+      <data key="d7">1.1916666666666667</data>
+      <data key="d8">2.973333333333333</data>
+      <data key="d9">1.11e-16</data>
+      <data key="d10">18</data>
+      <data key="d11">European, Italian, Caucasian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*07:01" target="Guillain-Barre Syndrome">
+      <data key="d4">6.907755278982139</data>
+      <data key="d5">6.907755278982139</data>
+      <data key="d6">10.0</data>
+      <data key="d7">45.9</data>
+      <data key="d8">2.25</data>
+      <data key="d9">0.001</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*07:01" target="Autoimmune Encephalitis">
+      <data key="d4">17.84090461043692</data>
+      <data key="d5">17.84090461043692</data>
+      <data key="d6">12.117777777777778</data>
+      <data key="d7">1.88</data>
+      <data key="d8">37.44</data>
+      <data key="d9">4.1e-11</data>
+      <data key="d10">9</data>
+      <data key="d11">European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-A*03:01" target="Multiple Sclerosis">
+      <data key="d4">0.03394237743251338</data>
+      <data key="d5">0.03394237743251338</data>
+      <data key="d6">1.1</data>
+      <data key="d7">0.745</data>
+      <data key="d8">1.635</data>
+      <data key="d9">0.0297</data>
+      <data key="d10">2</data>
+      <data key="d11">African American, European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*03:02" target="Multiple Sclerosis">
+      <data key="d4">3.035904468694759</data>
+      <data key="d5">3.035904468694759</data>
+      <data key="d6">1.5175</data>
+      <data key="d7">1.0933333333333335</data>
+      <data key="d8">2.39</data>
+      <data key="d9">1.8e-22</data>
+      <data key="d10">9</data>
+      <data key="d11">Spanish, Swedish, Italian, European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*03:02" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">4.678706519892584</data>
+      <data key="d5">-4.678706519892584</data>
+      <data key="d6">0.3</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.00013</data>
+      <data key="d10">1</data>
+      <data key="d11">Mexican</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*08:01" target="Multiple Sclerosis">
+      <data key="d4">3.7215929575913513</data>
+      <data key="d5">3.7215929575913513</data>
+      <data key="d6">0.865</data>
+      <data key="d7">0.039</data>
+      <data key="d8">0.8</data>
+      <data key="d9">1e-23</data>
+      <data key="d10">4</data>
+      <data key="d11">Lithuanian, European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB2" target="Multiple Sclerosis">
+      <data key="d4">0.527632742082372</data>
+      <data key="d5">-0.527632742082372</data>
+      <data key="d6">0.59</data>
+      <data key="d7">0.47</data>
+      <data key="d8">0.75</data>
+      <data key="d9">0.0</data>
+      <data key="d10">6</data>
+      <data key="d11">Caucasian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQA1*01:01" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">1.53e-27</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-TNFa*107" target="Multiple Sclerosis">
+      <data key="d4">1.098656754966397</data>
+      <data key="d5">-1.098656754966397</data>
+      <data key="d6">0.5</data>
+      <data key="d7">0.3</data>
+      <data key="d8">0.9</data>
+      <data key="d9">0.026</data>
+      <data key="d10">6</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*15:XX" target="Multiple Sclerosis">
+      <data key="d4">1.7518330002511666</data>
+      <data key="d5">1.7518330002511666</data>
+      <data key="d6">2.2</data>
+      <data key="d7">1.3</data>
+      <data key="d8">3.6</data>
+      <data key="d9">0.006</data>
+      <data key="d10">6</data>
+      <data key="d11">Mexican Mestizo</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*12:01" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*13:03" target="Multiple Sclerosis">
+      <data key="d4">9.80254388194385</data>
+      <data key="d5">9.80254388194385</data>
+      <data key="d6">2.917142857142857</data>
+      <data key="d7">1.6500000000000001</data>
+      <data key="d8">5.433333333333334</data>
+      <data key="d9">6.2e-55</data>
+      <data key="d10">7</data>
+      <data key="d11">Sardinian, European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DPB1*05:01" target="Multiple Sclerosis">
+      <data key="d4">3.5806848306179337</data>
+      <data key="d5">3.5806848306179337</data>
+      <data key="d6">5.1788235294117655</data>
+      <data key="d7">1.28</data>
+      <data key="d8">3.07</data>
+      <data key="d9">0.0013</data>
+      <data key="d10">39</data>
+      <data key="d11">Japanese, Southern Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DPB1*05:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">4.175330360058191</data>
+      <data key="d5">4.175330360058191</data>
+      <data key="d6">5.545909090909091</data>
+      <data key="d7">1.6136363636363635</data>
+      <data key="d8">19.61727272727273</data>
+      <data key="d9">0.000222</data>
+      <data key="d10">11</data>
+      <data key="d11">Japanese, Southern Han Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-A*03" target="Multiple Sclerosis">
+      <data key="d4">2.4099124208682</data>
+      <data key="d5">2.4099124208682</data>
+      <data key="d6">2.85</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.005</data>
+      <data key="d10">6</data>
+      <data key="d11">Tasmanian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*12" target="Multiple Sclerosis">
+      <data key="d4">1.3058974240478616</data>
+      <data key="d5">1.3058974240478616</data>
+      <data key="d6">3.6910000000000003</data>
+      <data key="d7">1.233</data>
+      <data key="d8">10.565</data>
+      <data key="d9">0.0</data>
+      <data key="d10">6</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-A" target="Multiple Sclerosis">
+      <data key="d4">1.6928036906296289</data>
+      <data key="d5">-1.6928036906296289</data>
+      <data key="d6">0.68</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">4.08e-05</data>
+      <data key="d10">6</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-B*52" target="Multiple Sclerosis">
+      <data key="d4">7.013115794639963</data>
+      <data key="d5">-7.013115794639963</data>
+      <data key="d6">0.03</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.01</data>
+      <data key="d10">6</data>
+      <data key="d11">Israeli Arab</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-MICB*004" target="Multiple Sclerosis">
+      <data key="d4">3.1102106548500665</data>
+      <data key="d5">3.1102106548500665</data>
+      <data key="d6">2.82</data>
+      <data key="d7">1.68</data>
+      <data key="d8">4.73</data>
+      <data key="d9">0.001</data>
+      <data key="d10">6</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*11:04" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.02</data>
+      <data key="d10">1</data>
+      <data key="d11">northern European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">4.4e-17</data>
+      <data key="d10">12</data>
+      <data key="d11">Canadian and Finnish</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*13:XX" target="Multiple Sclerosis">
+      <data key="d4">1.24314905118093</data>
+      <data key="d5">1.24314905118093</data>
+      <data key="d6">2.6</data>
+      <data key="d7">1.3</data>
+      <data key="d8">5.2</data>
+      <data key="d9">0.05</data>
+      <data key="d10">6</data>
+      <data key="d11">Mexican Mestizo</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*16" target="Multiple Sclerosis">
+      <data key="d4">2.624668592163159</data>
+      <data key="d5">2.624668592163159</data>
+      <data key="d6">13.800000000000002</data>
+      <data key="d7">1.19</data>
+      <data key="d8">134.44</data>
+      <data key="d9">0.0</data>
+      <data key="d10">6</data>
+      <data key="d11">Western Indian non-Parsi</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*05:01" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.001</data>
+      <data key="d10">1</data>
+      <data key="d11">Jordanian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB1*05:01" target="Myasthenia Gravis">
+      <data key="d4">8.78748047550534</data>
+      <data key="d5">8.78748047550534</data>
+      <data key="d6">4.8</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">2.5e-06</data>
+      <data key="d10">10</data>
+      <data key="d11">Turkish</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*05:01" target="Guillain-Barre Syndrome">
+      <data key="d4">4.047296194201252</data>
+      <data key="d5">4.047296194201252</data>
+      <data key="d6">10.5</data>
+      <data key="d7">2.1</data>
+      <data key="d8">52.1</data>
+      <data key="d9">0.019</data>
+      <data key="d10">5</data>
+      <data key="d11">German</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*05:01" target="Acute Disseminated Encephalomyelitis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.01</data>
+      <data key="d10">5</data>
+      <data key="d11">Caucasian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*01:01" target="Multiple Sclerosis">
+      <data key="d4">2.1695744311236127</data>
+      <data key="d5">-2.1695744311236127</data>
+      <data key="d6">1.7191666666666665</data>
+      <data key="d7">0.7150000000000001</data>
+      <data key="d8">34.43</data>
+      <data key="d9">7e-10</data>
+      <data key="d10">17</data>
+      <data key="d11">Canadian, Japanese, Lithuanian, Puerto Rican, Scandinavian, non-Hispanic European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*01:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">3.0204248861443626</data>
+      <data key="d5">3.0204248861443626</data>
+      <data key="d6">20.5</data>
+      <data key="d7">1.4</data>
+      <data key="d8">415.5</data>
+      <data key="d9">0.0</data>
+      <data key="d10">2</data>
+      <data key="d11">null</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*01:01" target="Myasthenia Gravis">
+      <data key="d4">2.018169015844806</data>
+      <data key="d5">2.018169015844806</data>
+      <data key="d6">2.8000000000000003</data>
+      <data key="d7">1.1726666666666665</data>
+      <data key="d8">1.5173333333333332</data>
+      <data key="d9">1.07e-06</data>
+      <data key="d10">8</data>
+      <data key="d11">US and Italian, Iranian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*01:01" target="Guillain-Barre Syndrome">
+      <data key="d4">2.4381655621533542</data>
+      <data key="d5">2.4381655621533542</data>
+      <data key="d6">4.2</data>
+      <data key="d7">1.9</data>
+      <data key="d8">9.6</data>
+      <data key="d9">0.004</data>
+      <data key="d10">10</data>
+      <data key="d11">Dutch, northern Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-C1_3_2*354" target="Multiple Sclerosis">
+      <data key="d4">1.6621253561629132</data>
+      <data key="d5">1.6621253561629132</data>
+      <data key="d6">2.0</data>
+      <data key="d7">1.2</data>
+      <data key="d8">3.1</data>
+      <data key="d9">0.004</data>
+      <data key="d10">6</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-A*30:01" target="Multiple Sclerosis">
+      <data key="d4">0.8293757630970471</data>
+      <data key="d5">0.8293757630970471</data>
+      <data key="d6">1.54</data>
+      <data key="d7">1.1</data>
+      <data key="d8">2.16</data>
+      <data key="d9">0.012</data>
+      <data key="d10">1</data>
+      <data key="d11">Sardinian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-C*01:01" target="Multiple Sclerosis">
+      <data key="d4">3.2418704955283957</data>
+      <data key="d5">3.2418704955283957</data>
+      <data key="d6">2.67</data>
+      <data key="d7">1.56</data>
+      <data key="d8">4.55</data>
+      <data key="d9">0.0005</data>
+      <data key="d10">1</data>
+      <data key="d11">Italian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*03:19" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0004</data>
+      <data key="d10">5</data>
+      <data key="d11">Moroccan</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-B*37:01" target="Multiple Sclerosis">
+      <data key="d4">4.285301165148103</data>
+      <data key="d5">4.285301165148103</data>
+      <data key="d6">1.75</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">2.2e-08</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-E*01:03" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.005</data>
+      <data key="d10">1</data>
+      <data key="d11">Caucasian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB1*03:01" target="Multiple Sclerosis">
+      <data key="d4">14.106894432046067</data>
+      <data key="d5">14.106894432046067</data>
+      <data key="d6">16.8</data>
+      <data key="d7">13.6</data>
+      <data key="d8">20.5</data>
+      <data key="d9">1e-05</data>
+      <data key="d10">20</data>
+      <data key="d11">Italian, Central European Slovak</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*03:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">1.9068353042199113</data>
+      <data key="d5">-1.9068353042199113</data>
+      <data key="d6">0.6416666666666667</data>
+      <data key="d7">0.42</data>
+      <data key="d8">1.0</data>
+      <data key="d9">1e-08</data>
+      <data key="d10">6</data>
+      <data key="d11">Mexican, Colombian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB1*03:01" target="Myasthenia Gravis">
+      <data key="d4">0.8706082729785484</data>
+      <data key="d5">-0.8706082729785484</data>
+      <data key="d6">2.02</data>
+      <data key="d7">1.3166666666666667</data>
+      <data key="d8">3.1</data>
+      <data key="d9">0.0</data>
+      <data key="d10">6</data>
+      <data key="d11">Han Chinese, Italian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQA1*05" target="Multiple Sclerosis">
+      <data key="d4">0.5580988592412108</data>
+      <data key="d5">0.5580988592412108</data>
+      <data key="d6">1.05</data>
+      <data key="d7">1.39</data>
+      <data key="d8">2.36</data>
+      <data key="d9">1e-05</data>
+      <data key="d10">2</data>
+      <data key="d11">Swedish, European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*14:01" target="Multiple Sclerosis">
+      <data key="d4">0.3792241375216669</data>
+      <data key="d5">-0.3792241375216669</data>
+      <data key="d6">1.8057142857142858</data>
+      <data key="d7">1.6533333333333333</data>
+      <data key="d8">9.08</data>
+      <data key="d9">3e-07</data>
+      <data key="d10">12</data>
+      <data key="d11">European, Canadian, null, Sardinian, Colombian, non-Hispanic European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*14:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">1.5150224485287063</data>
+      <data key="d5">-1.5150224485287063</data>
+      <data key="d6">0.33</data>
+      <data key="d7">0.11000000000000001</data>
+      <data key="d8">0.9399999999999998</data>
+      <data key="d9">0.043</data>
+      <data key="d10">5</data>
+      <data key="d11">South Indians</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*14:01" target="Myasthenia Gravis">
+      <data key="d4">4.066167936771472</data>
+      <data key="d5">4.066167936771472</data>
+      <data key="d6">4.42047619047619</data>
+      <data key="d7">2.458181818181818</data>
+      <data key="d8">11.54</data>
+      <data key="d9">4.9e-05</data>
+      <data key="d10">26</data>
+      <data key="d11">white Dutch, Italian, Caucasian, Turkish</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*14:01" target="Guillain-Barre Syndrome">
+      <data key="d4">4.828313737302301</data>
+      <data key="d5">4.828313737302301</data>
+      <data key="d6">5.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.001</data>
+      <data key="d10">5</data>
+      <data key="d11">Tunisian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*07:02" target="Multiple Sclerosis">
+      <data key="d4">0.9772041381405817</data>
+      <data key="d5">0.9772041381405817</data>
+      <data key="d6">1.66</data>
+      <data key="d7">1.12</data>
+      <data key="d8">2.47</data>
+      <data key="d9">0.0118</data>
+      <data key="d10">1</data>
+      <data key="d11">African American</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*07:02" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">14.4927053597393</data>
+      <data key="d5">14.4927053597393</data>
+      <data key="d6">383.1955</data>
+      <data key="d7">13.223499999999998</data>
+      <data key="d8">12576.751999999999</data>
+      <data key="d9">0.001</data>
+      <data key="d10">10</data>
+      <data key="d11">European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*07:02" target="Autoimmune Encephalitis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">1.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.039</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRA" target="Multiple Sclerosis">
+      <data key="d4">2.6661676201638214</data>
+      <data key="d5">2.6661676201638214</data>
+      <data key="d6">3.04</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.004</data>
+      <data key="d10">1</data>
+      <data key="d11">European American</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*53:01" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.002</data>
+      <data key="d10">1</data>
+      <data key="d11">African American</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-B*39:01" target="Multiple Sclerosis">
+      <data key="d4">3.070031518647015</data>
+      <data key="d5">3.070031518647015</data>
+      <data key="d6">3.09</data>
+      <data key="d7">1.52</data>
+      <data key="d8">6.29</data>
+      <data key="d9">0.0019</data>
+      <data key="d10">1</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*07:XX" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.003</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="bv3s1*1" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.022</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DOB" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.000106</data>
+      <data key="d10">1</data>
+      <data key="d11">Caucasian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-C*03:03" target="Multiple Sclerosis">
+      <data key="d4">0.6059800310501375</data>
+      <data key="d5">-0.6059800310501375</data>
+      <data key="d6">0.7</data>
+      <data key="d7">0.5</data>
+      <data key="d8">0.9</data>
+      <data key="d9">0.02</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQA1" target="Multiple Sclerosis">
+      <data key="d4">1.9428896640826625</data>
+      <data key="d5">1.9428896640826625</data>
+      <data key="d6">2.16</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.003</data>
+      <data key="d10">7</data>
+      <data key="d11">null, European American, European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*13:01" target="Multiple Sclerosis">
+      <data key="d4">1.4364667915444551</data>
+      <data key="d5">1.4364667915444551</data>
+      <data key="d6">1.4577777777777778</data>
+      <data key="d7">0.5771428571428572</data>
+      <data key="d8">4.238571428571428</data>
+      <data key="d9">9e-22</data>
+      <data key="d10">9</data>
+      <data key="d11">African American, European, Scandinavian, Southern European, Swedish</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*13:01" target="Myasthenia Gravis">
+      <data key="d4">3.883418699216783</data>
+      <data key="d5">-3.883418699216783</data>
+      <data key="d6">0.23</data>
+      <data key="d7">0.205</data>
+      <data key="d8">0.5700000000000001</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">15</data>
+      <data key="d11">Norwegian, Caucasian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*13:01" target="Guillain-Barre Syndrome">
+      <data key="d4">2.2368298319285786</data>
+      <data key="d5">2.2368298319285786</data>
+      <data key="d6">3.06</data>
+      <data key="d7">1.43</data>
+      <data key="d8">6.56</data>
+      <data key="d9">0.01</data>
+      <data key="d10">5</data>
+      <data key="d11">Tunisian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*13:01" target="Transverse Myelitis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.002</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*13:01" target="Chronic Inflammatory Demyelinating Polyneuropathy">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.03</data>
+      <data key="d10">5</data>
+      <data key="d11">Tunisian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*01:03" target="Multiple Sclerosis">
+      <data key="d4">4.735073686475607</data>
+      <data key="d5">-4.735073686475607</data>
+      <data key="d6">0.23000000000000004</data>
+      <data key="d7">0.08</data>
+      <data key="d8">0.51</data>
+      <data key="d9">1.8e-05</data>
+      <data key="d10">6</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DPB1" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.039</data>
+      <data key="d10">1</data>
+      <data key="d11">null</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DPB1" target="Myasthenia Gravis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.021</data>
+      <data key="d10">1</data>
+      <data key="d11">African genetic ancestry</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="bv8s1*2" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.03</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB1*04:01" target="Multiple Sclerosis">
+      <data key="d4">2.965630742215567</data>
+      <data key="d5">2.965630742215567</data>
+      <data key="d6">2.56</data>
+      <data key="d7">1.49</data>
+      <data key="d8">4.42</data>
+      <data key="d9">0.0007</data>
+      <data key="d10">1</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*04:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">3.0355221530707666</data>
+      <data key="d5">3.0355221530707666</data>
+      <data key="d6">3.16</data>
+      <data key="d7">1.58</data>
+      <data key="d8">6.34</data>
+      <data key="d9">0.0023</data>
+      <data key="d10">5</data>
+      <data key="d11">Colombian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*04:01" target="Guillain-Barre Syndrome">
+      <data key="d4">1.2681465984036242</data>
+      <data key="d5">-1.2681465984036242</data>
+      <data key="d6">0.39</data>
+      <data key="d7">0.16</data>
+      <data key="d8">0.97</data>
+      <data key="d9">0.045</data>
+      <data key="d10">1</data>
+      <data key="d11">Bangladeshi</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-Cw*05:01" target="Multiple Sclerosis">
+      <data key="d4">5.422610447719285</data>
+      <data key="d5">-5.422610447719285</data>
+      <data key="d6">0.3066666666666667</data>
+      <data key="d7">0.34</data>
+      <data key="d8">0.69</data>
+      <data key="d9">3.3e-05</data>
+      <data key="d10">6</data>
+      <data key="d11">Italian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*11:01" target="Multiple Sclerosis">
+      <data key="d4">1.031008768127539</data>
+      <data key="d5">-1.031008768127539</data>
+      <data key="d6">0.7000000000000001</data>
+      <data key="d7">0.57</data>
+      <data key="d8">0.84</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">14</data>
+      <data key="d11">Hellenic, African American, Canadian, Moroccan, northern European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*11:01" target="Myasthenia Gravis">
+      <data key="d4">3.700882413904629</data>
+      <data key="d5">3.700882413904629</data>
+      <data key="d6">9.515714285714285</data>
+      <data key="d7">2.5368749999999998</data>
+      <data key="d8">68.12875</data>
+      <data key="d9">0.001</data>
+      <data key="d10">21</data>
+      <data key="d11">Mexican Mestizo, Italian, Iranian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*09:XX" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.003</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-C*03:04" target="Multiple Sclerosis">
+      <data key="d4">6.769323057095757</data>
+      <data key="d5">-6.769323057095757</data>
+      <data key="d6">0.27</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">6.76e-06</data>
+      <data key="d10">1</data>
+      <data key="d11">non-Hispanic European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-C*03:04" target="MOG Antibody Disease">
+      <data key="d4">2.5406572086797032</data>
+      <data key="d5">-2.5406572086797032</data>
+      <data key="d6">0.26</data>
+      <data key="d7">0.1</data>
+      <data key="d8">0.71</data>
+      <data key="d9">0.013</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRA*01:01" target="Multiple Sclerosis">
+      <data key="d4">1.5774117647184462</data>
+      <data key="d5">1.5774117647184462</data>
+      <data key="d6">2.0</data>
+      <data key="d7">1.23</data>
+      <data key="d8">3.25</data>
+      <data key="d9">0.0053</data>
+      <data key="d10">1</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DPA1*02:01" target="Multiple Sclerosis">
+      <data key="d4">3.077850716176446</data>
+      <data key="d5">-3.077850716176446</data>
+      <data key="d6">0.74</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">6e-11</data>
+      <data key="d10">1</data>
+      <data key="d11">Swedish</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*15:02" target="Multiple Sclerosis">
+      <data key="d4">0.7338231880929709</data>
+      <data key="d5">0.7338231880929709</data>
+      <data key="d6">1.8299999999999998</data>
+      <data key="d7">0.40875</data>
+      <data key="d8">1.07375</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">13</data>
+      <data key="d11">Japanese, Sardinian, Russian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*15:02" target="Autoimmune Encephalitis">
+      <data key="d4">1.3787160944176393</data>
+      <data key="d5">1.3787160944176393</data>
+      <data key="d6">2.32</data>
+      <data key="d7">1.11</data>
+      <data key="d8">4.8</data>
+      <data key="d9">0.023</data>
+      <data key="d10">5</data>
+      <data key="d11">Thai</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*15:02" target="Chronic Inflammatory Demyelinating Polyneuropathy">
+      <data key="d4">3.1612467120315646</data>
+      <data key="d5">3.1612467120315646</data>
+      <data key="d6">23.6</data>
+      <data key="d7">1.129</data>
+      <data key="d8">496.2</data>
+      <data key="d9">0.0</data>
+      <data key="d10">1</data>
+      <data key="d11">Spanish</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-C*02:01" target="Multiple Sclerosis">
+      <data key="d4">5.878703880235767</data>
+      <data key="d5">-5.878703880235767</data>
+      <data key="d6">0.23000000000000004</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-C*02:01" target="Guillain-Barre Syndrome">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.001</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB3*02:02" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-A*11:01" target="Multiple Sclerosis">
+      <data key="d4">2.480553317081158</data>
+      <data key="d5">-2.480553317081158</data>
+      <data key="d6">0.22000000000000003</data>
+      <data key="d7">0.02</data>
+      <data key="d8">0.8699999999999999</data>
+      <data key="d9">0.023</data>
+      <data key="d10">5</data>
+      <data key="d11">Southern European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*04:XX" target="Multiple Sclerosis">
+      <data key="d4">4.356244805057852</data>
+      <data key="d5">4.356244805057852</data>
+      <data key="d6">9.65</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.003</data>
+      <data key="d10">7</data>
+      <data key="d11">Turkish</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DPB1*04" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.001</data>
+      <data key="d10">1</data>
+      <data key="d11">Hellenic</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-Bw4" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">4.6e-06</data>
+      <data key="d10">5</data>
+      <data key="d11">Norwegian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-C*07:02" target="Multiple Sclerosis">
+      <data key="d4">4.16701122876196</data>
+      <data key="d5">4.16701122876196</data>
+      <data key="d6">1.99</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">8.8e-07</data>
+      <data key="d10">1</data>
+      <data key="d11">non-Hispanic European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQA1*03:03" target="Multiple Sclerosis">
+      <data key="d4">0.7625617226725372</data>
+      <data key="d5">0.7625617226725372</data>
+      <data key="d6">1.74</data>
+      <data key="d7">1.02</data>
+      <data key="d8">2.96</data>
+      <data key="d9">0.042</data>
+      <data key="d10">1</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQA1*04:01" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.02</data>
+      <data key="d10">5</data>
+      <data key="d11">Brazilian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQA1*04:01" target="Myasthenia Gravis">
+      <data key="d4">2.4487544443105893</data>
+      <data key="d5">2.4487544443105893</data>
+      <data key="d6">3.535</data>
+      <data key="d7">1.3199999999999998</data>
+      <data key="d8">8.985</data>
+      <data key="d9">0.008</data>
+      <data key="d10">10</data>
+      <data key="d11">Han Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQA1*01:03" target="Multiple Sclerosis">
+      <data key="d4">0.7881594241013231</data>
+      <data key="d5">0.7881594241013231</data>
+      <data key="d6">1.396</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.00434</data>
+      <data key="d10">5</data>
+      <data key="d11">European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQA1*01:03" target="Myasthenia Gravis">
+      <data key="d4">4.399296002610974</data>
+      <data key="d5">-4.399296002610974</data>
+      <data key="d6">0.20566666666666666</data>
+      <data key="d7">0.11783333333333335</data>
+      <data key="d8">0.568</data>
+      <data key="d9">0.0</data>
+      <data key="d10">6</data>
+      <data key="d11">Han Chinese</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-A*24:02" target="Multiple Sclerosis">
+      <data key="d4">0.6043159668533296</data>
+      <data key="d5">0.6043159668533296</data>
+      <data key="d6">1.83</data>
+      <data key="d7">1.12</data>
+      <data key="d8">2.98</data>
+      <data key="d9">0.0</data>
+      <data key="d10">5</data>
+      <data key="d11">Iranian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-C*05:01" target="Multiple Sclerosis">
+      <data key="d4">0.5886784436377509</data>
+      <data key="d5">-0.5886784436377509</data>
+      <data key="d6">0.6000000000000001</data>
+      <data key="d7">0.4</data>
+      <data key="d8">0.76</data>
+      <data key="d9">0.043</data>
+      <data key="d10">2</data>
+      <data key="d11">European, non-Hispanic European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-C*05:01" target="Myasthenia Gravis">
+      <data key="d4">4.865356180232204</data>
+      <data key="d5">-4.865356180232204</data>
+      <data key="d6">0.599</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">3.21e-10</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-E" target="Multiple Sclerosis">
+      <data key="d4">1.7756306730890148</data>
+      <data key="d5">1.7756306730890148</data>
+      <data key="d6">1.8635</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0002</data>
+      <data key="d10">2</data>
+      <data key="d11">European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*04:04" target="Multiple Sclerosis">
+      <data key="d4">22.624460757117163</data>
+      <data key="d5">22.624460757117163</data>
+      <data key="d6">16.95</data>
+      <data key="d7">1.44</data>
+      <data key="d8">2.25</data>
+      <data key="d9">1.3e-12</data>
+      <data key="d10">2</data>
+      <data key="d11">Scandinavian, European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*04:04" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.03</data>
+      <data key="d10">5</data>
+      <data key="d11">Muslim Arab Israeli</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*04:04" target="Myasthenia Gravis">
+      <data key="d4">1.484136161761211</data>
+      <data key="d5">1.484136161761211</data>
+      <data key="d6">2.65</data>
+      <data key="d7">1.57</data>
+      <data key="d8">4.24</data>
+      <data key="d9">0.03</data>
+      <data key="d10">1</data>
+      <data key="d11">Norwegian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*38:01" target="Multiple Sclerosis">
+      <data key="d4">9.420645477417128</data>
+      <data key="d5">-9.420645477417128</data>
+      <data key="d6">0.515</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">8e-23</data>
+      <data key="d10">2</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-B*44" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.03</data>
+      <data key="d10">1</data>
+      <data key="d11">African Americans</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DPB1*04:01" target="Multiple Sclerosis">
+      <data key="d4">2.7588084088501494</data>
+      <data key="d5">-2.7588084088501494</data>
+      <data key="d6">0.2995</data>
+      <data key="d7">0.14850000000000002</data>
+      <data key="d8">0.6355</data>
+      <data key="d9">0.001</data>
+      <data key="d10">2</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DPB1*03:01" target="Multiple Sclerosis">
+      <data key="d4">3.928557714764803</data>
+      <data key="d5">3.928557714764803</data>
+      <data key="d6">3.6365384615384615</data>
+      <data key="d7">1.6644999999999999</data>
+      <data key="d8">5.548500000000001</data>
+      <data key="d9">5e-36</data>
+      <data key="d10">15</data>
+      <data key="d11">Hellenic, Japanese, European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DPB1*03:01" target="Autoimmune Encephalitis">
+      <data key="d4">6.319748810524106</data>
+      <data key="d5">-6.319748810524106</data>
+      <data key="d6">0.16</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.000356</data>
+      <data key="d10">5</data>
+      <data key="d11">White</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-B*15:01" target="Multiple Sclerosis">
+      <data key="d4">3.9567860548477514</data>
+      <data key="d5">3.9567860548477514</data>
+      <data key="d6">2.95</data>
+      <data key="d7">1.66</data>
+      <data key="d8">5.24</data>
+      <data key="d9">0.00022</data>
+      <data key="d10">1</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*15:01" target="Myasthenia Gravis">
+      <data key="d4">2.668694248601651</data>
+      <data key="d5">2.668694248601651</data>
+      <data key="d6">1.29</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">3.31e-11</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*16:01" target="Multiple Sclerosis">
+      <data key="d4">5.502136395705204</data>
+      <data key="d5">-5.502136395705204</data>
+      <data key="d6">0.5166666666666667</data>
+      <data key="d7">0.4166666666666667</data>
+      <data key="d8">0.6166666666666666</data>
+      <data key="d9">4.8e-16</data>
+      <data key="d10">11</data>
+      <data key="d11">Sardinian, Lithuanian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*16:01" target="Myasthenia Gravis">
+      <data key="d4">4.082107402448722</data>
+      <data key="d5">4.082107402448722</data>
+      <data key="d6">4.0917312500000005</data>
+      <data key="d7">1.5228</data>
+      <data key="d8">5.2137</data>
+      <data key="d9">1.9e-05</data>
+      <data key="d10">21</data>
+      <data key="d11">Iranian, Eastern European Romanian, Turkish</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*16:01" target="Acute Disseminated Encephalomyelitis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.02</data>
+      <data key="d10">5</data>
+      <data key="d11">Caucasian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*14:04:01" target="Multiple Sclerosis">
+      <data key="d4">4.753354569403765</data>
+      <data key="d5">-4.753354569403765</data>
+      <data key="d6">0.21000000000000002</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0009</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*01:02" target="Multiple Sclerosis">
+      <data key="d4">2.9364535795723836</data>
+      <data key="d5">2.9364535795723836</data>
+      <data key="d6">5.13</data>
+      <data key="d7">1.8400000000000003</data>
+      <data key="d8">14.319999999999999</data>
+      <data key="d9">0.016</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*null" target="Multiple Sclerosis">
+      <data key="d4">3.254466521643826</data>
+      <data key="d5">3.254466521643826</data>
+      <data key="d6">1.84</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">4.6e-06</data>
+      <data key="d10">6</data>
+      <data key="d11">Canadian, South Asian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*null" target="Multiple Sclerosis">
+      <data key="d4">1.6214253512375327</data>
+      <data key="d5">1.6214253512375327</data>
+      <data key="d6">2.9</data>
+      <data key="d7">1.07</data>
+      <data key="d8">7.87</data>
+      <data key="d9">0.03</data>
+      <data key="d10">1</data>
+      <data key="d11">Australian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-C*02:02" target="Multiple Sclerosis">
+      <data key="d4">0.8109302162163288</data>
+      <data key="d5">0.8109302162163288</data>
+      <data key="d6">1.5</data>
+      <data key="d7">1.1</data>
+      <data key="d8">2.0</data>
+      <data key="d9">0.01</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-E*01:01" target="Multiple Sclerosis">
+      <data key="d4">1.6616553396793128</data>
+      <data key="d5">1.6616553396793128</data>
+      <data key="d6">1.74</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.001</data>
+      <data key="d10">2</data>
+      <data key="d11">Caucasian, white British</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB3*02:02:01:02" target="Multiple Sclerosis">
+      <data key="d4">1.5934911255623725</data>
+      <data key="d5">-1.5934911255623725</data>
+      <data key="d6">0.51</data>
+      <data key="d7">0.32</data>
+      <data key="d8">0.81</data>
+      <data key="d9">0.0043</data>
+      <data key="d10">1</data>
+      <data key="d11">non-Hispanic European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-B*55:01" target="Multiple Sclerosis">
+      <data key="d4">4.694812030391202</data>
+      <data key="d5">-4.694812030391202</data>
+      <data key="d6">0.63</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">6.9e-11</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB3*03:01" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB3*03:01" target="Autoimmune Encephalitis">
+      <data key="d4">2.67000213346468</data>
+      <data key="d5">2.67000213346468</data>
+      <data key="d6">3.8</data>
+      <data key="d7">1.3</data>
+      <data key="d8">10.9</data>
+      <data key="d9">0.01</data>
+      <data key="d10">4</data>
+      <data key="d11">European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DR6" target="Multiple Sclerosis">
+      <data key="d4">3.0536203617569164</data>
+      <data key="d5">3.0536203617569164</data>
+      <data key="d6">3.1</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.002</data>
+      <data key="d10">1</data>
+      <data key="d11">Spanish</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-A*68:02" target="Multiple Sclerosis">
+      <data key="d4">3.0769445820727284</data>
+      <data key="d5">3.0769445820727284</data>
+      <data key="d6">3.67</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0043</data>
+      <data key="d10">1</data>
+      <data key="d11">Ashkenazi Jews</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*15:01:01:26" target="Multiple Sclerosis">
+      <data key="d4">18.252311959733134</data>
+      <data key="d5">18.252311959733134</data>
+      <data key="d6">71.26333333333334</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">1e-05</data>
+      <data key="d10">3</data>
+      <data key="d11">Romanian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="rs9267649" target="Multiple Sclerosis">
+      <data key="d4">1.1279835661416833</data>
+      <data key="d5">-1.1279835661416833</data>
+      <data key="d6">0.86</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">3.32e-08</data>
+      <data key="d10">1</data>
+      <data key="d11">Scandinavian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-SNP-string (a2)" target="Multiple Sclerosis">
+      <data key="d4">6.150269552680209</data>
+      <data key="d5">6.150269552680209</data>
+      <data key="d6">5.03</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">2</data>
+      <data key="d11">northern-European ancestry</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*01:01:01" target="Multiple Sclerosis">
+      <data key="d4">3.7750651419290553</data>
+      <data key="d5">-3.7750651419290553</data>
+      <data key="d6">0.29</data>
+      <data key="d7">0.14</data>
+      <data key="d8">0.61</data>
+      <data key="d9">0.000892</data>
+      <data key="d10">1</data>
+      <data key="d11">non-Hispanic European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*15:01:01:01" target="Multiple Sclerosis">
+      <data key="d4">19.25319200324559</data>
+      <data key="d5">19.25319200324559</data>
+      <data key="d6">3.42</data>
+      <data key="d7">2.65</data>
+      <data key="d8">4.42</data>
+      <data key="d9">2.2e-16</data>
+      <data key="d10">1</data>
+      <data key="d11">non-Hispanic European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB5*01:01:01v1_STR1" target="Multiple Sclerosis">
+      <data key="d4">9.177105072319673</data>
+      <data key="d5">9.177105072319673</data>
+      <data key="d6">8.18</data>
+      <data key="d7">2.68</data>
+      <data key="d8">24.95</data>
+      <data key="d9">4.3e-05</data>
+      <data key="d10">1</data>
+      <data key="d11">European-American</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*35:03:01:03" target="Multiple Sclerosis">
+      <data key="d4">6.8100802029321095</data>
+      <data key="d5">6.8100802029321095</data>
+      <data key="d6">7.42</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0004</data>
+      <data key="d10">1</data>
+      <data key="d11">Romanian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRA*01:02" target="Multiple Sclerosis">
+      <data key="d4">1.5774117647184462</data>
+      <data key="d5">-1.5774117647184462</data>
+      <data key="d6">0.5</data>
+      <data key="d7">0.31</data>
+      <data key="d8">0.81</data>
+      <data key="d9">0.0053</data>
+      <data key="d10">1</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*04:01:01:01SG" target="Multiple Sclerosis">
+      <data key="d4">15.99658340146645</data>
+      <data key="d5">-15.99658340146645</data>
+      <data key="d6">0.36</data>
+      <data key="d7">0.28</data>
+      <data key="d8">0.46</data>
+      <data key="d9">2.2e-16</data>
+      <data key="d10">1</data>
+      <data key="d11">European-American</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DPB1*02" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.001</data>
+      <data key="d10">1</data>
+      <data key="d11">Hellenic</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQA1*05:05:01:02" target="Multiple Sclerosis">
+      <data key="d4">3.421862926136042</data>
+      <data key="d5">3.421862926136042</data>
+      <data key="d6">3.2</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">2</data>
+      <data key="d11">Romanian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="rs2227956" target="Multiple Sclerosis">
+      <data key="d4">1.0783786455813964</data>
+      <data key="d5">-1.0783786455813964</data>
+      <data key="d6">0.86</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">7.08e-08</data>
+      <data key="d10">1</data>
+      <data key="d11">Scandinavian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-B*27:05:02" target="Multiple Sclerosis">
+      <data key="d4">1.3537989602216738</data>
+      <data key="d5">-1.3537989602216738</data>
+      <data key="d6">0.4</data>
+      <data key="d7">0.18</data>
+      <data key="d8">0.89</data>
+      <data key="d9">0.033306</data>
+      <data key="d10">1</data>
+      <data key="d11">non-Hispanic European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*15:01:01:01SG" target="Multiple Sclerosis">
+      <data key="d4">18.212123738396713</data>
+      <data key="d5">18.212123738396713</data>
+      <data key="d6">3.2</data>
+      <data key="d7">2.63</data>
+      <data key="d8">3.91</data>
+      <data key="d9">2.2e-16</data>
+      <data key="d10">1</data>
+      <data key="d11">European-American</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DPB1*09:01:01" target="Multiple Sclerosis">
+      <data key="d4">3.571985702642437</data>
+      <data key="d5">-3.571985702642437</data>
+      <data key="d6">0.1</data>
+      <data key="d7">0.01</data>
+      <data key="d8">0.78</data>
+      <data key="d9">0.0281</data>
+      <data key="d10">1</data>
+      <data key="d11">non-Hispanic European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-LMP2 60HH" target="Multiple Sclerosis">
+      <data key="d4">1.8734652780989847</data>
+      <data key="d5">-1.8734652780989847</data>
+      <data key="d6">0.443</data>
+      <data key="d7">0.249</data>
+      <data key="d8">0.79</data>
+      <data key="d9">0.005</data>
+      <data key="d10">1</data>
+      <data key="d11">Italian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-C*04:01:01:14" target="Multiple Sclerosis">
+      <data key="d4">4.6339326430073156</data>
+      <data key="d5">4.6339326430073156</data>
+      <data key="d6">3.5</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0002</data>
+      <data key="d10">1</data>
+      <data key="d11">Romanian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB6*01:01" target="Multiple Sclerosis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">9.54e-41</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*03:01:01:01" target="Multiple Sclerosis">
+      <data key="d4">4.037740994141069</data>
+      <data key="d5">4.037740994141069</data>
+      <data key="d6">4.48</data>
+      <data key="d7">1.73</data>
+      <data key="d8">11.62</data>
+      <data key="d9">0.00203</data>
+      <data key="d10">1</data>
+      <data key="d11">non-Hispanic European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-MOG-142L" target="Multiple Sclerosis">
+      <data key="d4">0.35667494393873245</data>
+      <data key="d5">-0.35667494393873245</data>
+      <data key="d6">0.7</data>
+      <data key="d7">0.6</data>
+      <data key="d8">0.82</data>
+      <data key="d9">0.0</data>
+      <data key="d10">1</data>
+      <data key="d11">Italian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DPB1*104:01" target="Multiple Sclerosis">
+      <data key="d4">1.130627618100121</data>
+      <data key="d5">1.130627618100121</data>
+      <data key="d6">1.76</data>
+      <data key="d7">1.1</data>
+      <data key="d8">2.74</data>
+      <data key="d9">0.01</data>
+      <data key="d10">1</data>
+      <data key="d11">non-Hispanic European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB5*01:01:01" target="Multiple Sclerosis">
+      <data key="d4">17.14636759300908</data>
+      <data key="d5">17.14636759300908</data>
+      <data key="d6">2.99</data>
+      <data key="d7">2.49</data>
+      <data key="d8">3.5949999999999998</data>
+      <data key="d9">2.2e-16</data>
+      <data key="d10">2</data>
+      <data key="d11">European-American, non-Hispanic European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*08:02" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">5.869823200252974</data>
+      <data key="d5">5.869823200252974</data>
+      <data key="d6">2.7800000000000002</data>
+      <data key="d7">1.775</data>
+      <data key="d8">4.485</data>
+      <data key="d9">8e-09</data>
+      <data key="d10">2</data>
+      <data key="d11">Japanese, Mexican</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*16:02" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">3.2288902424355967</data>
+      <data key="d5">3.2288902424355967</data>
+      <data key="d6">4.077857142857143</data>
+      <data key="d7">1.3571428571428572</data>
+      <data key="d8">14.654285714285715</data>
+      <data key="d9">1e-08</data>
+      <data key="d10">7</data>
+      <data key="d11">Japanese, Mexican, Southern Han Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*16:02" target="Autoimmune Encephalitis">
+      <data key="d4">4.976053976206848</data>
+      <data key="d5">4.976053976206848</data>
+      <data key="d6">3.4159999999999995</data>
+      <data key="d7">1.8169999999999997</data>
+      <data key="d8">6.174</data>
+      <data key="d9">8.9e-05</data>
+      <data key="d10">5</data>
+      <data key="d11">Han Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*04:02" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">8.026961912543003</data>
+      <data key="d5">8.026961912543003</data>
+      <data key="d6">2.63</data>
+      <data key="d7">1.92</data>
+      <data key="d8">3.7</data>
+      <data key="d9">5e-09</data>
+      <data key="d10">7</data>
+      <data key="d11">Mexican, Caucasian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*04:02" target="Myasthenia Gravis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.008</data>
+      <data key="d10">5</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQA1*02:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">6.294783535940176</data>
+      <data key="d5">6.294783535940176</data>
+      <data key="d6">2.715</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">8e-10</data>
+      <data key="d10">2</data>
+      <data key="d11">admixed Mexican</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*05:02" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">2.6328164673114482</data>
+      <data key="d5">2.6328164673114482</data>
+      <data key="d6">3.7299999999999995</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.01</data>
+      <data key="d10">5</data>
+      <data key="d11">Han Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*05:02" target="Myasthenia Gravis">
+      <data key="d4">26.113916176991488</data>
+      <data key="d5">26.113916176991488</data>
+      <data key="d6">8.56</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">6.88e-13</data>
+      <data key="d10">6</data>
+      <data key="d11">Turkey, Italian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*08:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">11.20842726663385</data>
+      <data key="d5">11.20842726663385</data>
+      <data key="d6">2.72</data>
+      <data key="d7">2.05</data>
+      <data key="d8">3.63</data>
+      <data key="d9">6.29e-12</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*08:01" target="Myasthenia Gravis">
+      <data key="d4">21.163055718220374</data>
+      <data key="d5">21.163055718220374</data>
+      <data key="d6">4.529083333333333</data>
+      <data key="d7">3.22</data>
+      <data key="d8">7.859999999999999</data>
+      <data key="d9">1.15e-52</data>
+      <data key="d10">12</data>
+      <data key="d11">Swedish Caucasian, Swedish, European, Turkey</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*08:01" target="Autoimmune Encephalitis">
+      <data key="d4">2.5952547069568657</data>
+      <data key="d5">2.5952547069568657</data>
+      <data key="d6">13.4</data>
+      <data key="d7">3.8</data>
+      <data key="d8">47.4</data>
+      <data key="d9">0.0</data>
+      <data key="d10">4</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*08:01" target="MOG Antibody Disease">
+      <data key="d4">1.2421454668962413</data>
+      <data key="d5">1.2421454668962413</data>
+      <data key="d6">2.11</data>
+      <data key="d7">1.154</data>
+      <data key="d8">3.842</data>
+      <data key="d9">0.0217</data>
+      <data key="d10">1</data>
+      <data key="d11">Dutch</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-C*07:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">8.649062148721502</data>
+      <data key="d5">8.649062148721502</data>
+      <data key="d6">2.38</data>
+      <data key="d7">1.83</data>
+      <data key="d8">3.1</data>
+      <data key="d9">1.06e-10</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-C*07:01" target="Myasthenia Gravis">
+      <data key="d4">8.753136471284991</data>
+      <data key="d5">8.753136471284991</data>
+      <data key="d6">2.74</data>
+      <data key="d7">1.97</data>
+      <data key="d8">3.81</data>
+      <data key="d9">2.07e-09</data>
+      <data key="d10">5</data>
+      <data key="d11">Turkey</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-C*07:01" target="Autoimmune Encephalitis">
+      <data key="d4">2.3978952727983707</data>
+      <data key="d5">2.3978952727983707</data>
+      <data key="d6">11.0</data>
+      <data key="d7">2.9</data>
+      <data key="d8">42.5</data>
+      <data key="d9">0.0</data>
+      <data key="d10">4</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQA1*05:01" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">7.360531746008426</data>
+      <data key="d5">7.360531746008426</data>
+      <data key="d6">2.2</data>
+      <data key="d7">1.72</data>
+      <data key="d8">2.82</data>
+      <data key="d9">4.62e-10</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQA1*05:01" target="Myasthenia Gravis">
+      <data key="d4">6.919245347964948</data>
+      <data key="d5">-6.919245347964948</data>
+      <data key="d6">0.54</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">5.9e-12</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQA1*05:01" target="Autoimmune Encephalitis">
+      <data key="d4">2.667228206581955</data>
+      <data key="d5">2.667228206581955</data>
+      <data key="d6">14.4</data>
+      <data key="d7">3.7</data>
+      <data key="d8">55.7</data>
+      <data key="d9">0.0</data>
+      <data key="d10">4</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*02:02" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">2.532988403820281</data>
+      <data key="d5">-2.532988403820281</data>
+      <data key="d6">0.29</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.002</data>
+      <data key="d10">6</data>
+      <data key="d11">Muslim Arab Israeli, Mexican</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1 amino acid position 11 (Serine)" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">2.603133862013775</data>
+      <data key="d5">2.603133862013775</data>
+      <data key="d6">1.56</data>
+      <data key="d7">1.31</data>
+      <data key="d8">1.87</data>
+      <data key="d9">1.4e-06</data>
+      <data key="d10">1</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-CD33*null" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">4.526294253656235</data>
+      <data key="d5">4.526294253656235</data>
+      <data key="d6">8.485</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0033</data>
+      <data key="d10">2</data>
+      <data key="d11">East Asian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*14:06" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">2.4177259698793776</data>
+      <data key="d5">2.4177259698793776</data>
+      <data key="d6">2.7</data>
+      <data key="d7">1.92</data>
+      <data key="d8">3.7</data>
+      <data key="d9">0.00368</data>
+      <data key="d10">1</data>
+      <data key="d11">Mexican</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1 amino acid position 11 (Valine)" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">0.8911803303279592</data>
+      <data key="d5">-0.8911803303279592</data>
+      <data key="d6">0.71</data>
+      <data key="d7">0.56</data>
+      <data key="d8">0.89</data>
+      <data key="d9">0.0025</data>
+      <data key="d10">1</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1 amino acid position 11 (Leucine)" target="Neuromyelitis Optica Spectrum Disorder">
+      <data key="d4">0.9386531383217063</data>
+      <data key="d5">0.9386531383217063</data>
+      <data key="d6">1.57</data>
+      <data key="d7">1.15</data>
+      <data key="d8">2.16</data>
+      <data key="d9">0.0083</data>
+      <data key="d10">1</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*40" target="Myasthenia Gravis">
+      <data key="d4">0.9689781756029683</data>
+      <data key="d5">0.9689781756029683</data>
+      <data key="d6">2.0</data>
+      <data key="d7">1.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.04</data>
+      <data key="d10">1</data>
+      <data key="d11">Eastern European Romanian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*03:03" target="Myasthenia Gravis">
+      <data key="d4">1.0345659353257037</data>
+      <data key="d5">1.0345659353257037</data>
+      <data key="d6">2.084</data>
+      <data key="d7">1.056</data>
+      <data key="d8">4.073</data>
+      <data key="d9">0.039</data>
+      <data key="d10">1</data>
+      <data key="d11">Han Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*03:03" target="Guillain-Barre Syndrome">
+      <data key="d4">1.8655760300996485</data>
+      <data key="d5">1.8655760300996485</data>
+      <data key="d6">3.275</data>
+      <data key="d7">1.19</data>
+      <data key="d8">9.33</data>
+      <data key="d9">0.024</data>
+      <data key="d10">2</data>
+      <data key="d11">Bangladeshi</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*08" target="Myasthenia Gravis">
+      <data key="d4">71.91036168469911</data>
+      <data key="d5">71.91036168469911</data>
+      <data key="d6">3.893333333333333</data>
+      <data key="d7">2.8200000000000003</data>
+      <data key="d8">6.445</data>
+      <data key="d9">2.87e-113</data>
+      <data key="d10">3</data>
+      <data key="d11">North European, Eastern European Romanian, Norwegian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-A*25:01" target="Myasthenia Gravis">
+      <data key="d4">3.071091562390461</data>
+      <data key="d5">3.071091562390461</data>
+      <data key="d6">3.62</data>
+      <data key="d7">1.6200000000000003</data>
+      <data key="d8">7.08</data>
+      <data key="d9">0.0041</data>
+      <data key="d10">5</data>
+      <data key="d11">French Caucasian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*52:01" target="Myasthenia Gravis">
+      <data key="d4">3.2569043140661993</data>
+      <data key="d5">3.2569043140661993</data>
+      <data key="d6">6.467</data>
+      <data key="d7">1.895</data>
+      <data key="d8">23.35</data>
+      <data key="d9">0.018</data>
+      <data key="d10">1</data>
+      <data key="d11">Han Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQA1*null" target="Myasthenia Gravis">
+      <data key="d4">13.615065260419192</data>
+      <data key="d5">13.615065260419192</data>
+      <data key="d6">2.82</data>
+      <data key="d7">2.585</data>
+      <data key="d8">3.055</data>
+      <data key="d9">7.02e-18</data>
+      <data key="d10">2</data>
+      <data key="d11">North American non-Hispanic white</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-8.1" target="Myasthenia Gravis">
+      <data key="d4">19.00796759492355</data>
+      <data key="d5">19.00796759492355</data>
+      <data key="d6">6.5</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">7e-11</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-C*01:02" target="Myasthenia Gravis">
+      <data key="d4">1.9693804994367679</data>
+      <data key="d5">1.9693804994367679</data>
+      <data key="d6">2.994</data>
+      <data key="d7">1.378</data>
+      <data key="d8">6.506</data>
+      <data key="d9">0.016</data>
+      <data key="d10">1</data>
+      <data key="d11">Han Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-C*01:02" target="Autoimmune Encephalitis">
+      <data key="d4">3.0967367635430634</data>
+      <data key="d5">3.0967367635430634</data>
+      <data key="d6">18.8</data>
+      <data key="d7">2.0</data>
+      <data key="d8">170.5</data>
+      <data key="d9">0.088</data>
+      <data key="d10">1</data>
+      <data key="d11">Korean</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*03:03:02" target="Myasthenia Gravis">
+      <data key="d4">11.516793829192158</data>
+      <data key="d5">11.516793829192158</data>
+      <data key="d6">17.8</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">5</data>
+      <data key="d11">Southern Han Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DLA-DQB1*00301" target="Myasthenia Gravis">
+      <data key="d4">4.591348231288522</data>
+      <data key="d5">4.591348231288522</data>
+      <data key="d6">7.409999999999999</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0051</data>
+      <data key="d10">5</data>
+      <data key="d11">Newfoundland dogs</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQA1*03:02" target="Myasthenia Gravis">
+      <data key="d4">11.516793829192158</data>
+      <data key="d5">11.516793829192158</data>
+      <data key="d6">17.8</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0001</data>
+      <data key="d10">5</data>
+      <data key="d11">Southern Han Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*02" target="Myasthenia Gravis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.002</data>
+      <data key="d10">5</data>
+      <data key="d11">Tunisian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DQB1*06:04" target="Myasthenia Gravis">
+      <data key="d4">4.1663737239554335</data>
+      <data key="d5">4.1663737239554335</data>
+      <data key="d6">4.01</data>
+      <data key="d7">1.65</data>
+      <data key="d8">9.73</data>
+      <data key="d9">0.001</data>
+      <data key="d10">10</data>
+      <data key="d11">Japanese, Han Chinese</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*08:03" target="Myasthenia Gravis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.0009</data>
+      <data key="d10">5</data>
+      <data key="d11">Japanese</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-B*73" target="Myasthenia Gravis">
+      <data key="d4">7.577185932924767</data>
+      <data key="d5">7.577185932924767</data>
+      <data key="d6">12.5</data>
+      <data key="d7">1.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.001</data>
+      <data key="d10">1</data>
+      <data key="d11">Eastern European Romanian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*08:01:01:01" target="Myasthenia Gravis">
+      <data key="d4">5.627466311343294</data>
+      <data key="d5">5.627466311343294</data>
+      <data key="d6">3.28</data>
+      <data key="d7">1.78</data>
+      <data key="d8">6.02</data>
+      <data key="d9">1.83e-05</data>
+      <data key="d10">1</data>
+      <data key="d11">Italian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*47" target="Myasthenia Gravis">
+      <data key="d4">2.21609859388202</data>
+      <data key="d5">2.21609859388202</data>
+      <data key="d6">4.1667</data>
+      <data key="d7">1.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.028</data>
+      <data key="d10">1</data>
+      <data key="d11">Eastern European Romanian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQA1*05:01:01:02" target="Myasthenia Gravis">
+      <data key="d4">2.755653481234105</data>
+      <data key="d5">2.755653481234105</data>
+      <data key="d6">2.45</data>
+      <data key="d7">1.37</data>
+      <data key="d8">4.34</data>
+      <data key="d9">0.000841</data>
+      <data key="d10">1</data>
+      <data key="d11">Italian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*08:01:02" target="Myasthenia Gravis">
+      <data key="d4">4.528082208131603</data>
+      <data key="d5">4.528082208131603</data>
+      <data key="d6">1.85</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">4.36e-08</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB1*13:01:01:01SG" target="Myasthenia Gravis">
+      <data key="d4">2.2821745266353606</data>
+      <data key="d5">-2.2821745266353606</data>
+      <data key="d6">0.23</data>
+      <data key="d7">0.03</data>
+      <data key="d8">0.92</data>
+      <data key="d9">0.028</data>
+      <data key="d10">1</data>
+      <data key="d11">Italian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*13:01:02" target="Myasthenia Gravis">
+      <data key="d4">11.972672812154594</data>
+      <data key="d5">-11.972672812154594</data>
+      <data key="d6">0.42</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">1.58e-14</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-B*57:02" target="Myasthenia Gravis">
+      <data key="d4">8.616324665636984</data>
+      <data key="d5">8.616324665636984</data>
+      <data key="d6">31.6154</data>
+      <data key="d7">4.3961</data>
+      <data key="d8">227.3664</data>
+      <data key="d9">0.0032</data>
+      <data key="d10">1</data>
+      <data key="d11">Eastern European Romanian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*06:03:02" target="Myasthenia Gravis">
+      <data key="d4">0.45105412983281656</data>
+      <data key="d5">-0.45105412983281656</data>
+      <data key="d6">0.8</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.00952</data>
+      <data key="d10">1</data>
+      <data key="d11">European</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*14:54" target="Myasthenia Gravis">
+      <data key="d4">19.53132196382691</data>
+      <data key="d5">19.53132196382691</data>
+      <data key="d6">359.649</data>
+      <data key="d7">19.707</data>
+      <data key="d8">6563.5224</data>
+      <data key="d9">0.00048</data>
+      <data key="d10">1</data>
+      <data key="d11">Eastern European Romanian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-A*02:36" target="Myasthenia Gravis">
+      <data key="d4">6.827835499400411</data>
+      <data key="d5">6.827835499400411</data>
+      <data key="d6">93.1509</data>
+      <data key="d7">3.7651</data>
+      <data key="d8">2304.618</data>
+      <data key="d9">0.0312</data>
+      <data key="d10">1</data>
+      <data key="d11">Eastern European Romanian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*47:27" target="Myasthenia Gravis">
+      <data key="d4">16.1534003112068</data>
+      <data key="d5">16.1534003112068</data>
+      <data key="d6">157.2293</data>
+      <data key="d7">7.4856</data>
+      <data key="d8">3302.4752</data>
+      <data key="d9">0.00064</data>
+      <data key="d10">1</data>
+      <data key="d11">Eastern European Romanian</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*50" target="Myasthenia Gravis">
+      <data key="d4">7.679381003476298</data>
+      <data key="d5">7.679381003476298</data>
+      <data key="d6">9.92</data>
+      <data key="d7">3.05</data>
+      <data key="d8">32.22</data>
+      <data key="d9">0.00045</data>
+      <data key="d10">1</data>
+      <data key="d11">Caucasian Turkish</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DQB1*060x" target="Guillain-Barre Syndrome">
+      <data key="d4">1.3458889464848516</data>
+      <data key="d5">1.3458889464848516</data>
+      <data key="d6">1.9600000000000002</data>
+      <data key="d7">1.26</data>
+      <data key="d8">3.04</data>
+      <data key="d9">0.01</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*57:01" target="Guillain-Barre Syndrome">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.005</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-B*35:08:01" target="Optic Neuritis">
+      <data key="d4">1.171182981502945</data>
+      <data key="d5">-1.171182981502945</data>
+      <data key="d6">0.31</data>
+      <data key="d7">0.15</data>
+      <data key="d8">0.66</data>
+      <data key="d9">0.0</data>
+      <data key="d10">1</data>
+      <data key="d11">Iranian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*04:02" target="Autoimmune Encephalitis">
+      <data key="d4">5.523632087232266</data>
+      <data key="d5">5.523632087232266</data>
+      <data key="d6">8.93</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.003</data>
+      <data key="d10">5</data>
+      <data key="d11">White</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-B*27:05" target="Autoimmune Encephalitis">
+      <data key="d4">12.23261233171716</data>
+      <data key="d5">12.23261233171716</data>
+      <data key="d6">59.0</data>
+      <data key="d7">9.0</data>
+      <data key="d8">386.9</data>
+      <data key="d9">0.001</data>
+      <data key="d10">1</data>
+      <data key="d11">Korean</data>
+      <data key="d12">risk</data>
+    </edge>
+    <edge source="HLA-DRB4*01:01" target="Autoimmune Encephalitis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">1.19e-07</data>
+      <data key="d10">5</data>
+      <data key="d11">Unknown</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-IA*" target="Autoimmune Encephalitis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.004</data>
+      <data key="d10">1</data>
+      <data key="d11">SJL mice</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-DRB1*13:04" target="Acute Disseminated Encephalomyelitis">
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.0</data>
+      <data key="d8">0.0</data>
+      <data key="d9">0.01</data>
+      <data key="d10">5</data>
+      <data key="d11">Caucasian</data>
+      <data key="d12">protective</data>
+    </edge>
+    <edge source="HLA-A*68:01" target="MOG Antibody Disease">
+      <data key="d4">3.3646127454637846</data>
+      <data key="d5">-3.3646127454637846</data>
+      <data key="d6">0.11</data>
+      <data key="d7">0.007</data>
+      <data key="d8">1.838</data>
+      <data key="d9">0.0299</data>
+      <data key="d10">1</data>
+      <data key="d11">Dutch</data>
+      <data key="d12">protective</data>
+    </edge>
+  </graph>
+</graphml>

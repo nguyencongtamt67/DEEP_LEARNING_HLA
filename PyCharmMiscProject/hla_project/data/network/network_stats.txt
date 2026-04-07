@@ -1,0 +1,177 @@
+=== HLA–Disease Network Stats ===
+
+Total HLA allele nodes : 197
+Total Disease nodes    : 10
+Total edges            : 285
+Louvain communities    : 38
+
+── Hub Alleles (top 20 by disease degree) ──
+  HLA-DQB1*02:01                  degree = 6
+  HLA-DRB1*15:01                  degree = 6
+  HLA-DRB1*13:01                  degree = 5
+  HLA-DRB1*03:01                  degree = 4
+  HLA-DRB1*07:01                  degree = 4
+  HLA-DQB1*05:01                  degree = 4
+  HLA-DRB1*01:01                  degree = 4
+  HLA-DRB1*14:01                  degree = 4
+  HLA-B*08:01                     degree = 4
+  HLA-DRB1*04:01                  degree = 3
+  HLA-DRB1*03                     degree = 3
+  HLA-DQB1*06:01                  degree = 3
+  HLA-DRB1*09:01                  degree = 3
+  HLA-DQB1*06:02                  degree = 3
+  HLA-A*02:01                     degree = 3
+  HLA-DRB1*13:02                  degree = 3
+  HLA-DQB1*03:01                  degree = 3
+  HLA-B*07:02                     degree = 3
+  HLA-DQB1*04:01                  degree = 3
+  HLA-DRB1*15:02                  degree = 3
+
+── Disease-Specific Alleles (147 total) ──
+  HLA-8.1
+  HLA-A
+  HLA-A*02
+  HLA-A*02:36
+  HLA-A*03
+  HLA-A*03:01
+  HLA-A*11
+  HLA-A*11:01
+  HLA-A*24:02
+  HLA-A*25:01
+  HLA-A*30:01
+  HLA-A*68:01
+  HLA-A*68:02
+  HLA-B*08
+  HLA-B*08:01:01:01
+  HLA-B*08:01:02
+  HLA-B*16
+  HLA-B*27:05
+  HLA-B*27:05:02
+  HLA-B*35:03:01:03
+  HLA-B*35:08:01
+  HLA-B*37:01
+  HLA-B*38:01
+  HLA-B*39:01
+  HLA-B*40
+  HLA-B*44
+  HLA-B*44:02
+  HLA-B*47
+  HLA-B*47:27
+  HLA-B*50
+  HLA-B*52
+  HLA-B*52:01
+  HLA-B*53:01
+  HLA-B*55:01
+  HLA-B*57:01
+  HLA-B*57:02
+  HLA-B*73
+  HLA-B*null
+  HLA-Bw4
+  HLA-C*01:01
+  HLA-C*02:02
+  HLA-C*03:03
+  HLA-C*04:01:01:14
+  HLA-C*07:02
+  HLA-C*08
+  HLA-C1_3_2*354
+  HLA-CD33*null
+  HLA-Cw*05:01
+  HLA-DLA-DQB1*00301
+  HLA-DOB
+  HLA-DPA1*02:01
+  HLA-DPB1*02
+  HLA-DPB1*02:01
+  HLA-DPB1*04
+  HLA-DPB1*04:01
+  HLA-DPB1*09:01:01
+  HLA-DPB1*104:01
+  HLA-DQA1
+  HLA-DQA1*01:01
+  HLA-DQA1*01:02
+  HLA-DQA1*02:01
+  HLA-DQA1*03:02
+  HLA-DQA1*03:03
+  HLA-DQA1*05
+  HLA-DQA1*05:01:01:02
+  HLA-DQA1*05:05:01:02
+  HLA-DQA1*null
+  HLA-DQB1*02
+  HLA-DQB1*02:02
+  HLA-DQB1*03:03:02
+  HLA-DQB1*03:19
+  HLA-DQB1*060x
+  HLA-DQB1*06:03
+  HLA-DQB1*06:03:02
+  HLA-DQB1*06:04
+  HLA-DQB2
+  HLA-DR1
+  HLA-DR2
+  HLA-DR3
+  HLA-DR6
+  HLA-DRA
+  HLA-DRA*01:01
+  HLA-DRA*01:02
+  HLA-DRB1
+  HLA-DRB1 amino acid position 11 (Leucine)
+  HLA-DRB1 amino acid position 11 (Serine)
+  HLA-DRB1 amino acid position 11 (Valine)
+  HLA-DRB1*01
+  HLA-DRB1*01:01:01
+  HLA-DRB1*01:02
+  HLA-DRB1*01:03
+  HLA-DRB1*03:01:01:01
+  HLA-DRB1*04:01:01:01SG
+  HLA-DRB1*04:02
+  HLA-DRB1*04:05
+  HLA-DRB1*04:08
+  HLA-DRB1*04:XX
+  HLA-DRB1*07:XX
+  HLA-DRB1*08
+  HLA-DRB1*08:01
+  HLA-DRB1*08:02
+  HLA-DRB1*08:03
+  HLA-DRB1*09
+  HLA-DRB1*09:XX
+  HLA-DRB1*10
+  HLA-DRB1*11
+  HLA-DRB1*11:04
+  HLA-DRB1*12
+  HLA-DRB1*12:01
+  HLA-DRB1*13:01:01:01SG
+  HLA-DRB1*13:01:02
+  HLA-DRB1*13:03
+  HLA-DRB1*13:04
+  HLA-DRB1*13:XX
+  HLA-DRB1*14
+  HLA-DRB1*14:04:01
+  HLA-DRB1*14:06
+  HLA-DRB1*14:54
+  HLA-DRB1*15:01:01:01
+  HLA-DRB1*15:01:01:01SG
+  HLA-DRB1*15:01:01:26
+  HLA-DRB1*15:03
+  HLA-DRB1*15:XX
+  HLA-DRB1*17
+  HLA-DRB1*17:01
+  HLA-DRB1*null
+  HLA-DRB3*02:02
+  HLA-DRB3*02:02:01:02
+  HLA-DRB4*01:01
+  HLA-DRB5*01:01
+  HLA-DRB5*01:01:01
+  HLA-DRB5*01:01:01v1_STR1
+  HLA-DRB6*01:01
+  HLA-E
+  HLA-E*01:01
+  HLA-E*01:03
+  HLA-IA*
+  HLA-LMP2 60HH
+  HLA-MICB*004
+  HLA-MOG-142L
+  HLA-SNP-string (a2)
+  HLA-TNFa*107
+  bv3s1*1
+  bv8s1*2
+  null
+  rs2227956
+  rs9267649

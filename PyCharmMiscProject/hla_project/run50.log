@@ -1,0 +1,3616 @@
+=== Cycle 1/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+2026-04-05 18:43:25 [INFO] pipeline.orchestrator: ============================================================
+2026-04-05 18:43:25 [INFO] pipeline.orchestrator: STEP 3: EXTRACTING
+2026-04-05 18:43:25 [INFO] pipeline.orchestrator: ============================================================
+PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+2026-04-05 18:43:27 [INFO] pipeline.orchestrator: Running extraction (batch_size=100, model=gpt-4o-mini)...
+2026-04-05 18:43:27 [INFO] extraction.batch_processor: Processing batch of 100 papers
+Extracting HLA associations:   0%|          | 0/100 [00:00<?, ?it/s]2026-04-05 18:43:27 [INFO] extraction.batch_processor: Processing paper 3179 (PMID: 22613860)
+2026-04-05 18:43:31 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   1%|          | 1/100 [00:04<07:36,  4.61s/it]2026-04-05 18:43:32 [INFO] extraction.batch_processor: Processing paper 3180 (PMID: 27751774)
+2026-04-05 18:43:34 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   2%|▏         | 2/100 [00:07<05:43,  3.51s/it]2026-04-05 18:43:34 [INFO] extraction.batch_processor: Processing paper 3181 (PMID: 12615619)
+2026-04-05 18:43:40 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   3%|▎         | 3/100 [00:13<07:37,  4.72s/it]2026-04-05 18:43:40 [INFO] extraction.batch_processor: Processing paper 3182 (PMID: 17559943)
+2026-04-05 18:43:43 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   4%|▍         | 4/100 [00:15<06:04,  3.80s/it]2026-04-05 18:43:43 [INFO] extraction.batch_processor: Processing paper 3183 (PMID: 17660221)
+2026-04-05 18:43:47 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   5%|▌         | 5/100 [00:20<06:16,  3.97s/it]2026-04-05 18:43:47 [INFO] extraction.batch_processor: Processing paper 3184 (PMID: 29800753)
+2026-04-05 18:43:49 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   6%|▌         | 6/100 [00:22<05:27,  3.49s/it]2026-04-05 18:43:50 [INFO] extraction.batch_processor: Processing paper 12490 (PMID: None)
+2026-04-05 18:43:51 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   7%|▋         | 7/100 [00:24<04:32,  2.93s/it]2026-04-05 18:43:51 [INFO] extraction.batch_processor: Processing paper 8303 (PMID: 12071874)
+2026-04-05 18:43:54 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   8%|▊         | 8/100 [00:26<04:14,  2.76s/it]2026-04-05 18:43:54 [INFO] extraction.batch_processor: Processing paper 3186 (PMID: 27313329)
+2026-04-05 18:44:03 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   9%|▉         | 9/100 [00:36<07:27,  4.92s/it]2026-04-05 18:44:03 [INFO] extraction.batch_processor: Processing paper 3187 (PMID: 37332011)
+2026-04-05 18:44:10 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  10%|█         | 10/100 [00:42<08:04,  5.39s/it]2026-04-05 18:44:10 [INFO] extraction.batch_processor: Processing paper 11199 (PMID: 26086916)
+2026-04-05 18:44:13 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  11%|█         | 11/100 [00:45<06:50,  4.62s/it]2026-04-05 18:44:13 [INFO] extraction.batch_processor: Processing paper 11200 (PMID: 34962854)
+2026-04-05 18:44:15 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  12%|█▏        | 12/100 [00:48<05:42,  3.90s/it]2026-04-05 18:44:15 [INFO] extraction.batch_processor: Processing paper 3436 (PMID: 20534626)
+2026-04-05 18:44:20 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-05 18:44:20 [WARNING] extraction.validator: Invalid effect value: null
+Extracting HLA associations:  13%|█▎        | 13/100 [00:53<06:11,  4.27s/it]2026-04-05 18:44:20 [INFO] extraction.batch_processor: Processing paper 3191 (PMID: 17436241)
+2026-04-05 18:44:25 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  14%|█▍        | 14/100 [00:57<06:15,  4.37s/it]2026-04-05 18:44:25 [INFO] extraction.batch_processor: Processing paper 3192 (PMID: 20622911)
+2026-04-05 18:44:27 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  15%|█▌        | 15/100 [01:00<05:27,  3.86s/it]2026-04-05 18:44:27 [INFO] extraction.batch_processor: Processing paper 3193 (PMID: 18825674)
+2026-04-05 18:44:30 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  16%|█▌        | 16/100 [01:03<04:58,  3.56s/it]2026-04-05 18:44:30 [INFO] extraction.batch_processor: Processing paper 3437 (PMID: 23232549)
+2026-04-05 18:44:34 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  17%|█▋        | 17/100 [01:07<05:12,  3.77s/it]2026-04-05 18:44:35 [INFO] extraction.batch_processor: Processing paper 3197 (PMID: 33334758)
+2026-04-05 18:44:38 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  18%|█▊        | 18/100 [01:11<05:10,  3.79s/it]2026-04-05 18:44:38 [INFO] extraction.batch_processor: Processing paper 3198 (PMID: 19898480)
+2026-04-05 18:44:43 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  19%|█▉        | 19/100 [01:16<05:25,  4.02s/it]2026-04-05 18:44:43 [INFO] extraction.batch_processor: Processing paper 3221 (PMID: 27696192)
+2026-04-05 18:44:47 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  20%|██        | 20/100 [01:19<05:18,  3.98s/it]2026-04-05 18:44:47 [INFO] extraction.batch_processor: Processing paper 11204 (PMID: 12531161)
+2026-04-05 18:44:53 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  21%|██        | 21/100 [01:26<06:10,  4.69s/it]2026-04-05 18:44:53 [INFO] extraction.batch_processor: Processing paper 11203 (PMID: 39979071)
+2026-04-05 18:45:02 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  22%|██▏       | 22/100 [01:35<07:46,  5.98s/it]2026-04-05 18:45:02 [INFO] extraction.batch_processor: Processing paper 3200 (PMID: 21178300)
+2026-04-05 18:45:04 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  23%|██▎       | 23/100 [01:37<06:11,  4.82s/it]2026-04-05 18:45:04 [INFO] extraction.batch_processor: Processing paper 3201 (PMID: 26319500)
+2026-04-05 18:45:08 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  24%|██▍       | 24/100 [01:41<05:51,  4.63s/it]2026-04-05 18:45:08 [INFO] extraction.batch_processor: Processing paper 3202 (PMID: 38425314)
+2026-04-05 18:45:18 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  25%|██▌       | 25/100 [01:51<07:37,  6.10s/it]2026-04-05 18:45:18 [INFO] extraction.batch_processor: Processing paper 3204 (PMID: 15247625)
+2026-04-05 18:45:23 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  26%|██▌       | 26/100 [01:56<07:07,  5.78s/it]2026-04-05 18:45:23 [INFO] extraction.batch_processor: Processing paper 8322 (PMID: 22067217)
+Extracting HLA associations:  27%|██▋       | 27/100 [01:56<04:57,  4.08s/it]2026-04-05 18:45:23 [INFO] extraction.batch_processor: Processing paper 3206 (PMID: 35488492)
+2026-04-05 18:45:30 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  28%|██▊       | 28/100 [02:02<05:48,  4.84s/it]2026-04-05 18:45:30 [INFO] extraction.batch_processor: Processing paper 3207 (PMID: 20716292)
+2026-04-05 18:45:32 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  29%|██▉       | 29/100 [02:04<04:42,  3.98s/it]2026-04-05 18:45:32 [INFO] extraction.batch_processor: Processing paper 11206 (PMID: 19416804)
+2026-04-05 18:45:39 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  30%|███       | 30/100 [02:12<05:54,  5.06s/it]2026-04-05 18:45:39 [INFO] extraction.batch_processor: Processing paper 3233 (PMID: 16099719)
+2026-04-05 18:45:44 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  31%|███       | 31/100 [02:17<05:48,  5.05s/it]2026-04-05 18:45:44 [INFO] extraction.batch_processor: Processing paper 12491 (PMID: None)
+2026-04-05 18:45:47 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  32%|███▏      | 32/100 [02:19<04:52,  4.30s/it]2026-04-05 18:45:47 [INFO] extraction.batch_processor: Processing paper 3209 (PMID: 36708065)
+2026-04-05 18:45:50 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  33%|███▎      | 33/100 [02:22<04:17,  3.85s/it]2026-04-05 18:45:50 [INFO] extraction.batch_processor: Processing paper 3210 (PMID: 19210881)
+2026-04-05 18:45:54 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  34%|███▍      | 34/100 [02:27<04:22,  3.97s/it]2026-04-05 18:45:54 [INFO] extraction.batch_processor: Processing paper 3212 (PMID: 19715970)
+2026-04-05 18:45:57 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  35%|███▌      | 35/100 [02:30<04:02,  3.73s/it]2026-04-05 18:45:57 [INFO] extraction.batch_processor: Processing paper 3213 (PMID: 31743304)
+2026-04-05 18:46:05 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  36%|███▌      | 36/100 [02:37<05:16,  4.95s/it]2026-04-05 18:46:05 [INFO] extraction.batch_processor: Processing paper 3216 (PMID: 14736785)
+2026-04-05 18:46:09 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  37%|███▋      | 37/100 [02:42<05:03,  4.82s/it]2026-04-05 18:46:09 [INFO] extraction.batch_processor: Processing paper 3217 (PMID: 24861996)
+2026-04-05 18:46:12 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  38%|███▊      | 38/100 [02:45<04:26,  4.29s/it]2026-04-05 18:46:12 [INFO] extraction.batch_processor: Processing paper 3218 (PMID: 12166586)
+2026-04-05 18:46:20 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  39%|███▉      | 39/100 [02:53<05:20,  5.25s/it]2026-04-05 18:46:20 [INFO] extraction.batch_processor: Processing paper 11208 (PMID: 33480498)
+2026-04-05 18:46:22 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  40%|████      | 40/100 [02:55<04:26,  4.44s/it]2026-04-05 18:46:22 [INFO] extraction.batch_processor: Processing paper 11209 (PMID: 17157378)
+2026-04-05 18:46:26 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  41%|████      | 41/100 [02:59<04:06,  4.17s/it]2026-04-05 18:46:26 [INFO] extraction.batch_processor: Processing paper 3224 (PMID: 30385083)
+2026-04-05 18:46:30 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  42%|████▏     | 42/100 [03:02<03:54,  4.04s/it]2026-04-05 18:46:30 [INFO] extraction.batch_processor: Processing paper 3225 (PMID: 19219079)
+2026-04-05 18:46:33 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  43%|████▎     | 43/100 [03:05<03:33,  3.74s/it]2026-04-05 18:46:33 [INFO] extraction.batch_processor: Processing paper 3226 (PMID: 37542216)
+2026-04-05 18:46:54 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  44%|████▍     | 44/100 [03:26<08:16,  8.87s/it]2026-04-05 18:46:54 [INFO] extraction.batch_processor: Processing paper 3227 (PMID: 23153709)
+2026-04-05 18:46:59 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  45%|████▌     | 45/100 [03:32<07:19,  7.99s/it]2026-04-05 18:47:00 [INFO] extraction.batch_processor: Processing paper 3229 (PMID: 34516290)
+2026-04-05 18:47:02 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  46%|████▌     | 46/100 [03:35<05:46,  6.42s/it]2026-04-05 18:47:02 [INFO] extraction.batch_processor: Processing paper 3230 (PMID: 15084914)
+2026-04-05 18:47:05 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  47%|████▋     | 47/100 [03:38<04:41,  5.30s/it]2026-04-05 18:47:05 [INFO] extraction.batch_processor: Processing paper 3231 (PMID: 30826555)
+2026-04-05 18:47:17 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  48%|████▊     | 48/100 [03:50<06:28,  7.48s/it]2026-04-05 18:47:18 [INFO] extraction.batch_processor: Processing paper 3232 (PMID: 32217007)
+2026-04-05 18:47:23 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  49%|████▉     | 49/100 [03:55<05:45,  6.77s/it]2026-04-05 18:47:23 [INFO] extraction.batch_processor: Processing paper 3234 (PMID: 18344931)
+2026-04-05 18:47:25 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  50%|█████     | 50/100 [03:58<04:36,  5.53s/it]2026-04-05 18:47:25 [INFO] extraction.batch_processor: Processing paper 11212 (PMID: 11044555)
+2026-04-05 18:47:27 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  51%|█████     | 51/100 [04:00<03:37,  4.44s/it]2026-04-05 18:47:27 [INFO] extraction.batch_processor: Processing paper 3236 (PMID: 15761373)
+2026-04-05 18:47:30 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  52%|█████▏    | 52/100 [04:02<03:07,  3.90s/it]2026-04-05 18:47:30 [INFO] extraction.batch_processor: Processing paper 3237 (PMID: 40483607)
+2026-04-05 18:47:32 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  53%|█████▎    | 53/100 [04:05<02:47,  3.56s/it]2026-04-05 18:47:33 [INFO] extraction.batch_processor: Processing paper 11213 (PMID: 19515764)
+2026-04-05 18:47:36 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  54%|█████▍    | 54/100 [04:09<02:43,  3.55s/it]2026-04-05 18:47:36 [INFO] extraction.batch_processor: Processing paper 3238 (PMID: 20489630)
+2026-04-05 18:47:38 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  55%|█████▌    | 55/100 [04:11<02:21,  3.15s/it]2026-04-05 18:47:38 [INFO] extraction.batch_processor: Processing paper 11214 (PMID: 16140787)
+2026-04-05 18:47:40 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  56%|█████▌    | 56/100 [04:13<02:02,  2.79s/it]2026-04-05 18:47:40 [INFO] extraction.batch_processor: Processing paper 11215 (PMID: 11118151)
+2026-04-05 18:47:42 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  57%|█████▋    | 57/100 [04:15<01:49,  2.54s/it]2026-04-05 18:47:42 [INFO] extraction.batch_processor: Processing paper 3241 (PMID: 25752521)
+2026-04-05 18:47:48 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-05 18:47:48 [WARNING] extraction.validator: Invalid effect value: null
+2026-04-05 18:47:48 [WARNING] extraction.validator: Invalid effect value: null
+Extracting HLA associations:  58%|█████▊    | 58/100 [04:21<02:28,  3.54s/it]2026-04-05 18:47:48 [INFO] extraction.batch_processor: Processing paper 3447 (PMID: 22429379)
+2026-04-05 18:47:53 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  59%|█████▉    | 59/100 [04:25<02:37,  3.84s/it]2026-04-05 18:47:53 [INFO] extraction.batch_processor: Processing paper 11216 (PMID: 16522254)
+2026-04-05 18:47:54 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  60%|██████    | 60/100 [04:27<02:08,  3.21s/it]2026-04-05 18:47:54 [INFO] extraction.batch_processor: Processing paper 3242 (PMID: 21964432)
+2026-04-05 18:48:01 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  61%|██████    | 61/100 [04:34<02:50,  4.37s/it]2026-04-05 18:48:02 [INFO] extraction.batch_processor: Processing paper 3243 (PMID: 22348435)
+2026-04-05 18:48:10 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  62%|██████▏   | 62/100 [04:43<03:38,  5.76s/it]2026-04-05 18:48:11 [INFO] extraction.batch_processor: Processing paper 3244 (PMID: 20212505)
+2026-04-05 18:48:16 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  63%|██████▎   | 63/100 [04:49<03:29,  5.66s/it]2026-04-05 18:48:16 [INFO] extraction.batch_processor: Processing paper 3245 (PMID: 12717817)
+2026-04-05 18:48:18 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  64%|██████▍   | 64/100 [04:51<02:48,  4.67s/it]2026-04-05 18:48:18 [INFO] extraction.batch_processor: Processing paper 3246 (PMID: 18991696)
+2026-04-05 18:48:25 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  65%|██████▌   | 65/100 [04:58<03:05,  5.30s/it]2026-04-05 18:48:25 [INFO] extraction.batch_processor: Processing paper 3248 (PMID: 15546338)
+2026-04-05 18:48:27 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  66%|██████▌   | 66/100 [05:00<02:31,  4.44s/it]2026-04-05 18:48:28 [INFO] extraction.batch_processor: Processing paper 3249 (PMID: 34328587)
+2026-04-05 18:48:30 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  67%|██████▋   | 67/100 [05:02<02:04,  3.79s/it]2026-04-05 18:48:30 [INFO] extraction.batch_processor: Processing paper 11217 (PMID: 31248684)
+2026-04-05 18:48:32 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  68%|██████▊   | 68/100 [05:05<01:46,  3.33s/it]2026-04-05 18:48:32 [INFO] extraction.batch_processor: Processing paper 3251 (PMID: 14604014)
+2026-04-05 18:48:34 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  69%|██████▉   | 69/100 [05:06<01:29,  2.87s/it]2026-04-05 18:48:34 [INFO] extraction.batch_processor: Processing paper 3252 (PMID: 39673667)
+2026-04-05 18:48:38 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  70%|███████   | 70/100 [05:10<01:36,  3.22s/it]2026-04-05 18:48:38 [INFO] extraction.batch_processor: Processing paper 3253 (PMID: 23365100)
+2026-04-05 18:48:41 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  71%|███████   | 71/100 [05:13<01:29,  3.08s/it]2026-04-05 18:48:41 [INFO] extraction.batch_processor: Processing paper 3254 (PMID: 32736206)
+2026-04-05 18:48:47 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  72%|███████▏  | 72/100 [05:19<01:52,  4.03s/it]2026-04-05 18:48:47 [INFO] extraction.batch_processor: Processing paper 3255 (PMID: 10718431)
+2026-04-05 18:48:54 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  73%|███████▎  | 73/100 [05:27<02:18,  5.13s/it]2026-04-05 18:48:55 [INFO] extraction.batch_processor: Processing paper 11218 (PMID: 27436441)
+2026-04-05 18:48:57 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  74%|███████▍  | 74/100 [05:30<01:51,  4.30s/it]2026-04-05 18:48:57 [INFO] extraction.batch_processor: Processing paper 3256 (PMID: 25185257)
+2026-04-05 18:49:00 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  75%|███████▌  | 75/100 [05:33<01:39,  3.96s/it]2026-04-05 18:49:00 [INFO] extraction.batch_processor: Processing paper 3257 (PMID: 25601977)
+2026-04-05 18:49:03 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  76%|███████▌  | 76/100 [05:36<01:29,  3.74s/it]2026-04-05 18:49:03 [INFO] extraction.batch_processor: Processing paper 3258 (PMID: 34215854)
+2026-04-05 18:49:07 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  77%|███████▋  | 77/100 [05:39<01:22,  3.61s/it]2026-04-05 18:49:07 [INFO] extraction.batch_processor: Processing paper 3385 (PMID: 18025891)
+2026-04-05 18:49:10 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  78%|███████▊  | 78/100 [05:43<01:21,  3.70s/it]2026-04-05 18:49:11 [INFO] extraction.batch_processor: Processing paper 11220 (PMID: 27307580)
+2026-04-05 18:49:13 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  79%|███████▉  | 79/100 [05:46<01:09,  3.33s/it]2026-04-05 18:49:13 [INFO] extraction.batch_processor: Processing paper 11221 (PMID: 36799912)
+2026-04-05 18:49:15 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  80%|████████  | 80/100 [05:48<01:00,  3.03s/it]2026-04-05 18:49:15 [INFO] extraction.batch_processor: Processing paper 11222 (PMID: 23115285)
+2026-04-05 18:49:18 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  81%|████████  | 81/100 [05:50<00:54,  2.86s/it]2026-04-05 18:49:18 [INFO] extraction.batch_processor: Processing paper 3263 (PMID: 33960608)
+2026-04-05 18:49:20 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  82%|████████▏ | 82/100 [05:53<00:50,  2.80s/it]2026-04-05 18:49:20 [INFO] extraction.batch_processor: Processing paper 8382 (PMID: 15908369)
+2026-04-05 18:49:22 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  83%|████████▎ | 83/100 [05:55<00:44,  2.61s/it]2026-04-05 18:49:23 [INFO] extraction.batch_processor: Processing paper 3264 (PMID: 32433341)
+2026-04-05 18:49:38 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  84%|████████▍ | 84/100 [06:10<01:41,  6.36s/it]2026-04-05 18:49:38 [INFO] extraction.batch_processor: Processing paper 3265 (PMID: 17317695)
+2026-04-05 18:49:41 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  85%|████████▌ | 85/100 [06:14<01:23,  5.57s/it]2026-04-05 18:49:41 [INFO] extraction.batch_processor: Processing paper 3266 (PMID: 27157822)
+2026-04-05 18:49:46 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  86%|████████▌ | 86/100 [06:19<01:15,  5.37s/it]2026-04-05 18:49:46 [INFO] extraction.batch_processor: Processing paper 3268 (PMID: 15381244)
+Extracting HLA associations:  87%|████████▋ | 87/100 [06:19<00:49,  3.80s/it]2026-04-05 18:49:47 [INFO] extraction.batch_processor: Processing paper 3269 (PMID: 24073714)
+2026-04-05 18:49:49 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  88%|████████▊ | 88/100 [06:22<00:40,  3.39s/it]2026-04-05 18:49:49 [INFO] extraction.batch_processor: Processing paper 3597 (PMID: 23399568)
+2026-04-05 18:49:53 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  89%|████████▉ | 89/100 [06:26<00:40,  3.64s/it]2026-04-05 18:49:53 [INFO] extraction.batch_processor: Processing paper 3271 (PMID: 26599303)
+2026-04-05 18:49:57 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  90%|█████████ | 90/100 [06:29<00:36,  3.64s/it]2026-04-05 18:49:57 [INFO] extraction.batch_processor: Processing paper 3272 (PMID: 26937673)
+Extracting HLA associations:  91%|█████████ | 91/100 [06:30<00:23,  2.59s/it]2026-04-05 18:49:57 [INFO] extraction.batch_processor: Processing paper 3273 (PMID: 34129738)
+2026-04-05 18:50:01 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  92%|█████████▏| 92/100 [06:33<00:23,  2.97s/it]2026-04-05 18:50:01 [INFO] extraction.batch_processor: Processing paper 3274 (PMID: 21149285)
+2026-04-05 18:50:05 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  93%|█████████▎| 93/100 [06:38<00:24,  3.49s/it]2026-04-05 18:50:06 [INFO] extraction.batch_processor: Processing paper 3275 (PMID: 16236472)
+2026-04-05 18:50:09 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  94%|█████████▍| 94/100 [06:42<00:20,  3.49s/it]2026-04-05 18:50:09 [INFO] extraction.batch_processor: Processing paper 3276 (PMID: 20536296)
+2026-04-05 18:50:15 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  95%|█████████▌| 95/100 [06:48<00:21,  4.26s/it]2026-04-05 18:50:15 [INFO] extraction.batch_processor: Processing paper 3277 (PMID: 11477539)
+2026-04-05 18:50:20 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  96%|█████████▌| 96/100 [06:53<00:18,  4.55s/it]2026-04-05 18:50:20 [INFO] extraction.batch_processor: Processing paper 3278 (PMID: 22035017)
+2026-04-05 18:50:23 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  97%|█████████▋| 97/100 [06:56<00:12,  4.16s/it]2026-04-05 18:50:24 [INFO] extraction.batch_processor: Processing paper 3279 (PMID: 17631508)
+2026-04-05 18:50:29 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  98%|█████████▊| 98/100 [07:01<00:08,  4.45s/it]2026-04-05 18:50:29 [INFO] extraction.batch_processor: Processing paper 3280 (PMID: 28618376)
+2026-04-05 18:50:38 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  99%|█████████▉| 99/100 [07:10<00:05,  5.81s/it]2026-04-05 18:50:38 [INFO] extraction.batch_processor: Processing paper 3281 (PMID: 18834360)
+2026-04-05 18:50:42 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations: 100%|██████████| 100/100 [07:15<00:00,  5.44s/it]Extracting HLA associations: 100%|██████████| 100/100 [07:15<00:00,  4.35s/it]
+2026-04-05 18:50:42 [INFO] extraction.batch_processor: Batch processing complete: {'processed': 100, 'completed': 97, 'failed': 0, 'skipped': 3, 'total_cost': 0.033, 'total_tokens_input': 142113, 'total_tokens_output': 19498}
+2026-04-05 18:50:42 [INFO] pipeline.orchestrator: ============================================================
+2026-04-05 18:50:42 [INFO] pipeline.orchestrator: STEP 4: VALIDATING
+2026-04-05 18:50:42 [INFO] pipeline.orchestrator: ============================================================
+2026-04-05 18:50:42 [INFO] pipeline.orchestrator: Validating extracted data...
+2026-04-05 18:50:42 [INFO] pipeline.orchestrator: ============================================================
+2026-04-05 18:50:42 [INFO] pipeline.orchestrator: PIPELINE COMPLETE in 437.1 seconds
+2026-04-05 18:50:42 [INFO] pipeline.orchestrator: ============================================================
+
+Pipeline completed in 437.1 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 97,
+    "failed": 0,
+    "skipped": 3,
+    "total_cost": 0.033,
+    "total_tokens_input": 142113,
+    "total_tokens_output": 19498,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 13850,
+      "completed": 2889,
+      "failed": 239,
+      "skipped": 10722,
+      "pending": -1335,
+      "total_associations": 2629,
+      "total_combinations": 430,
+      "total_cost_usd": 2.4902
+    }
+  },
+  "validation": {
+    "total_associations": 2629,
+    "total_combinations": 430,
+    "issues": {
+      "invalid_allele_format": 565,
+      "inconsistent_or_effect": 6,
+      "missing_p_value": 1722,
+      "nonsignificant_p": 38,
+      "extreme_or": 13
+    }
+  },
+  "elapsed_seconds": 437.1
+}
+=== Cycle 1/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+2026-04-05 18:54:11 [INFO] pipeline.orchestrator: ============================================================
+2026-04-05 18:54:11 [INFO] pipeline.orchestrator: STEP 3: EXTRACTING
+2026-04-05 18:54:11 [INFO] pipeline.orchestrator: ============================================================
+PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+2026-04-05 18:54:12 [INFO] pipeline.orchestrator: Running extraction (batch_size=100, model=gpt-4o-mini)...
+2026-04-05 18:54:12 [INFO] extraction.batch_processor: Processing batch of 100 papers
+Extracting HLA associations:   0%|          | 0/100 [00:00<?, ?it/s]2026-04-05 18:54:12 [INFO] extraction.batch_processor: Processing paper 3282 (PMID: 37194923)
+2026-04-05 18:54:20 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   1%|          | 1/100 [00:08<13:48,  8.37s/it]2026-04-05 18:54:21 [INFO] extraction.batch_processor: Processing paper 3283 (PMID: 10741394)
+2026-04-05 18:54:23 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   2%|▏         | 2/100 [00:10<08:04,  4.94s/it]2026-04-05 18:54:23 [INFO] extraction.batch_processor: Processing paper 3284 (PMID: 28295713)
+Extracting HLA associations:   3%|▎         | 3/100 [00:11<04:26,  2.74s/it]2026-04-05 18:54:23 [INFO] extraction.batch_processor: Processing paper 3285 (PMID: 11321444)
+2026-04-05 18:54:28 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   4%|▍         | 4/100 [00:16<05:48,  3.63s/it]2026-04-05 18:54:28 [INFO] extraction.batch_processor: Processing paper 3286 (PMID: 19731979)
+2026-04-05 18:54:31 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   5%|▌         | 5/100 [00:18<05:19,  3.37s/it]2026-04-05 18:54:31 [INFO] extraction.batch_processor: Processing paper 11224 (PMID: 36946912)
+2026-04-05 18:54:33 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   6%|▌         | 6/100 [00:20<04:31,  2.88s/it]2026-04-05 18:54:33 [INFO] extraction.batch_processor: Processing paper 3288 (PMID: 24496695)
+2026-04-05 18:54:42 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   7%|▋         | 7/100 [00:29<07:33,  4.88s/it]2026-04-05 18:54:42 [INFO] extraction.batch_processor: Processing paper 3289 (PMID: 20541026)
+2026-04-05 18:54:45 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   8%|▊         | 8/100 [00:33<06:38,  4.34s/it]2026-04-05 18:54:45 [INFO] extraction.batch_processor: Processing paper 3296 (PMID: 21169036)
+2026-04-05 18:54:51 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   9%|▉         | 9/100 [00:38<07:11,  4.74s/it]2026-04-05 18:54:51 [INFO] extraction.batch_processor: Processing paper 11225 (PMID: 17118924)
+2026-04-05 18:54:53 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  10%|█         | 10/100 [00:40<05:48,  3.88s/it]2026-04-05 18:54:53 [INFO] extraction.batch_processor: Processing paper 3291 (PMID: 22913531)
+2026-04-05 18:54:57 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  11%|█         | 11/100 [00:44<05:53,  3.97s/it]2026-04-05 18:54:57 [INFO] extraction.batch_processor: Processing paper 3292 (PMID: 25975240)
+2026-04-05 18:55:19 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  12%|█▏        | 12/100 [01:06<13:47,  9.41s/it]2026-04-05 18:55:19 [INFO] extraction.batch_processor: Processing paper 3293 (PMID: 11167958)
+2026-04-05 18:55:27 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  13%|█▎        | 13/100 [01:14<13:09,  9.07s/it]2026-04-05 18:55:27 [INFO] extraction.batch_processor: Processing paper 11226 (PMID: 15000695)
+2026-04-05 18:55:30 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  14%|█▍        | 14/100 [01:17<10:13,  7.14s/it]2026-04-05 18:55:30 [INFO] extraction.batch_processor: Processing paper 3297 (PMID: 11978579)
+2026-04-05 18:55:32 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  15%|█▌        | 15/100 [01:19<08:02,  5.68s/it]2026-04-05 18:55:32 [INFO] extraction.batch_processor: Processing paper 11227 (PMID: 12824703)
+2026-04-05 18:55:34 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  16%|█▌        | 16/100 [01:21<06:19,  4.52s/it]2026-04-05 18:55:34 [INFO] extraction.batch_processor: Processing paper 3299 (PMID: 10735951)
+2026-04-05 18:55:41 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  17%|█▋        | 17/100 [01:28<07:19,  5.30s/it]2026-04-05 18:55:41 [INFO] extraction.batch_processor: Processing paper 3300 (PMID: 27720019)
+2026-04-05 18:55:44 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  18%|█▊        | 18/100 [01:31<06:15,  4.58s/it]2026-04-05 18:55:44 [INFO] extraction.batch_processor: Processing paper 3301 (PMID: 22755423)
+2026-04-05 18:55:46 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  19%|█▉        | 19/100 [01:33<05:11,  3.85s/it]2026-04-05 18:55:46 [INFO] extraction.batch_processor: Processing paper 3302 (PMID: 15466168)
+2026-04-05 18:55:50 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  20%|██        | 20/100 [01:37<05:10,  3.88s/it]2026-04-05 18:55:50 [INFO] extraction.batch_processor: Processing paper 3414 (PMID: 27238770)
+2026-04-05 18:55:52 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  21%|██        | 21/100 [01:40<04:30,  3.42s/it]2026-04-05 18:55:52 [INFO] extraction.batch_processor: Processing paper 11228 (PMID: 31991176)
+2026-04-05 18:55:55 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  22%|██▏       | 22/100 [01:43<04:16,  3.29s/it]2026-04-05 18:55:55 [INFO] extraction.batch_processor: Processing paper 3306 (PMID: 29360666)
+2026-04-05 18:56:01 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  23%|██▎       | 23/100 [01:49<05:17,  4.13s/it]2026-04-05 18:56:02 [INFO] extraction.batch_processor: Processing paper 11230 (PMID: 19805228)
+2026-04-05 18:56:08 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  24%|██▍       | 24/100 [01:56<06:17,  4.97s/it]2026-04-05 18:56:08 [INFO] extraction.batch_processor: Processing paper 3305 (PMID: 39523606)
+2026-04-05 18:56:17 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  25%|██▌       | 25/100 [02:04<07:36,  6.09s/it]2026-04-05 18:56:17 [INFO] extraction.batch_processor: Processing paper 3308 (PMID: 11876747)
+2026-04-05 18:56:20 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  26%|██▌       | 26/100 [02:07<06:16,  5.09s/it]2026-04-05 18:56:20 [INFO] extraction.batch_processor: Processing paper 3309 (PMID: 21480946)
+2026-04-05 18:56:24 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  27%|██▋       | 27/100 [02:11<05:41,  4.68s/it]2026-04-05 18:56:24 [INFO] extraction.batch_processor: Processing paper 3310 (PMID: 12772950)
+2026-04-05 18:56:26 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  28%|██▊       | 28/100 [02:14<04:52,  4.06s/it]2026-04-05 18:56:26 [INFO] extraction.batch_processor: Processing paper 3311 (PMID: 26959717)
+2026-04-05 18:56:32 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  29%|██▉       | 29/100 [02:19<05:24,  4.57s/it]2026-04-05 18:56:32 [INFO] extraction.batch_processor: Processing paper 3312 (PMID: 20610889)
+2026-04-05 18:56:36 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  30%|███       | 30/100 [02:23<05:11,  4.45s/it]2026-04-05 18:56:36 [INFO] extraction.batch_processor: Processing paper 3313 (PMID: 30015149)
+2026-04-05 18:56:45 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  31%|███       | 31/100 [02:32<06:35,  5.73s/it]2026-04-05 18:56:45 [INFO] extraction.batch_processor: Processing paper 3315 (PMID: 25817017)
+2026-04-05 18:56:55 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  32%|███▏      | 32/100 [02:43<08:11,  7.23s/it]2026-04-05 18:56:56 [INFO] extraction.batch_processor: Processing paper 11232 (PMID: 12446418)
+2026-04-05 18:56:58 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  33%|███▎      | 33/100 [02:45<06:20,  5.68s/it]2026-04-05 18:56:58 [INFO] extraction.batch_processor: Processing paper 11233 (PMID: 12242468)
+2026-04-05 18:57:04 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  34%|███▍      | 34/100 [02:52<06:38,  6.04s/it]2026-04-05 18:57:05 [INFO] extraction.batch_processor: Processing paper 3320 (PMID: 23381951)
+2026-04-05 18:57:09 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  35%|███▌      | 35/100 [02:56<05:54,  5.45s/it]2026-04-05 18:57:09 [INFO] extraction.batch_processor: Processing paper 3321 (PMID: 26586047)
+2026-04-05 18:57:19 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  36%|███▌      | 36/100 [03:06<07:26,  6.98s/it]2026-04-05 18:57:19 [INFO] extraction.batch_processor: Processing paper 3322 (PMID: 20235781)
+Extracting HLA associations:  37%|███▋      | 37/100 [03:07<05:10,  4.92s/it]2026-04-05 18:57:19 [INFO] extraction.batch_processor: Processing paper 11234 (PMID: 24621597)
+2026-04-05 18:57:26 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  38%|███▊      | 38/100 [03:14<05:44,  5.56s/it]2026-04-05 18:57:26 [INFO] extraction.batch_processor: Processing paper 3324 (PMID: 16427143)
+2026-04-05 18:57:29 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  39%|███▉      | 39/100 [03:16<04:42,  4.63s/it]2026-04-05 18:57:29 [INFO] extraction.batch_processor: Processing paper 3325 (PMID: 26372271)
+2026-04-05 18:57:34 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  40%|████      | 40/100 [03:22<04:57,  4.96s/it]2026-04-05 18:57:35 [INFO] extraction.batch_processor: Processing paper 3326 (PMID: 15905527)
+2026-04-05 18:57:37 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  41%|████      | 41/100 [03:24<04:08,  4.21s/it]2026-04-05 18:57:37 [INFO] extraction.batch_processor: Processing paper 3327 (PMID: 24871931)
+2026-04-05 18:57:41 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  42%|████▏     | 42/100 [03:29<04:09,  4.29s/it]2026-04-05 18:57:42 [INFO] extraction.batch_processor: Processing paper 3415 (PMID: 22749351)
+2026-04-05 18:57:44 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  43%|████▎     | 43/100 [03:31<03:37,  3.81s/it]2026-04-05 18:57:44 [INFO] extraction.batch_processor: Processing paper 11235 (PMID: 20861265)
+2026-04-05 18:57:46 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  44%|████▍     | 44/100 [03:33<03:03,  3.28s/it]2026-04-05 18:57:46 [INFO] extraction.batch_processor: Processing paper 3329 (PMID: 14632329)
+2026-04-05 18:57:52 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  45%|████▌     | 45/100 [03:39<03:43,  4.07s/it]2026-04-05 18:57:52 [INFO] extraction.batch_processor: Processing paper 12497 (PMID: None)
+2026-04-05 18:57:55 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  46%|████▌     | 46/100 [03:42<03:20,  3.72s/it]2026-04-05 18:57:55 [INFO] extraction.batch_processor: Processing paper 3331 (PMID: 18976442)
+2026-04-05 18:57:58 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  47%|████▋     | 47/100 [03:45<03:01,  3.43s/it]2026-04-05 18:57:58 [INFO] extraction.batch_processor: Processing paper 6610 (PMID: 17157214)
+2026-04-05 18:58:01 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  48%|████▊     | 48/100 [03:48<02:51,  3.31s/it]2026-04-05 18:58:01 [INFO] extraction.batch_processor: Processing paper 3333 (PMID: 30237582)
+2026-04-05 18:58:05 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  49%|████▉     | 49/100 [03:52<03:00,  3.55s/it]2026-04-05 18:58:05 [INFO] extraction.batch_processor: Processing paper 3334 (PMID: 30758654)
+2026-04-05 18:58:10 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  50%|█████     | 50/100 [03:57<03:18,  3.97s/it]2026-04-05 18:58:10 [INFO] extraction.batch_processor: Processing paper 11236 (PMID: 11061540)
+2026-04-05 18:58:20 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  51%|█████     | 51/100 [04:07<04:42,  5.76s/it]2026-04-05 18:58:20 [INFO] extraction.batch_processor: Processing paper 3336 (PMID: 27184862)
+2026-04-05 18:58:26 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-05 18:58:26 [WARNING] extraction.validator: Invalid effect value: null
+2026-04-05 18:58:26 [WARNING] extraction.validator: Invalid effect value: null
+Extracting HLA associations:  52%|█████▏    | 52/100 [04:13<04:39,  5.81s/it]2026-04-05 18:58:26 [INFO] extraction.batch_processor: Processing paper 3337 (PMID: 23486871)
+2026-04-05 18:58:30 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  53%|█████▎    | 53/100 [04:17<04:13,  5.39s/it]2026-04-05 18:58:30 [INFO] extraction.batch_processor: Processing paper 11237 (PMID: 19504066)
+2026-04-05 18:58:32 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  54%|█████▍    | 54/100 [04:19<03:21,  4.39s/it]2026-04-05 18:58:32 [INFO] extraction.batch_processor: Processing paper 3339 (PMID: 28438823)
+2026-04-05 18:58:37 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  55%|█████▌    | 55/100 [04:24<03:22,  4.50s/it]2026-04-05 18:58:37 [INFO] extraction.batch_processor: Processing paper 3340 (PMID: 39332041)
+2026-04-05 18:58:40 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  56%|█████▌    | 56/100 [04:27<02:58,  4.06s/it]2026-04-05 18:58:40 [INFO] extraction.batch_processor: Processing paper 3342 (PMID: 22841415)
+2026-04-05 18:58:44 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  57%|█████▋    | 57/100 [04:31<02:56,  4.10s/it]2026-04-05 18:58:44 [INFO] extraction.batch_processor: Processing paper 3343 (PMID: 27979020)
+2026-04-05 18:58:47 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  58%|█████▊    | 58/100 [04:34<02:34,  3.67s/it]2026-04-05 18:58:47 [INFO] extraction.batch_processor: Processing paper 11239 (PMID: 21378750)
+2026-04-05 18:58:49 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  59%|█████▉    | 59/100 [04:36<02:10,  3.18s/it]2026-04-05 18:58:49 [INFO] extraction.batch_processor: Processing paper 3345 (PMID: 29203362)
+Extracting HLA associations:  60%|██████    | 60/100 [04:36<01:30,  2.27s/it]2026-04-05 18:58:49 [INFO] extraction.batch_processor: Processing paper 11240 (PMID: 15235004)
+2026-04-05 18:58:51 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  61%|██████    | 61/100 [04:38<01:27,  2.25s/it]2026-04-05 18:58:51 [INFO] extraction.batch_processor: Processing paper 3347 (PMID: 30972788)
+Extracting HLA associations:  62%|██████▏   | 62/100 [04:39<01:01,  1.62s/it]2026-04-05 18:58:51 [INFO] extraction.batch_processor: Processing paper 3348 (PMID: 18370849)
+2026-04-05 18:59:00 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  63%|██████▎   | 63/100 [04:48<02:21,  3.83s/it]2026-04-05 18:59:00 [INFO] extraction.batch_processor: Processing paper 3349 (PMID: 25327504)
+2026-04-05 18:59:08 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  64%|██████▍   | 64/100 [04:55<02:58,  4.95s/it]2026-04-05 18:59:08 [INFO] extraction.batch_processor: Processing paper 3351 (PMID: 25925915)
+2026-04-05 18:59:11 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  65%|██████▌   | 65/100 [04:59<02:36,  4.47s/it]2026-04-05 18:59:11 [INFO] extraction.batch_processor: Processing paper 3352 (PMID: 12470241)
+2026-04-05 18:59:13 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  66%|██████▌   | 66/100 [05:00<02:05,  3.69s/it]2026-04-05 18:59:13 [INFO] extraction.batch_processor: Processing paper 3353 (PMID: 27107507)
+2026-04-05 18:59:15 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  67%|██████▋   | 67/100 [05:03<01:49,  3.32s/it]2026-04-05 18:59:16 [INFO] extraction.batch_processor: Processing paper 3350 (PMID: 32308765)
+2026-04-05 18:59:19 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  68%|██████▊   | 68/100 [05:06<01:48,  3.40s/it]2026-04-05 18:59:19 [INFO] extraction.batch_processor: Processing paper 3354 (PMID: 30985007)
+2026-04-05 18:59:28 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  69%|██████▉   | 69/100 [05:15<02:36,  5.05s/it]2026-04-05 18:59:28 [INFO] extraction.batch_processor: Processing paper 3355 (PMID: 16095500)
+2026-04-05 18:59:32 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  70%|███████   | 70/100 [05:19<02:22,  4.73s/it]2026-04-05 18:59:32 [INFO] extraction.batch_processor: Processing paper 3356 (PMID: 24589042)
+2026-04-05 18:59:35 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  71%|███████   | 71/100 [05:22<01:58,  4.08s/it]2026-04-05 18:59:35 [INFO] extraction.batch_processor: Processing paper 11241 (PMID: 27748859)
+2026-04-05 18:59:37 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  72%|███████▏  | 72/100 [05:24<01:40,  3.60s/it]2026-04-05 18:59:37 [INFO] extraction.batch_processor: Processing paper 3357 (PMID: 21162721)
+2026-04-05 18:59:52 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  73%|███████▎  | 73/100 [05:39<03:07,  6.94s/it]2026-04-05 18:59:52 [INFO] extraction.batch_processor: Processing paper 3359 (PMID: 27003892)
+2026-04-05 18:59:58 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  74%|███████▍  | 74/100 [05:45<02:55,  6.77s/it]2026-04-05 18:59:58 [INFO] extraction.batch_processor: Processing paper 3360 (PMID: 21289376)
+2026-04-05 19:00:02 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  75%|███████▌  | 75/100 [05:49<02:24,  5.78s/it]2026-04-05 19:00:02 [INFO] extraction.batch_processor: Processing paper 3361 (PMID: 23735875)
+2026-04-05 19:00:05 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  76%|███████▌  | 76/100 [05:52<01:59,  4.97s/it]2026-04-05 19:00:05 [INFO] extraction.batch_processor: Processing paper 3363 (PMID: 16928503)
+Extracting HLA associations:  77%|███████▋  | 77/100 [05:52<01:20,  3.52s/it]2026-04-05 19:00:05 [INFO] extraction.batch_processor: Processing paper 3366 (PMID: 25303297)
+2026-04-05 19:00:11 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  78%|███████▊  | 78/100 [05:59<01:36,  4.37s/it]2026-04-05 19:00:11 [INFO] extraction.batch_processor: Processing paper 3367 (PMID: 16398697)
+2026-04-05 19:00:14 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  79%|███████▉  | 79/100 [06:02<01:24,  4.03s/it]2026-04-05 19:00:14 [INFO] extraction.batch_processor: Processing paper 3368 (PMID: 15664442)
+2026-04-05 19:00:19 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  80%|████████  | 80/100 [06:06<01:23,  4.16s/it]2026-04-05 19:00:19 [INFO] extraction.batch_processor: Processing paper 3370 (PMID: 32860200)
+2026-04-05 19:00:22 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  81%|████████  | 81/100 [06:09<01:12,  3.82s/it]2026-04-05 19:00:22 [INFO] extraction.batch_processor: Processing paper 3371 (PMID: 11571507)
+2026-04-05 19:00:25 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  82%|████████▏ | 82/100 [06:12<01:02,  3.50s/it]2026-04-05 19:00:25 [INFO] extraction.batch_processor: Processing paper 11245 (PMID: 26519531)
+2026-04-05 19:00:27 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  83%|████████▎ | 83/100 [06:14<00:53,  3.16s/it]2026-04-05 19:00:27 [INFO] extraction.batch_processor: Processing paper 3375 (PMID: 19261693)
+2026-04-05 19:00:30 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  84%|████████▍ | 84/100 [06:17<00:49,  3.07s/it]2026-04-05 19:00:30 [INFO] extraction.batch_processor: Processing paper 11248 (PMID: 19893037)
+2026-04-05 19:00:33 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  85%|████████▌ | 85/100 [06:20<00:45,  3.04s/it]2026-04-05 19:00:33 [INFO] extraction.batch_processor: Processing paper 3379 (PMID: 21676164)
+2026-04-05 19:00:39 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  86%|████████▌ | 86/100 [06:26<00:53,  3.85s/it]2026-04-05 19:00:39 [INFO] extraction.batch_processor: Processing paper 3431 (PMID: 28734234)
+2026-04-05 19:00:43 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  87%|████████▋ | 87/100 [06:31<00:54,  4.18s/it]2026-04-05 19:00:44 [INFO] extraction.batch_processor: Processing paper 3380 (PMID: 18166219)
+2026-04-05 19:00:48 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  88%|████████▊ | 88/100 [06:35<00:50,  4.17s/it]2026-04-05 19:00:48 [INFO] extraction.batch_processor: Processing paper 3381 (PMID: 16105533)
+2026-04-05 19:00:51 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  89%|████████▉ | 89/100 [06:38<00:41,  3.81s/it]2026-04-05 19:00:51 [INFO] extraction.batch_processor: Processing paper 11249 (PMID: 35077868)
+2026-04-05 19:00:54 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  90%|█████████ | 90/100 [06:41<00:36,  3.68s/it]2026-04-05 19:00:54 [INFO] extraction.batch_processor: Processing paper 3383 (PMID: 12570205)
+2026-04-05 19:00:57 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  91%|█████████ | 91/100 [06:45<00:31,  3.53s/it]2026-04-05 19:00:57 [INFO] extraction.batch_processor: Processing paper 3387 (PMID: 15173540)
+2026-04-05 19:01:00 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  92%|█████████▏| 92/100 [06:48<00:27,  3.44s/it]2026-04-05 19:01:01 [INFO] extraction.batch_processor: Processing paper 3388 (PMID: 23480177)
+2026-04-05 19:01:06 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  93%|█████████▎| 93/100 [06:54<00:29,  4.17s/it]2026-04-05 19:01:06 [INFO] extraction.batch_processor: Processing paper 3389 (PMID: 29985178)
+2026-04-05 19:01:10 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  94%|█████████▍| 94/100 [06:57<00:23,  3.97s/it]2026-04-05 19:01:10 [INFO] extraction.batch_processor: Processing paper 6611 (PMID: 27549543)
+2026-04-05 19:01:13 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  95%|█████████▌| 95/100 [07:00<00:18,  3.71s/it]2026-04-05 19:01:13 [INFO] extraction.batch_processor: Processing paper 3390 (PMID: 31038770)
+2026-04-05 19:01:21 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  96%|█████████▌| 96/100 [07:09<00:20,  5.11s/it]2026-04-05 19:01:21 [INFO] extraction.batch_processor: Processing paper 3391 (PMID: 23635947)
+2026-04-05 19:01:40 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  97%|█████████▋| 97/100 [07:28<00:27,  9.26s/it]2026-04-05 19:01:40 [INFO] extraction.batch_processor: Processing paper 3392 (PMID: 28823763)
+2026-04-05 19:01:44 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  98%|█████████▊| 98/100 [07:31<00:15,  7.52s/it]2026-04-05 19:01:44 [INFO] extraction.batch_processor: Processing paper 3393 (PMID: 19122520)
+2026-04-05 19:01:47 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  99%|█████████▉| 99/100 [07:34<00:06,  6.28s/it]2026-04-05 19:01:47 [INFO] extraction.batch_processor: Processing paper 3394 (PMID: 19896081)
+2026-04-05 19:01:51 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations: 100%|██████████| 100/100 [07:38<00:00,  5.50s/it]Extracting HLA associations: 100%|██████████| 100/100 [07:38<00:00,  4.59s/it]
+2026-04-05 19:01:51 [INFO] extraction.batch_processor: Batch processing complete: {'processed': 100, 'completed': 95, 'failed': 0, 'skipped': 5, 'total_cost': 0.0349, 'total_tokens_input': 149230, 'total_tokens_output': 20848}
+2026-04-05 19:01:51 [INFO] pipeline.orchestrator: ============================================================
+2026-04-05 19:01:51 [INFO] pipeline.orchestrator: STEP 4: VALIDATING
+2026-04-05 19:01:51 [INFO] pipeline.orchestrator: ============================================================
+2026-04-05 19:01:51 [INFO] pipeline.orchestrator: Validating extracted data...
+2026-04-05 19:01:51 [INFO] pipeline.orchestrator: ============================================================
+2026-04-05 19:01:51 [INFO] pipeline.orchestrator: PIPELINE COMPLETE in 460.4 seconds
+2026-04-05 19:01:51 [INFO] pipeline.orchestrator: ============================================================
+
+Pipeline completed in 460.4 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 95,
+    "failed": 0,
+    "skipped": 5,
+    "total_cost": 0.0349,
+    "total_tokens_input": 149230,
+    "total_tokens_output": 20848,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 13950,
+      "completed": 2984,
+      "failed": 239,
+      "skipped": 10727,
+      "pending": -1435,
+      "total_associations": 2726,
+      "total_combinations": 438,
+      "total_cost_usd": 2.5251
+    }
+  },
+  "validation": {
+    "total_associations": 2726,
+    "total_combinations": 438,
+    "issues": {
+      "invalid_allele_format": 579,
+      "inconsistent_or_effect": 6,
+      "missing_p_value": 1783,
+      "nonsignificant_p": 38,
+      "extreme_or": 15
+    }
+  },
+  "elapsed_seconds": 460.4
+}
+Stopped at cycle 1 (exit code 0)
+=== Cycle 1/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 399.4 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 97,
+    "failed": 0,
+    "skipped": 3,
+    "total_cost": 0.0289,
+    "total_tokens_input": 117944,
+    "total_tokens_output": 18716,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 14050,
+      "completed": 3081,
+      "failed": 239,
+      "skipped": 10730,
+      "pending": -1535,
+      "total_associations": 2804,
+      "total_combinations": 443,
+      "total_cost_usd": 2.554
+    }
+  },
+  "validation": {
+    "total_associations": 2804,
+    "total_combinations": 443,
+    "issues": {
+      "invalid_allele_format": 589,
+      "inconsistent_or_effect": 6,
+      "missing_p_value": 1836,
+      "nonsignificant_p": 38,
+      "extreme_or": 17
+    }
+  },
+  "elapsed_seconds": 399.4
+}
+=== Cycle 2/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 466.8 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 91,
+    "failed": 0,
+    "skipped": 9,
+    "total_cost": 0.0344,
+    "total_tokens_input": 147885,
+    "total_tokens_output": 20440,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 14150,
+      "completed": 3172,
+      "failed": 239,
+      "skipped": 10739,
+      "pending": -1635,
+      "total_associations": 2900,
+      "total_combinations": 455,
+      "total_cost_usd": 2.5885
+    }
+  },
+  "validation": {
+    "total_associations": 2900,
+    "total_combinations": 455,
+    "issues": {
+      "invalid_allele_format": 603,
+      "inconsistent_or_effect": 6,
+      "missing_p_value": 1914,
+      "nonsignificant_p": 39,
+      "extreme_or": 20
+    }
+  },
+  "elapsed_seconds": 466.8
+}
+=== Cycle 3/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 368.3 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 75,
+    "failed": 0,
+    "skipped": 25,
+    "total_cost": 0.0237,
+    "total_tokens_input": 97475,
+    "total_tokens_output": 15153,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 14250,
+      "completed": 3247,
+      "failed": 239,
+      "skipped": 10764,
+      "pending": -1735,
+      "total_associations": 2967,
+      "total_combinations": 459,
+      "total_cost_usd": 2.6122
+    }
+  },
+  "validation": {
+    "total_associations": 2967,
+    "total_combinations": 459,
+    "issues": {
+      "invalid_allele_format": 622,
+      "inconsistent_or_effect": 6,
+      "missing_p_value": 1965,
+      "nonsignificant_p": 40,
+      "extreme_or": 21
+    }
+  },
+  "elapsed_seconds": 368.3
+}
+=== Cycle 4/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 472.6 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 87,
+    "failed": 0,
+    "skipped": 13,
+    "total_cost": 0.0291,
+    "total_tokens_input": 116808,
+    "total_tokens_output": 19244,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 14350,
+      "completed": 3334,
+      "failed": 239,
+      "skipped": 10777,
+      "pending": -1835,
+      "total_associations": 3060,
+      "total_combinations": 469,
+      "total_cost_usd": 2.6412
+    }
+  },
+  "validation": {
+    "total_associations": 3060,
+    "total_combinations": 469,
+    "issues": {
+      "invalid_allele_format": 632,
+      "inconsistent_or_effect": 6,
+      "missing_p_value": 2039,
+      "nonsignificant_p": 40,
+      "extreme_or": 22
+    }
+  },
+  "elapsed_seconds": 472.6
+}
+=== Cycle 5/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 475.2 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 95,
+    "failed": 0,
+    "skipped": 5,
+    "total_cost": 0.0321,
+    "total_tokens_input": 133683,
+    "total_tokens_output": 20105,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 14450,
+      "completed": 3429,
+      "failed": 239,
+      "skipped": 10782,
+      "pending": -1935,
+      "total_associations": 3145,
+      "total_combinations": 481,
+      "total_cost_usd": 2.6734
+    }
+  },
+  "validation": {
+    "total_associations": 3145,
+    "total_combinations": 481,
+    "issues": {
+      "invalid_allele_format": 645,
+      "inconsistent_or_effect": 6,
+      "missing_p_value": 2091,
+      "nonsignificant_p": 41,
+      "extreme_or": 22
+    }
+  },
+  "elapsed_seconds": 475.2
+}
+=== Cycle 6/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 490.0 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 94,
+    "failed": 0,
+    "skipped": 6,
+    "total_cost": 0.0347,
+    "total_tokens_input": 152276,
+    "total_tokens_output": 19829,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 14550,
+      "completed": 3523,
+      "failed": 239,
+      "skipped": 10788,
+      "pending": -2035,
+      "total_associations": 3227,
+      "total_combinations": 487,
+      "total_cost_usd": 2.7081
+    }
+  },
+  "validation": {
+    "total_associations": 3227,
+    "total_combinations": 487,
+    "issues": {
+      "invalid_allele_format": 668,
+      "inconsistent_or_effect": 13,
+      "missing_p_value": 2143,
+      "nonsignificant_p": 41,
+      "extreme_or": 22
+    }
+  },
+  "elapsed_seconds": 490.0
+}
+=== Cycle 7/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 390.1 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0277,
+    "total_tokens_input": 122103,
+    "total_tokens_output": 15598,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 14650,
+      "completed": 3623,
+      "failed": 239,
+      "skipped": 10788,
+      "pending": -2135,
+      "total_associations": 3275,
+      "total_combinations": 488,
+      "total_cost_usd": 2.7358
+    }
+  },
+  "validation": {
+    "total_associations": 3275,
+    "total_combinations": 488,
+    "issues": {
+      "invalid_allele_format": 679,
+      "inconsistent_or_effect": 13,
+      "missing_p_value": 2184,
+      "nonsignificant_p": 41,
+      "extreme_or": 22
+    }
+  },
+  "elapsed_seconds": 390.1
+}
+=== Cycle 8/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 403.4 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 97,
+    "failed": 0,
+    "skipped": 3,
+    "total_cost": 0.0312,
+    "total_tokens_input": 145179,
+    "total_tokens_output": 15723,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 14750,
+      "completed": 3720,
+      "failed": 239,
+      "skipped": 10791,
+      "pending": -2235,
+      "total_associations": 3322,
+      "total_combinations": 497,
+      "total_cost_usd": 2.767
+    }
+  },
+  "validation": {
+    "total_associations": 3322,
+    "total_combinations": 497,
+    "issues": {
+      "invalid_allele_format": 690,
+      "inconsistent_or_effect": 13,
+      "missing_p_value": 2213,
+      "nonsignificant_p": 41,
+      "extreme_or": 23
+    }
+  },
+  "elapsed_seconds": 403.4
+}
+=== Cycle 9/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 487.9 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 95,
+    "failed": 0,
+    "skipped": 5,
+    "total_cost": 0.0325,
+    "total_tokens_input": 153360,
+    "total_tokens_output": 15907,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 14850,
+      "completed": 3815,
+      "failed": 239,
+      "skipped": 10796,
+      "pending": -2335,
+      "total_associations": 3381,
+      "total_combinations": 499,
+      "total_cost_usd": 2.7995
+    }
+  },
+  "validation": {
+    "total_associations": 3381,
+    "total_combinations": 499,
+    "issues": {
+      "invalid_allele_format": 700,
+      "inconsistent_or_effect": 14,
+      "missing_p_value": 2252,
+      "nonsignificant_p": 41,
+      "extreme_or": 23
+    }
+  },
+  "elapsed_seconds": 487.9
+}
+=== Cycle 10/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 404.7 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.03,
+    "total_tokens_input": 136522,
+    "total_tokens_output": 15831,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 14950,
+      "completed": 3915,
+      "failed": 239,
+      "skipped": 10796,
+      "pending": -2435,
+      "total_associations": 3424,
+      "total_combinations": 501,
+      "total_cost_usd": 2.8295
+    }
+  },
+  "validation": {
+    "total_associations": 3424,
+    "total_combinations": 501,
+    "issues": {
+      "invalid_allele_format": 707,
+      "inconsistent_or_effect": 14,
+      "missing_p_value": 2281,
+      "nonsignificant_p": 41,
+      "extreme_or": 23
+    }
+  },
+  "elapsed_seconds": 404.7
+}
+=== Cycle 11/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 353.2 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 99,
+    "failed": 0,
+    "skipped": 1,
+    "total_cost": 0.0291,
+    "total_tokens_input": 124453,
+    "total_tokens_output": 17420,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 15050,
+      "completed": 4014,
+      "failed": 239,
+      "skipped": 10797,
+      "pending": -2535,
+      "total_associations": 3492,
+      "total_combinations": 501,
+      "total_cost_usd": 2.8586
+    }
+  },
+  "validation": {
+    "total_associations": 3492,
+    "total_combinations": 501,
+    "issues": {
+      "invalid_allele_format": 739,
+      "inconsistent_or_effect": 14,
+      "missing_p_value": 2329,
+      "nonsignificant_p": 45,
+      "extreme_or": 24
+    }
+  },
+  "elapsed_seconds": 353.2
+}
+=== Cycle 12/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 317.9 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 94,
+    "failed": 0,
+    "skipped": 6,
+    "total_cost": 0.0279,
+    "total_tokens_input": 132250,
+    "total_tokens_output": 13462,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 15150,
+      "completed": 4108,
+      "failed": 239,
+      "skipped": 10803,
+      "pending": -2635,
+      "total_associations": 3523,
+      "total_combinations": 506,
+      "total_cost_usd": 2.8865
+    }
+  },
+  "validation": {
+    "total_associations": 3523,
+    "total_combinations": 506,
+    "issues": {
+      "invalid_allele_format": 743,
+      "inconsistent_or_effect": 14,
+      "missing_p_value": 2346,
+      "nonsignificant_p": 45,
+      "extreme_or": 25
+    }
+  },
+  "elapsed_seconds": 317.9
+}
+=== Cycle 13/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 344.8 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 97,
+    "failed": 0,
+    "skipped": 3,
+    "total_cost": 0.0268,
+    "total_tokens_input": 125754,
+    "total_tokens_output": 13240,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 15250,
+      "completed": 4205,
+      "failed": 239,
+      "skipped": 10806,
+      "pending": -2735,
+      "total_associations": 3552,
+      "total_combinations": 508,
+      "total_cost_usd": 2.9133
+    }
+  },
+  "validation": {
+    "total_associations": 3552,
+    "total_combinations": 508,
+    "issues": {
+      "invalid_allele_format": 750,
+      "inconsistent_or_effect": 14,
+      "missing_p_value": 2367,
+      "nonsignificant_p": 45,
+      "extreme_or": 25
+    }
+  },
+  "elapsed_seconds": 344.8
+}
+=== Cycle 14/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 400.7 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 98,
+    "failed": 0,
+    "skipped": 2,
+    "total_cost": 0.0322,
+    "total_tokens_input": 155764,
+    "total_tokens_output": 14802,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 15350,
+      "completed": 4303,
+      "failed": 239,
+      "skipped": 10808,
+      "pending": -2835,
+      "total_associations": 3597,
+      "total_combinations": 515,
+      "total_cost_usd": 2.9456
+    }
+  },
+  "validation": {
+    "total_associations": 3597,
+    "total_combinations": 515,
+    "issues": {
+      "invalid_allele_format": 762,
+      "inconsistent_or_effect": 14,
+      "missing_p_value": 2393,
+      "nonsignificant_p": 45,
+      "extreme_or": 27
+    }
+  },
+  "elapsed_seconds": 400.7
+}
+=== Cycle 15/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 374.5 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 99,
+    "failed": 0,
+    "skipped": 1,
+    "total_cost": 0.0292,
+    "total_tokens_input": 144087,
+    "total_tokens_output": 12590,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 15450,
+      "completed": 4402,
+      "failed": 239,
+      "skipped": 10809,
+      "pending": -2935,
+      "total_associations": 3615,
+      "total_combinations": 519,
+      "total_cost_usd": 2.9747
+    }
+  },
+  "validation": {
+    "total_associations": 3615,
+    "total_combinations": 519,
+    "issues": {
+      "invalid_allele_format": 764,
+      "inconsistent_or_effect": 14,
+      "missing_p_value": 2405,
+      "nonsignificant_p": 45,
+      "extreme_or": 28
+    }
+  },
+  "elapsed_seconds": 374.5
+}
+=== Cycle 16/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 394.7 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 99,
+    "failed": 0,
+    "skipped": 1,
+    "total_cost": 0.0284,
+    "total_tokens_input": 135538,
+    "total_tokens_output": 13451,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 15550,
+      "completed": 4501,
+      "failed": 239,
+      "skipped": 10810,
+      "pending": -3035,
+      "total_associations": 3640,
+      "total_combinations": 521,
+      "total_cost_usd": 3.0031
+    }
+  },
+  "validation": {
+    "total_associations": 3640,
+    "total_combinations": 521,
+    "issues": {
+      "invalid_allele_format": 770,
+      "inconsistent_or_effect": 15,
+      "missing_p_value": 2422,
+      "nonsignificant_p": 45,
+      "extreme_or": 28
+    }
+  },
+  "elapsed_seconds": 394.7
+}
+=== Cycle 17/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 390.5 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.032,
+    "total_tokens_input": 165506,
+    "total_tokens_output": 12033,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 15650,
+      "completed": 4601,
+      "failed": 239,
+      "skipped": 10810,
+      "pending": -3135,
+      "total_associations": 3653,
+      "total_combinations": 522,
+      "total_cost_usd": 3.0352
+    }
+  },
+  "validation": {
+    "total_associations": 3653,
+    "total_combinations": 522,
+    "issues": {
+      "invalid_allele_format": 771,
+      "inconsistent_or_effect": 15,
+      "missing_p_value": 2433,
+      "nonsignificant_p": 45,
+      "extreme_or": 28
+    }
+  },
+  "elapsed_seconds": 390.5
+}
+=== Cycle 18/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 296.2 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 98,
+    "failed": 0,
+    "skipped": 2,
+    "total_cost": 0.0301,
+    "total_tokens_input": 153731,
+    "total_tokens_output": 11701,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 15750,
+      "completed": 4699,
+      "failed": 239,
+      "skipped": 10812,
+      "pending": -3235,
+      "total_associations": 3666,
+      "total_combinations": 522,
+      "total_cost_usd": 3.0653
+    }
+  },
+  "validation": {
+    "total_associations": 3666,
+    "total_combinations": 522,
+    "issues": {
+      "invalid_allele_format": 775,
+      "inconsistent_or_effect": 15,
+      "missing_p_value": 2440,
+      "nonsignificant_p": 45,
+      "extreme_or": 28
+    }
+  },
+  "elapsed_seconds": 296.2
+}
+=== Cycle 19/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 3769.7 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0393,
+    "total_tokens_input": 203113,
+    "total_tokens_output": 14760,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 15850,
+      "completed": 4799,
+      "failed": 239,
+      "skipped": 10812,
+      "pending": -3335,
+      "total_associations": 3702,
+      "total_combinations": 525,
+      "total_cost_usd": 3.1046
+    }
+  },
+  "validation": {
+    "total_associations": 3702,
+    "total_combinations": 525,
+    "issues": {
+      "invalid_allele_format": 783,
+      "inconsistent_or_effect": 15,
+      "missing_p_value": 2458,
+      "nonsignificant_p": 45,
+      "extreme_or": 28
+    }
+  },
+  "elapsed_seconds": 3769.7
+}
+=== Cycle 20/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 334.5 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 99,
+    "failed": 0,
+    "skipped": 1,
+    "total_cost": 0.0305,
+    "total_tokens_input": 149796,
+    "total_tokens_output": 13311,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 15950,
+      "completed": 4898,
+      "failed": 239,
+      "skipped": 10813,
+      "pending": -3435,
+      "total_associations": 3733,
+      "total_combinations": 526,
+      "total_cost_usd": 3.135
+    }
+  },
+  "validation": {
+    "total_associations": 3733,
+    "total_combinations": 526,
+    "issues": {
+      "invalid_allele_format": 794,
+      "inconsistent_or_effect": 15,
+      "missing_p_value": 2477,
+      "nonsignificant_p": 49,
+      "extreme_or": 28
+    }
+  },
+  "elapsed_seconds": 334.5
+}
+=== Cycle 21/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 3442.3 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 97,
+    "failed": 0,
+    "skipped": 3,
+    "total_cost": 0.0309,
+    "total_tokens_input": 148447,
+    "total_tokens_output": 14391,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 16050,
+      "completed": 4995,
+      "failed": 239,
+      "skipped": 10816,
+      "pending": -3535,
+      "total_associations": 3766,
+      "total_combinations": 530,
+      "total_cost_usd": 3.1659
+    }
+  },
+  "validation": {
+    "total_associations": 3766,
+    "total_combinations": 530,
+    "issues": {
+      "invalid_allele_format": 801,
+      "inconsistent_or_effect": 15,
+      "missing_p_value": 2493,
+      "nonsignificant_p": 49,
+      "extreme_or": 29
+    }
+  },
+  "elapsed_seconds": 3442.3
+}
+=== Cycle 22/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 325.6 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 98,
+    "failed": 0,
+    "skipped": 2,
+    "total_cost": 0.033,
+    "total_tokens_input": 164814,
+    "total_tokens_output": 13734,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 16150,
+      "completed": 5093,
+      "failed": 239,
+      "skipped": 10818,
+      "pending": -3635,
+      "total_associations": 3806,
+      "total_combinations": 532,
+      "total_cost_usd": 3.1989
+    }
+  },
+  "validation": {
+    "total_associations": 3806,
+    "total_combinations": 532,
+    "issues": {
+      "invalid_allele_format": 811,
+      "inconsistent_or_effect": 15,
+      "missing_p_value": 2519,
+      "nonsignificant_p": 51,
+      "extreme_or": 29
+    }
+  },
+  "elapsed_seconds": 325.6
+}
+=== Cycle 23/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 420.3 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 96,
+    "failed": 0,
+    "skipped": 4,
+    "total_cost": 0.0415,
+    "total_tokens_input": 213213,
+    "total_tokens_output": 15898,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 16250,
+      "completed": 5189,
+      "failed": 239,
+      "skipped": 10822,
+      "pending": -3735,
+      "total_associations": 3860,
+      "total_combinations": 537,
+      "total_cost_usd": 3.2404
+    }
+  },
+  "validation": {
+    "total_associations": 3860,
+    "total_combinations": 537,
+    "issues": {
+      "invalid_allele_format": 822,
+      "inconsistent_or_effect": 15,
+      "missing_p_value": 2558,
+      "nonsignificant_p": 55,
+      "extreme_or": 29
+    }
+  },
+  "elapsed_seconds": 420.3
+}
+=== Cycle 24/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 477.8 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 97,
+    "failed": 0,
+    "skipped": 3,
+    "total_cost": 0.0316,
+    "total_tokens_input": 136071,
+    "total_tokens_output": 18670,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 16350,
+      "completed": 5286,
+      "failed": 239,
+      "skipped": 10825,
+      "pending": -3835,
+      "total_associations": 3936,
+      "total_combinations": 541,
+      "total_cost_usd": 3.272
+    }
+  },
+  "validation": {
+    "total_associations": 3936,
+    "total_combinations": 541,
+    "issues": {
+      "invalid_allele_format": 836,
+      "inconsistent_or_effect": 15,
+      "missing_p_value": 2602,
+      "nonsignificant_p": 56,
+      "extreme_or": 30
+    }
+  },
+  "elapsed_seconds": 477.8
+}
+=== Cycle 25/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 456.4 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 97,
+    "failed": 0,
+    "skipped": 3,
+    "total_cost": 0.0339,
+    "total_tokens_input": 157337,
+    "total_tokens_output": 17134,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 16450,
+      "completed": 5383,
+      "failed": 239,
+      "skipped": 10828,
+      "pending": -3935,
+      "total_associations": 3998,
+      "total_combinations": 546,
+      "total_cost_usd": 3.3059
+    }
+  },
+  "validation": {
+    "total_associations": 3998,
+    "total_combinations": 546,
+    "issues": {
+      "invalid_allele_format": 862,
+      "inconsistent_or_effect": 15,
+      "missing_p_value": 2643,
+      "nonsignificant_p": 56,
+      "extreme_or": 30
+    }
+  },
+  "elapsed_seconds": 456.4
+}
+=== Cycle 26/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 439.9 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 97,
+    "failed": 0,
+    "skipped": 3,
+    "total_cost": 0.0373,
+    "total_tokens_input": 185929,
+    "total_tokens_output": 15681,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 16550,
+      "completed": 5480,
+      "failed": 239,
+      "skipped": 10831,
+      "pending": -4035,
+      "total_associations": 4045,
+      "total_combinations": 548,
+      "total_cost_usd": 3.3432
+    }
+  },
+  "validation": {
+    "total_associations": 4045,
+    "total_combinations": 548,
+    "issues": {
+      "invalid_allele_format": 872,
+      "inconsistent_or_effect": 15,
+      "missing_p_value": 2679,
+      "nonsignificant_p": 56,
+      "extreme_or": 30
+    }
+  },
+  "elapsed_seconds": 439.9
+}
+=== Cycle 27/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 408.0 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 96,
+    "failed": 0,
+    "skipped": 4,
+    "total_cost": 0.0305,
+    "total_tokens_input": 142110,
+    "total_tokens_output": 15310,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 16650,
+      "completed": 5576,
+      "failed": 239,
+      "skipped": 10835,
+      "pending": -4135,
+      "total_associations": 4097,
+      "total_combinations": 552,
+      "total_cost_usd": 3.3737
+    }
+  },
+  "validation": {
+    "total_associations": 4097,
+    "total_combinations": 552,
+    "issues": {
+      "invalid_allele_format": 883,
+      "inconsistent_or_effect": 15,
+      "missing_p_value": 2722,
+      "nonsignificant_p": 56,
+      "extreme_or": 32
+    }
+  },
+  "elapsed_seconds": 408.0
+}
+=== Cycle 28/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 416.5 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 93,
+    "failed": 0,
+    "skipped": 7,
+    "total_cost": 0.0279,
+    "total_tokens_input": 126650,
+    "total_tokens_output": 14916,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 16750,
+      "completed": 5669,
+      "failed": 239,
+      "skipped": 10842,
+      "pending": -4235,
+      "total_associations": 4142,
+      "total_combinations": 557,
+      "total_cost_usd": 3.4017
+    }
+  },
+  "validation": {
+    "total_associations": 4142,
+    "total_combinations": 557,
+    "issues": {
+      "invalid_allele_format": 896,
+      "inconsistent_or_effect": 15,
+      "missing_p_value": 2759,
+      "nonsignificant_p": 56,
+      "extreme_or": 33
+    }
+  },
+  "elapsed_seconds": 416.5
+}
+=== Cycle 29/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 372.9 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 94,
+    "failed": 0,
+    "skipped": 6,
+    "total_cost": 0.0331,
+    "total_tokens_input": 165512,
+    "total_tokens_output": 13709,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 16850,
+      "completed": 5763,
+      "failed": 239,
+      "skipped": 10848,
+      "pending": -4335,
+      "total_associations": 4185,
+      "total_combinations": 557,
+      "total_cost_usd": 3.4347
+    }
+  },
+  "validation": {
+    "total_associations": 4185,
+    "total_combinations": 557,
+    "issues": {
+      "invalid_allele_format": 908,
+      "inconsistent_or_effect": 16,
+      "missing_p_value": 2784,
+      "nonsignificant_p": 56,
+      "extreme_or": 33
+    }
+  },
+  "elapsed_seconds": 372.9
+}
+=== Cycle 30/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 336.9 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 95,
+    "failed": 0,
+    "skipped": 5,
+    "total_cost": 0.0356,
+    "total_tokens_input": 178859,
+    "total_tokens_output": 14574,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 16950,
+      "completed": 5858,
+      "failed": 239,
+      "skipped": 10853,
+      "pending": -4435,
+      "total_associations": 4226,
+      "total_combinations": 560,
+      "total_cost_usd": 3.4703
+    }
+  },
+  "validation": {
+    "total_associations": 4226,
+    "total_combinations": 560,
+    "issues": {
+      "invalid_allele_format": 929,
+      "inconsistent_or_effect": 16,
+      "missing_p_value": 2816,
+      "nonsignificant_p": 56,
+      "extreme_or": 33
+    }
+  },
+  "elapsed_seconds": 336.9
+}
+=== Cycle 31/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 332.3 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 96,
+    "failed": 0,
+    "skipped": 4,
+    "total_cost": 0.0324,
+    "total_tokens_input": 161366,
+    "total_tokens_output": 13697,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 17050,
+      "completed": 5954,
+      "failed": 239,
+      "skipped": 10857,
+      "pending": -4535,
+      "total_associations": 4256,
+      "total_combinations": 568,
+      "total_cost_usd": 3.5027
+    }
+  },
+  "validation": {
+    "total_associations": 4256,
+    "total_combinations": 568,
+    "issues": {
+      "invalid_allele_format": 932,
+      "inconsistent_or_effect": 16,
+      "missing_p_value": 2834,
+      "nonsignificant_p": 57,
+      "extreme_or": 33
+    }
+  },
+  "elapsed_seconds": 332.3
+}
+=== Cycle 32/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 311.8 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 95,
+    "failed": 0,
+    "skipped": 5,
+    "total_cost": 0.031,
+    "total_tokens_input": 153798,
+    "total_tokens_output": 13210,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 17150,
+      "completed": 6049,
+      "failed": 239,
+      "skipped": 10862,
+      "pending": -4635,
+      "total_associations": 4289,
+      "total_combinations": 568,
+      "total_cost_usd": 3.5337
+    }
+  },
+  "validation": {
+    "total_associations": 4289,
+    "total_combinations": 568,
+    "issues": {
+      "invalid_allele_format": 946,
+      "inconsistent_or_effect": 16,
+      "missing_p_value": 2860,
+      "nonsignificant_p": 57,
+      "extreme_or": 33
+    }
+  },
+  "elapsed_seconds": 311.8
+}
+=== Cycle 33/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 688.6 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 89,
+    "failed": 0,
+    "skipped": 11,
+    "total_cost": 0.0621,
+    "total_tokens_input": 326999,
+    "total_tokens_output": 21756,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 17250,
+      "completed": 6138,
+      "failed": 239,
+      "skipped": 10873,
+      "pending": -4735,
+      "total_associations": 4401,
+      "total_combinations": 581,
+      "total_cost_usd": 3.5958
+    }
+  },
+  "validation": {
+    "total_associations": 4401,
+    "total_combinations": 581,
+    "issues": {
+      "invalid_allele_format": 995,
+      "inconsistent_or_effect": 19,
+      "missing_p_value": 2910,
+      "nonsignificant_p": 60,
+      "extreme_or": 33
+    }
+  },
+  "elapsed_seconds": 688.6
+}
+=== Cycle 34/50 ===
+=== Cycle 1/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 613.6 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 85,
+    "failed": 0,
+    "skipped": 15,
+    "total_cost": 0.0509,
+    "total_tokens_input": 258311,
+    "total_tokens_output": 20200,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 17350,
+      "completed": 6223,
+      "failed": 239,
+      "skipped": 10888,
+      "pending": -4835,
+      "total_associations": 4507,
+      "total_combinations": 587,
+      "total_cost_usd": 3.6467
+    }
+  },
+  "validation": {
+    "total_associations": 4507,
+    "total_combinations": 587,
+    "issues": {
+      "invalid_allele_format": 1019,
+      "inconsistent_or_effect": 23,
+      "missing_p_value": 2987,
+      "nonsignificant_p": 64,
+      "extreme_or": 33
+    }
+  },
+  "elapsed_seconds": 613.6
+}
+=== Cycle 2/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 4419.2 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 88,
+    "failed": 0,
+    "skipped": 12,
+    "total_cost": 0.0576,
+    "total_tokens_input": 317052,
+    "total_tokens_output": 16823,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 17450,
+      "completed": 6311,
+      "failed": 239,
+      "skipped": 10900,
+      "pending": -4935,
+      "total_associations": 4576,
+      "total_combinations": 593,
+      "total_cost_usd": 3.7043
+    }
+  },
+  "validation": {
+    "total_associations": 4576,
+    "total_combinations": 593,
+    "issues": {
+      "invalid_allele_format": 1035,
+      "inconsistent_or_effect": 24,
+      "missing_p_value": 3034,
+      "nonsignificant_p": 66,
+      "extreme_or": 34
+    }
+  },
+  "elapsed_seconds": 4419.2
+}
+=== Cycle 3/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 2397.0 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 95,
+    "failed": 0,
+    "skipped": 5,
+    "total_cost": 0.0601,
+    "total_tokens_input": 327515,
+    "total_tokens_output": 18304,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 17550,
+      "completed": 6406,
+      "failed": 239,
+      "skipped": 10905,
+      "pending": -5035,
+      "total_associations": 4652,
+      "total_combinations": 603,
+      "total_cost_usd": 3.7644
+    }
+  },
+  "validation": {
+    "total_associations": 4652,
+    "total_combinations": 603,
+    "issues": {
+      "invalid_allele_format": 1060,
+      "inconsistent_or_effect": 27,
+      "missing_p_value": 3071,
+      "nonsignificant_p": 72,
+      "extreme_or": 34
+    }
+  },
+  "elapsed_seconds": 2397.0
+}
+=== Cycle 4/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 23060.6 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 97,
+    "failed": 0,
+    "skipped": 3,
+    "total_cost": 0.0548,
+    "total_tokens_input": 303034,
+    "total_tokens_output": 15519,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 17650,
+      "completed": 6503,
+      "failed": 239,
+      "skipped": 10908,
+      "pending": -5135,
+      "total_associations": 4705,
+      "total_combinations": 607,
+      "total_cost_usd": 3.8192
+    }
+  },
+  "validation": {
+    "total_associations": 4705,
+    "total_combinations": 607,
+    "issues": {
+      "invalid_allele_format": 1075,
+      "inconsistent_or_effect": 27,
+      "missing_p_value": 3097,
+      "nonsignificant_p": 72,
+      "extreme_or": 34
+    }
+  },
+  "elapsed_seconds": 23060.6
+}
+=== Cycle 5/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 462.0 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 94,
+    "failed": 0,
+    "skipped": 6,
+    "total_cost": 0.0545,
+    "total_tokens_input": 296371,
+    "total_tokens_output": 16766,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 17750,
+      "completed": 6597,
+      "failed": 239,
+      "skipped": 10914,
+      "pending": -5235,
+      "total_associations": 4775,
+      "total_combinations": 609,
+      "total_cost_usd": 3.8737
+    }
+  },
+  "validation": {
+    "total_associations": 4775,
+    "total_combinations": 609,
+    "issues": {
+      "invalid_allele_format": 1094,
+      "inconsistent_or_effect": 28,
+      "missing_p_value": 3150,
+      "nonsignificant_p": 74,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 462.0
+}
+=== Cycle 6/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 11758.8 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 98,
+    "failed": 0,
+    "skipped": 2,
+    "total_cost": 0.0585,
+    "total_tokens_input": 318615,
+    "total_tokens_output": 17901,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 17850,
+      "completed": 6695,
+      "failed": 239,
+      "skipped": 10916,
+      "pending": -5335,
+      "total_associations": 4849,
+      "total_combinations": 615,
+      "total_cost_usd": 3.9323
+    }
+  },
+  "validation": {
+    "total_associations": 4849,
+    "total_combinations": 615,
+    "issues": {
+      "invalid_allele_format": 1116,
+      "inconsistent_or_effect": 28,
+      "missing_p_value": 3217,
+      "nonsignificant_p": 76,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 11758.8
+}
+=== Cycle 7/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 677.5 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 95,
+    "failed": 0,
+    "skipped": 5,
+    "total_cost": 0.0696,
+    "total_tokens_input": 406764,
+    "total_tokens_output": 14290,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 17950,
+      "completed": 6790,
+      "failed": 239,
+      "skipped": 10921,
+      "pending": -5435,
+      "total_associations": 4888,
+      "total_combinations": 620,
+      "total_cost_usd": 4.0018
+    }
+  },
+  "validation": {
+    "total_associations": 4888,
+    "total_combinations": 620,
+    "issues": {
+      "invalid_allele_format": 1130,
+      "inconsistent_or_effect": 28,
+      "missing_p_value": 3248,
+      "nonsignificant_p": 79,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 677.5
+}
+=== Cycle 8/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 467.9 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 98,
+    "failed": 0,
+    "skipped": 2,
+    "total_cost": 0.0514,
+    "total_tokens_input": 287277,
+    "total_tokens_output": 13916,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 18050,
+      "completed": 6888,
+      "failed": 239,
+      "skipped": 10923,
+      "pending": -5535,
+      "total_associations": 4922,
+      "total_combinations": 623,
+      "total_cost_usd": 4.0533
+    }
+  },
+  "validation": {
+    "total_associations": 4922,
+    "total_combinations": 623,
+    "issues": {
+      "invalid_allele_format": 1145,
+      "inconsistent_or_effect": 28,
+      "missing_p_value": 3275,
+      "nonsignificant_p": 79,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 467.9
+}
+=== Cycle 9/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 418.3 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0516,
+    "total_tokens_input": 294112,
+    "total_tokens_output": 12452,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 18150,
+      "completed": 6988,
+      "failed": 239,
+      "skipped": 10923,
+      "pending": -5635,
+      "total_associations": 4942,
+      "total_combinations": 623,
+      "total_cost_usd": 4.1049
+    }
+  },
+  "validation": {
+    "total_associations": 4942,
+    "total_combinations": 623,
+    "issues": {
+      "invalid_allele_format": 1152,
+      "inconsistent_or_effect": 28,
+      "missing_p_value": 3294,
+      "nonsignificant_p": 79,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 418.3
+}
+=== Cycle 10/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 2881.5 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 98,
+    "failed": 0,
+    "skipped": 2,
+    "total_cost": 0.0629,
+    "total_tokens_input": 351160,
+    "total_tokens_output": 17007,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 18250,
+      "completed": 7086,
+      "failed": 239,
+      "skipped": 10925,
+      "pending": -5735,
+      "total_associations": 5005,
+      "total_combinations": 632,
+      "total_cost_usd": 4.1677
+    }
+  },
+  "validation": {
+    "total_associations": 5005,
+    "total_combinations": 632,
+    "issues": {
+      "invalid_allele_format": 1164,
+      "inconsistent_or_effect": 28,
+      "missing_p_value": 3352,
+      "nonsignificant_p": 79,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 2881.5
+}
+=== Cycle 11/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 484.8 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 98,
+    "failed": 0,
+    "skipped": 2,
+    "total_cost": 0.058,
+    "total_tokens_input": 330362,
+    "total_tokens_output": 14056,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 18350,
+      "completed": 7184,
+      "failed": 239,
+      "skipped": 10927,
+      "pending": -5835,
+      "total_associations": 5045,
+      "total_combinations": 636,
+      "total_cost_usd": 4.2257
+    }
+  },
+  "validation": {
+    "total_associations": 5045,
+    "total_combinations": 636,
+    "issues": {
+      "invalid_allele_format": 1169,
+      "inconsistent_or_effect": 29,
+      "missing_p_value": 3387,
+      "nonsignificant_p": 79,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 484.8
+}
+=== Cycle 12/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 386.9 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0628,
+    "total_tokens_input": 372523,
+    "total_tokens_output": 11571,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 18450,
+      "completed": 7284,
+      "failed": 239,
+      "skipped": 10927,
+      "pending": -5935,
+      "total_associations": 5059,
+      "total_combinations": 636,
+      "total_cost_usd": 4.2886
+    }
+  },
+  "validation": {
+    "total_associations": 5059,
+    "total_combinations": 636,
+    "issues": {
+      "invalid_allele_format": 1170,
+      "inconsistent_or_effect": 29,
+      "missing_p_value": 3400,
+      "nonsignificant_p": 79,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 386.9
+}
+=== Cycle 13/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 379.0 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0536,
+    "total_tokens_input": 310631,
+    "total_tokens_output": 11663,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 18550,
+      "completed": 7384,
+      "failed": 239,
+      "skipped": 10927,
+      "pending": -6035,
+      "total_associations": 5077,
+      "total_combinations": 636,
+      "total_cost_usd": 4.3422
+    }
+  },
+  "validation": {
+    "total_associations": 5077,
+    "total_combinations": 636,
+    "issues": {
+      "invalid_allele_format": 1174,
+      "inconsistent_or_effect": 29,
+      "missing_p_value": 3415,
+      "nonsignificant_p": 79,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 379.0
+}
+=== Cycle 14/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 407.6 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0602,
+    "total_tokens_input": 351968,
+    "total_tokens_output": 12328,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 18650,
+      "completed": 7484,
+      "failed": 239,
+      "skipped": 10927,
+      "pending": -6135,
+      "total_associations": 5098,
+      "total_combinations": 636,
+      "total_cost_usd": 4.4023
+    }
+  },
+  "validation": {
+    "total_associations": 5098,
+    "total_combinations": 636,
+    "issues": {
+      "invalid_allele_format": 1175,
+      "inconsistent_or_effect": 30,
+      "missing_p_value": 3430,
+      "nonsignificant_p": 80,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 407.6
+}
+=== Cycle 15/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+=== Cycle 1/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+2026-04-06 15:55:13 [INFO] pipeline.orchestrator: ============================================================
+2026-04-06 15:55:13 [INFO] pipeline.orchestrator: STEP 3: EXTRACTING
+2026-04-06 15:55:13 [INFO] pipeline.orchestrator: ============================================================
+PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+2026-04-06 15:55:14 [INFO] pipeline.orchestrator: Running extraction (batch_size=100, model=gpt-4o-mini)...
+2026-04-06 15:55:14 [INFO] extraction.batch_processor: Processing batch of 100 papers
+Extracting HLA associations:   0%|          | 0/100 [00:00<?, ?it/s]2026-04-06 15:55:14 [INFO] extraction.batch_processor: Processing paper 8587 (PMID: 37563935)
+2026-04-06 15:55:22 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   1%|          | 1/100 [00:07<12:42,  7.71s/it]2026-04-06 15:55:22 [INFO] extraction.batch_processor: Processing paper 8588 (PMID: 33988338)
+2026-04-06 15:55:24 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   2%|▏         | 2/100 [00:10<07:41,  4.71s/it]2026-04-06 15:55:25 [INFO] extraction.batch_processor: Processing paper 8589 (PMID: 17237416)
+2026-04-06 15:55:27 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   3%|▎         | 3/100 [00:12<05:50,  3.61s/it]2026-04-06 15:55:27 [INFO] extraction.batch_processor: Processing paper 8590 (PMID: 33942495)
+2026-04-06 15:55:30 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   4%|▍         | 4/100 [00:16<05:40,  3.55s/it]2026-04-06 15:55:30 [INFO] extraction.batch_processor: Processing paper 8591 (PMID: 17162207)
+2026-04-06 15:55:33 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   5%|▌         | 5/100 [00:18<05:12,  3.29s/it]2026-04-06 15:55:33 [INFO] extraction.batch_processor: Processing paper 8592 (PMID: 18194371)
+2026-04-06 15:55:36 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   6%|▌         | 6/100 [00:21<04:58,  3.17s/it]2026-04-06 15:55:36 [INFO] extraction.batch_processor: Processing paper 8593 (PMID: 36031180)
+2026-04-06 15:55:38 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   7%|▋         | 7/100 [00:24<04:32,  2.93s/it]2026-04-06 15:55:38 [INFO] extraction.batch_processor: Processing paper 11817 (PMID: 36685527)
+2026-04-06 15:55:51 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   8%|▊         | 8/100 [00:36<09:07,  5.95s/it]2026-04-06 15:55:51 [INFO] extraction.batch_processor: Processing paper 8595 (PMID: 40504994)
+2026-04-06 15:55:54 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:   9%|▉         | 9/100 [00:39<07:46,  5.12s/it]2026-04-06 15:55:54 [INFO] extraction.batch_processor: Processing paper 8596 (PMID: 10779766)
+2026-04-06 15:55:57 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  10%|█         | 10/100 [00:43<06:51,  4.57s/it]2026-04-06 15:55:58 [INFO] extraction.batch_processor: Processing paper 11818 (PMID: 24464410)
+2026-04-06 15:56:11 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  11%|█         | 11/100 [00:57<11:04,  7.47s/it]2026-04-06 15:56:12 [INFO] extraction.batch_processor: Processing paper 8598 (PMID: 25141889)
+2026-04-06 15:56:14 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  12%|█▏        | 12/100 [00:59<08:46,  5.98s/it]2026-04-06 15:56:14 [INFO] extraction.batch_processor: Processing paper 8599 (PMID: 19385485)
+2026-04-06 15:56:17 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  13%|█▎        | 13/100 [01:02<07:16,  5.01s/it]2026-04-06 15:56:17 [INFO] extraction.batch_processor: Processing paper 8600 (PMID: 20439626)
+2026-04-06 15:56:20 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  14%|█▍        | 14/100 [01:05<06:13,  4.34s/it]2026-04-06 15:56:20 [INFO] extraction.batch_processor: Processing paper 8602 (PMID: 17025023)
+2026-04-06 15:56:22 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  15%|█▌        | 15/100 [01:08<05:23,  3.81s/it]2026-04-06 15:56:22 [INFO] extraction.batch_processor: Processing paper 11819 (PMID: 30021770)
+2026-04-06 15:56:30 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  16%|█▌        | 16/100 [01:15<06:54,  4.93s/it]2026-04-06 15:56:30 [INFO] extraction.batch_processor: Processing paper 8601 (PMID: 28642820)
+2026-04-06 15:57:00 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  17%|█▋        | 17/100 [01:45<17:13, 12.45s/it]2026-04-06 15:57:00 [INFO] extraction.batch_processor: Processing paper 11821 (PMID: 34007292)
+2026-04-06 15:57:06 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  18%|█▊        | 18/100 [01:51<14:28, 10.59s/it]2026-04-06 15:57:06 [INFO] extraction.batch_processor: Processing paper 8605 (PMID: 35217212)
+2026-04-06 15:57:09 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  19%|█▉        | 19/100 [01:54<11:16,  8.35s/it]2026-04-06 15:57:09 [INFO] extraction.batch_processor: Processing paper 8606 (PMID: 37410616)
+2026-04-06 15:57:12 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  20%|██        | 20/100 [01:58<09:10,  6.88s/it]2026-04-06 15:57:13 [INFO] extraction.batch_processor: Processing paper 8607 (PMID: 16210137)
+2026-04-06 15:57:16 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  21%|██        | 21/100 [02:01<07:32,  5.73s/it]2026-04-06 15:57:16 [INFO] extraction.batch_processor: Processing paper 8608 (PMID: 40331908)
+2026-04-06 15:57:18 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  22%|██▏       | 22/100 [02:03<06:11,  4.76s/it]2026-04-06 15:57:18 [INFO] extraction.batch_processor: Processing paper 8609 (PMID: 12029537)
+2026-04-06 15:57:20 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  23%|██▎       | 23/100 [02:06<05:09,  4.01s/it]2026-04-06 15:57:20 [INFO] extraction.batch_processor: Processing paper 8610 (PMID: 28910610)
+2026-04-06 15:57:23 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  24%|██▍       | 24/100 [02:08<04:34,  3.62s/it]2026-04-06 15:57:23 [INFO] extraction.batch_processor: Processing paper 11823 (PMID: 31118806)
+2026-04-06 15:57:28 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  25%|██▌       | 25/100 [02:14<05:12,  4.16s/it]2026-04-06 15:57:29 [INFO] extraction.batch_processor: Processing paper 8612 (PMID: 34490953)
+2026-04-06 15:57:31 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  26%|██▌       | 26/100 [02:16<04:27,  3.61s/it]2026-04-06 15:57:31 [INFO] extraction.batch_processor: Processing paper 8614 (PMID: 35124154)
+2026-04-06 15:57:33 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  27%|██▋       | 27/100 [02:18<03:49,  3.15s/it]2026-04-06 15:57:33 [INFO] extraction.batch_processor: Processing paper 8615 (PMID: 25975839)
+Extracting HLA associations:  28%|██▊       | 28/100 [02:18<02:41,  2.24s/it]2026-04-06 15:57:33 [INFO] extraction.batch_processor: Processing paper 8616 (PMID: 12429626)
+2026-04-06 15:57:37 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  29%|██▉       | 29/100 [02:22<03:18,  2.80s/it]2026-04-06 15:57:37 [INFO] extraction.batch_processor: Processing paper 8617 (PMID: 20392670)
+2026-04-06 15:57:41 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  30%|███       | 30/100 [02:26<03:36,  3.09s/it]2026-04-06 15:57:41 [INFO] extraction.batch_processor: Processing paper 8618 (PMID: 25658253)
+2026-04-06 15:57:44 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  31%|███       | 31/100 [02:29<03:29,  3.03s/it]2026-04-06 15:57:44 [INFO] extraction.batch_processor: Processing paper 8619 (PMID: 29912593)
+2026-04-06 15:57:46 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  32%|███▏      | 32/100 [02:32<03:16,  2.89s/it]2026-04-06 15:57:46 [INFO] extraction.batch_processor: Processing paper 11827 (PMID: 36167072)
+2026-04-06 15:57:54 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  33%|███▎      | 33/100 [02:39<04:48,  4.30s/it]2026-04-06 15:57:54 [INFO] extraction.batch_processor: Processing paper 8621 (PMID: 19302248)
+2026-04-06 15:57:57 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  34%|███▍      | 34/100 [02:43<04:26,  4.04s/it]2026-04-06 15:57:57 [INFO] extraction.batch_processor: Processing paper 11830 (PMID: 37237400)
+2026-04-06 15:58:01 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  35%|███▌      | 35/100 [02:47<04:21,  4.02s/it]2026-04-06 15:58:01 [INFO] extraction.batch_processor: Processing paper 8629 (PMID: 15591961)
+2026-04-06 15:58:03 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  36%|███▌      | 36/100 [02:49<03:41,  3.46s/it]2026-04-06 15:58:04 [INFO] extraction.batch_processor: Processing paper 8623 (PMID: 33339900)
+2026-04-06 15:58:05 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  37%|███▋      | 37/100 [02:51<03:09,  3.02s/it]2026-04-06 15:58:06 [INFO] extraction.batch_processor: Processing paper 8624 (PMID: 33355234)
+2026-04-06 15:58:08 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  38%|███▊      | 38/100 [02:53<02:50,  2.75s/it]2026-04-06 15:58:08 [INFO] extraction.batch_processor: Processing paper 8625 (PMID: 18171281)
+2026-04-06 15:58:10 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  39%|███▉      | 39/100 [02:55<02:36,  2.56s/it]2026-04-06 15:58:10 [INFO] extraction.batch_processor: Processing paper 11832 (PMID: 34790902)
+2026-04-06 15:58:19 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  40%|████      | 40/100 [03:05<04:42,  4.70s/it]2026-04-06 15:58:19 [INFO] extraction.batch_processor: Processing paper 8627 (PMID: 18978743)
+2026-04-06 15:58:22 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  41%|████      | 41/100 [03:07<03:52,  3.93s/it]2026-04-06 15:58:22 [INFO] extraction.batch_processor: Processing paper 11833 (PMID: 40838325)
+2026-04-06 15:58:27 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  42%|████▏     | 42/100 [03:13<04:21,  4.51s/it]2026-04-06 15:58:27 [INFO] extraction.batch_processor: Processing paper 11834 (PMID: 38289907)
+2026-04-06 15:58:33 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  43%|████▎     | 43/100 [03:18<04:29,  4.73s/it]2026-04-06 15:58:33 [INFO] extraction.batch_processor: Processing paper 8632 (PMID: 12476285)
+2026-04-06 15:58:36 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  44%|████▍     | 44/100 [03:21<04:02,  4.33s/it]2026-04-06 15:58:36 [INFO] extraction.batch_processor: Processing paper 8633 (PMID: 11122137)
+2026-04-06 15:58:39 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  45%|████▌     | 45/100 [03:24<03:28,  3.79s/it]2026-04-06 15:58:39 [INFO] extraction.batch_processor: Processing paper 8634 (PMID: 22073847)
+2026-04-06 15:58:41 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  46%|████▌     | 46/100 [03:27<03:07,  3.46s/it]2026-04-06 15:58:41 [INFO] extraction.batch_processor: Processing paper 8635 (PMID: 36814041)
+2026-04-06 15:58:45 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  47%|████▋     | 47/100 [03:30<03:01,  3.42s/it]2026-04-06 15:58:45 [INFO] extraction.batch_processor: Processing paper 8636 (PMID: 16397129)
+2026-04-06 15:58:47 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  48%|████▊     | 48/100 [03:33<02:48,  3.24s/it]2026-04-06 15:58:47 [INFO] extraction.batch_processor: Processing paper 8637 (PMID: 28049637)
+2026-04-06 15:58:50 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  49%|████▉     | 49/100 [03:36<02:37,  3.09s/it]2026-04-06 15:58:50 [INFO] extraction.batch_processor: Processing paper 11835 (PMID: 41127787)
+2026-04-06 15:58:57 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  50%|█████     | 50/100 [03:43<03:38,  4.36s/it]2026-04-06 15:58:58 [INFO] extraction.batch_processor: Processing paper 8639 (PMID: 28835358)
+2026-04-06 15:59:00 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  51%|█████     | 51/100 [03:46<03:10,  3.88s/it]2026-04-06 15:59:00 [INFO] extraction.batch_processor: Processing paper 11837 (PMID: 39140490)
+2026-04-06 15:59:13 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  52%|█████▏    | 52/100 [03:59<05:21,  6.71s/it]2026-04-06 15:59:14 [INFO] extraction.batch_processor: Processing paper 11840 (PMID: 34663881)
+2026-04-06 15:59:26 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  53%|█████▎    | 53/100 [04:11<06:32,  8.35s/it]2026-04-06 15:59:26 [INFO] extraction.batch_processor: Processing paper 8642 (PMID: 34931754)
+2026-04-06 15:59:28 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  54%|█████▍    | 54/100 [04:14<05:06,  6.66s/it]2026-04-06 15:59:29 [INFO] extraction.batch_processor: Processing paper 8644 (PMID: 11551095)
+2026-04-06 15:59:31 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  55%|█████▌    | 55/100 [04:16<04:04,  5.42s/it]2026-04-06 15:59:31 [INFO] extraction.batch_processor: Processing paper 8658 (PMID: 11023536)
+2026-04-06 15:59:34 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  56%|█████▌    | 56/100 [04:19<03:26,  4.70s/it]2026-04-06 15:59:34 [INFO] extraction.batch_processor: Processing paper 8645 (PMID: 32732618)
+2026-04-06 15:59:37 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  57%|█████▋    | 57/100 [04:22<02:59,  4.17s/it]2026-04-06 15:59:37 [INFO] extraction.batch_processor: Processing paper 8646 (PMID: 23022208)
+2026-04-06 15:59:40 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  58%|█████▊    | 58/100 [04:26<02:45,  3.95s/it]2026-04-06 15:59:40 [INFO] extraction.batch_processor: Processing paper 8647 (PMID: 30552908)
+2026-04-06 15:59:46 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  59%|█████▉    | 59/100 [04:32<03:07,  4.57s/it]2026-04-06 15:59:46 [INFO] extraction.batch_processor: Processing paper 8648 (PMID: 33624904)
+Extracting HLA associations:  60%|██████    | 60/100 [04:32<02:09,  3.24s/it]2026-04-06 15:59:47 [INFO] extraction.batch_processor: Processing paper 8649 (PMID: 21856864)
+2026-04-06 15:59:49 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  61%|██████    | 61/100 [04:34<01:57,  3.01s/it]2026-04-06 15:59:49 [INFO] extraction.batch_processor: Processing paper 11841 (PMID: 36627290)
+2026-04-06 15:59:57 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  62%|██████▏   | 62/100 [04:42<02:47,  4.41s/it]2026-04-06 15:59:57 [INFO] extraction.batch_processor: Processing paper 11843 (PMID: 41203934)
+2026-04-06 16:00:07 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  63%|██████▎   | 63/100 [04:52<03:44,  6.05s/it]2026-04-06 16:00:07 [INFO] extraction.batch_processor: Processing paper 11844 (PMID: 34571336)
+2026-04-06 16:00:11 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  64%|██████▍   | 64/100 [04:56<03:15,  5.44s/it]2026-04-06 16:00:11 [INFO] extraction.batch_processor: Processing paper 8653 (PMID: 29901473)
+2026-04-06 16:00:15 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  65%|██████▌   | 65/100 [05:00<02:55,  5.00s/it]2026-04-06 16:00:15 [INFO] extraction.batch_processor: Processing paper 11845 (PMID: 34526137)
+2026-04-06 16:00:19 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  66%|██████▌   | 66/100 [05:04<02:45,  4.87s/it]2026-04-06 16:00:19 [INFO] extraction.batch_processor: Processing paper 11847 (PMID: 27885969)
+2026-04-06 16:00:19 [WARNING] extraction.llm_extractor: Text truncated from 1032426 to 100028 characters
+2026-04-06 16:00:30 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  67%|██████▋   | 67/100 [05:16<03:43,  6.77s/it]2026-04-06 16:00:30 [INFO] extraction.batch_processor: Processing paper 11848 (PMID: 29703425)
+2026-04-06 16:00:43 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  68%|██████▊   | 68/100 [05:29<04:36,  8.65s/it]2026-04-06 16:00:43 [INFO] extraction.batch_processor: Processing paper 8654 (PMID: 11489803)
+2026-04-06 16:00:47 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  69%|██████▉   | 69/100 [05:33<03:44,  7.23s/it]2026-04-06 16:00:47 [INFO] extraction.batch_processor: Processing paper 8655 (PMID: 17468772)
+2026-04-06 16:00:51 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  70%|███████   | 70/100 [05:36<03:06,  6.20s/it]2026-04-06 16:00:51 [INFO] extraction.batch_processor: Processing paper 8657 (PMID: 21166941)
+2026-04-06 16:00:54 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  71%|███████   | 71/100 [05:39<02:31,  5.23s/it]2026-04-06 16:00:54 [INFO] extraction.batch_processor: Processing paper 8656 (PMID: 37027433)
+2026-04-06 16:01:03 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  72%|███████▏  | 72/100 [05:48<02:58,  6.39s/it]2026-04-06 16:01:03 [INFO] extraction.batch_processor: Processing paper 11849 (PMID: 35859026)
+2026-04-06 16:01:11 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  73%|███████▎  | 73/100 [05:56<03:04,  6.83s/it]2026-04-06 16:01:11 [INFO] extraction.batch_processor: Processing paper 11850 (PMID: 34487855)
+2026-04-06 16:01:17 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  74%|███████▍  | 74/100 [06:02<02:49,  6.51s/it]2026-04-06 16:01:17 [INFO] extraction.batch_processor: Processing paper 8661 (PMID: 27543906)
+2026-04-06 16:01:20 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  75%|███████▌  | 75/100 [06:06<02:20,  5.62s/it]2026-04-06 16:01:20 [INFO] extraction.batch_processor: Processing paper 8662 (PMID: 15585844)
+2026-04-06 16:01:23 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  76%|███████▌  | 76/100 [06:08<01:52,  4.67s/it]2026-04-06 16:01:23 [INFO] extraction.batch_processor: Processing paper 11852 (PMID: 24901871)
+2026-04-06 16:01:41 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  77%|███████▋  | 77/100 [06:27<03:22,  8.81s/it]2026-04-06 16:01:41 [INFO] extraction.batch_processor: Processing paper 8665 (PMID: 35981499)
+2026-04-06 16:01:44 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  78%|███████▊  | 78/100 [06:30<02:36,  7.13s/it]2026-04-06 16:01:45 [INFO] extraction.batch_processor: Processing paper 11854 (PMID: 19889240)
+2026-04-06 16:01:55 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  79%|███████▉  | 79/100 [06:41<02:54,  8.29s/it]2026-04-06 16:01:56 [INFO] extraction.batch_processor: Processing paper 8667 (PMID: 25899468)
+2026-04-06 16:01:59 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  80%|████████  | 80/100 [06:44<02:15,  6.78s/it]2026-04-06 16:01:59 [INFO] extraction.batch_processor: Processing paper 8668 (PMID: 12004346)
+2026-04-06 16:02:01 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  81%|████████  | 81/100 [06:47<01:45,  5.54s/it]2026-04-06 16:02:01 [INFO] extraction.batch_processor: Processing paper 8669 (PMID: 30499599)
+2026-04-06 16:02:10 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  82%|████████▏ | 82/100 [06:56<01:58,  6.61s/it]2026-04-06 16:02:11 [INFO] extraction.batch_processor: Processing paper 8670 (PMID: 27056924)
+2026-04-06 16:02:13 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  83%|████████▎ | 83/100 [06:59<01:32,  5.45s/it]2026-04-06 16:02:13 [INFO] extraction.batch_processor: Processing paper 11855 (PMID: 39254050)
+2026-04-06 16:02:19 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  84%|████████▍ | 84/100 [07:04<01:29,  5.57s/it]2026-04-06 16:02:19 [INFO] extraction.batch_processor: Processing paper 8672 (PMID: 17072276)
+2026-04-06 16:02:22 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  85%|████████▌ | 85/100 [07:07<01:11,  4.76s/it]2026-04-06 16:02:22 [INFO] extraction.batch_processor: Processing paper 8673 (PMID: 28263921)
+2026-04-06 16:02:26 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  86%|████████▌ | 86/100 [07:11<01:02,  4.49s/it]2026-04-06 16:02:26 [INFO] extraction.batch_processor: Processing paper 8674 (PMID: 18954294)
+2026-04-06 16:02:29 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  87%|████████▋ | 87/100 [07:15<00:55,  4.26s/it]2026-04-06 16:02:30 [INFO] extraction.batch_processor: Processing paper 8675 (PMID: 16182735)
+2026-04-06 16:02:32 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  88%|████████▊ | 88/100 [07:18<00:45,  3.82s/it]2026-04-06 16:02:32 [INFO] extraction.batch_processor: Processing paper 8676 (PMID: 30885888)
+2026-04-06 16:02:36 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  89%|████████▉ | 89/100 [07:21<00:40,  3.71s/it]2026-04-06 16:02:36 [INFO] extraction.batch_processor: Processing paper 11856 (PMID: 39548180)
+2026-04-06 16:02:42 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  90%|█████████ | 90/100 [07:27<00:45,  4.51s/it]2026-04-06 16:02:42 [INFO] extraction.batch_processor: Processing paper 11858 (PMID: 32140061)
+2026-04-06 16:02:54 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  91%|█████████ | 91/100 [07:39<00:59,  6.65s/it]2026-04-06 16:02:54 [INFO] extraction.batch_processor: Processing paper 11861 (PMID: 38154666)
+2026-04-06 16:03:18 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  92%|█████████▏| 92/100 [08:03<01:35, 11.95s/it]2026-04-06 16:03:18 [INFO] extraction.batch_processor: Processing paper 8680 (PMID: 31777304)
+2026-04-06 16:03:21 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  93%|█████████▎| 93/100 [08:07<01:05,  9.35s/it]2026-04-06 16:03:21 [INFO] extraction.batch_processor: Processing paper 8681 (PMID: 24292519)
+2026-04-06 16:03:24 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  94%|█████████▍| 94/100 [08:09<00:43,  7.32s/it]2026-04-06 16:03:24 [INFO] extraction.batch_processor: Processing paper 8682 (PMID: 12621487)
+2026-04-06 16:03:27 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  95%|█████████▌| 95/100 [08:13<00:30,  6.13s/it]2026-04-06 16:03:27 [INFO] extraction.batch_processor: Processing paper 8683 (PMID: 16120046)
+2026-04-06 16:03:31 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  96%|█████████▌| 96/100 [08:16<00:21,  5.29s/it]2026-04-06 16:03:31 [INFO] extraction.batch_processor: Processing paper 8684 (PMID: 17941069)
+2026-04-06 16:03:34 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  97%|█████████▋| 97/100 [08:19<00:13,  4.59s/it]2026-04-06 16:03:34 [INFO] extraction.batch_processor: Processing paper 8685 (PMID: 12838285)
+2026-04-06 16:03:37 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  98%|█████████▊| 98/100 [08:22<00:08,  4.12s/it]2026-04-06 16:03:37 [INFO] extraction.batch_processor: Processing paper 11862 (PMID: 40078724)
+2026-04-06 16:03:52 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations:  99%|█████████▉| 99/100 [08:37<00:07,  7.45s/it]2026-04-06 16:03:52 [INFO] extraction.batch_processor: Processing paper 11863 (PMID: 39215340)
+2026-04-06 16:03:57 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Extracting HLA associations: 100%|██████████| 100/100 [08:43<00:00,  6.92s/it]Extracting HLA associations: 100%|██████████| 100/100 [08:43<00:00,  5.23s/it]
+2026-04-06 16:03:58 [INFO] extraction.batch_processor: Batch processing complete: {'processed': 100, 'completed': 98, 'failed': 0, 'skipped': 2, 'total_cost': 0.0684, 'total_tokens_input': 406942, 'total_tokens_output': 12227}
+2026-04-06 16:03:58 [INFO] pipeline.orchestrator: ============================================================
+2026-04-06 16:03:58 [INFO] pipeline.orchestrator: STEP 4: VALIDATING
+2026-04-06 16:03:58 [INFO] pipeline.orchestrator: ============================================================
+2026-04-06 16:03:58 [INFO] pipeline.orchestrator: Validating extracted data...
+2026-04-06 16:03:58 [INFO] pipeline.orchestrator: ============================================================
+2026-04-06 16:03:58 [INFO] pipeline.orchestrator: PIPELINE COMPLETE in 525.0 seconds
+2026-04-06 16:03:58 [INFO] pipeline.orchestrator: ============================================================
+
+Pipeline completed in 525.0 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 98,
+    "failed": 0,
+    "skipped": 2,
+    "total_cost": 0.0684,
+    "total_tokens_input": 406942,
+    "total_tokens_output": 12227,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 18799,
+      "completed": 7631,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -6284,
+      "total_associations": 5133,
+      "total_combinations": 638,
+      "total_cost_usd": 4.5033
+    }
+  },
+  "validation": {
+    "total_associations": 5133,
+    "total_combinations": 638,
+    "issues": {
+      "invalid_allele_format": 1181,
+      "inconsistent_or_effect": 30,
+      "missing_p_value": 3457,
+      "nonsignificant_p": 80,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 525.0
+}
+Stopped at cycle 1 (exit code 0)
+=== Cycle 1/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 502.4 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0583,
+    "total_tokens_input": 332218,
+    "total_tokens_output": 14140,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 18899,
+      "completed": 7731,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -6384,
+      "total_associations": 5168,
+      "total_combinations": 640,
+      "total_cost_usd": 4.5616
+    }
+  },
+  "validation": {
+    "total_associations": 5168,
+    "total_combinations": 640,
+    "issues": {
+      "invalid_allele_format": 1193,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3487,
+      "nonsignificant_p": 81,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 502.4
+}
+=== Cycle 2/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 398.7 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0685,
+    "total_tokens_input": 414624,
+    "total_tokens_output": 10582,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 18999,
+      "completed": 7831,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -6484,
+      "total_associations": 5175,
+      "total_combinations": 640,
+      "total_cost_usd": 4.6301
+    }
+  },
+  "validation": {
+    "total_associations": 5175,
+    "total_combinations": 640,
+    "issues": {
+      "invalid_allele_format": 1193,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3491,
+      "nonsignificant_p": 81,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 398.7
+}
+=== Cycle 3/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 428.4 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0497,
+    "total_tokens_input": 281779,
+    "total_tokens_output": 12328,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 19099,
+      "completed": 7931,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -6584,
+      "total_associations": 5197,
+      "total_combinations": 642,
+      "total_cost_usd": 4.6798
+    }
+  },
+  "validation": {
+    "total_associations": 5197,
+    "total_combinations": 642,
+    "issues": {
+      "invalid_allele_format": 1199,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3513,
+      "nonsignificant_p": 81,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 428.4
+}
+=== Cycle 4/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 301.6 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0268,
+    "total_tokens_input": 128927,
+    "total_tokens_output": 12461,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 19199,
+      "completed": 8031,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -6684,
+      "total_associations": 5220,
+      "total_combinations": 642,
+      "total_cost_usd": 4.7066
+    }
+  },
+  "validation": {
+    "total_associations": 5220,
+    "total_combinations": 642,
+    "issues": {
+      "invalid_allele_format": 1210,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3533,
+      "nonsignificant_p": 82,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 301.6
+}
+=== Cycle 5/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 325.9 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0264,
+    "total_tokens_input": 132454,
+    "total_tokens_output": 10873,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 19299,
+      "completed": 8131,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -6784,
+      "total_associations": 5228,
+      "total_combinations": 643,
+      "total_cost_usd": 4.733
+    }
+  },
+  "validation": {
+    "total_associations": 5228,
+    "total_combinations": 643,
+    "issues": {
+      "invalid_allele_format": 1212,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3540,
+      "nonsignificant_p": 82,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 325.9
+}
+=== Cycle 6/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 290.8 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0258,
+    "total_tokens_input": 130750,
+    "total_tokens_output": 10257,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 19399,
+      "completed": 8231,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -6884,
+      "total_associations": 5232,
+      "total_combinations": 643,
+      "total_cost_usd": 4.7588
+    }
+  },
+  "validation": {
+    "total_associations": 5232,
+    "total_combinations": 643,
+    "issues": {
+      "invalid_allele_format": 1213,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3542,
+      "nonsignificant_p": 82,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 290.8
+}
+=== Cycle 7/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 259.8 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0261,
+    "total_tokens_input": 133305,
+    "total_tokens_output": 10146,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 19499,
+      "completed": 8331,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -6984,
+      "total_associations": 5239,
+      "total_combinations": 643,
+      "total_cost_usd": 4.7848
+    }
+  },
+  "validation": {
+    "total_associations": 5239,
+    "total_combinations": 643,
+    "issues": {
+      "invalid_allele_format": 1214,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3548,
+      "nonsignificant_p": 82,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 259.8
+}
+=== Cycle 8/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 332.4 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0327,
+    "total_tokens_input": 171073,
+    "total_tokens_output": 11716,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 19599,
+      "completed": 8431,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -7084,
+      "total_associations": 5259,
+      "total_combinations": 643,
+      "total_cost_usd": 4.8175
+    }
+  },
+  "validation": {
+    "total_associations": 5259,
+    "total_combinations": 643,
+    "issues": {
+      "invalid_allele_format": 1216,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3568,
+      "nonsignificant_p": 82,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 332.4
+}
+=== Cycle 9/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 311.1 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0266,
+    "total_tokens_input": 135756,
+    "total_tokens_output": 10308,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 19699,
+      "completed": 8531,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -7184,
+      "total_associations": 5264,
+      "total_combinations": 643,
+      "total_cost_usd": 4.8441
+    }
+  },
+  "validation": {
+    "total_associations": 5264,
+    "total_combinations": 643,
+    "issues": {
+      "invalid_allele_format": 1216,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3573,
+      "nonsignificant_p": 82,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 311.1
+}
+=== Cycle 10/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 354.1 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0282,
+    "total_tokens_input": 143413,
+    "total_tokens_output": 11186,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 19799,
+      "completed": 8631,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -7284,
+      "total_associations": 5277,
+      "total_combinations": 643,
+      "total_cost_usd": 4.8723
+    }
+  },
+  "validation": {
+    "total_associations": 5277,
+    "total_combinations": 643,
+    "issues": {
+      "invalid_allele_format": 1219,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3581,
+      "nonsignificant_p": 82,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 354.1
+}
+=== Cycle 11/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 359.4 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0271,
+    "total_tokens_input": 136911,
+    "total_tokens_output": 11001,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 19899,
+      "completed": 8731,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -7384,
+      "total_associations": 5291,
+      "total_combinations": 643,
+      "total_cost_usd": 4.8994
+    }
+  },
+  "validation": {
+    "total_associations": 5291,
+    "total_combinations": 643,
+    "issues": {
+      "invalid_allele_format": 1222,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3590,
+      "nonsignificant_p": 82,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 359.4
+}
+=== Cycle 12/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 327.0 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.032,
+    "total_tokens_input": 168634,
+    "total_tokens_output": 11099,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 19999,
+      "completed": 8831,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -7484,
+      "total_associations": 5304,
+      "total_combinations": 644,
+      "total_cost_usd": 4.9314
+    }
+  },
+  "validation": {
+    "total_associations": 5304,
+    "total_combinations": 644,
+    "issues": {
+      "invalid_allele_format": 1225,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3599,
+      "nonsignificant_p": 82,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 327.0
+}
+=== Cycle 13/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 271.7 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0314,
+    "total_tokens_input": 164579,
+    "total_tokens_output": 11234,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 20099,
+      "completed": 8931,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -7584,
+      "total_associations": 5318,
+      "total_combinations": 645,
+      "total_cost_usd": 4.9628
+    }
+  },
+  "validation": {
+    "total_associations": 5318,
+    "total_combinations": 645,
+    "issues": {
+      "invalid_allele_format": 1228,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3612,
+      "nonsignificant_p": 82,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 271.7
+}
+=== Cycle 14/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 316.8 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0309,
+    "total_tokens_input": 154235,
+    "total_tokens_output": 12937,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 20199,
+      "completed": 9031,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -7684,
+      "total_associations": 5349,
+      "total_combinations": 647,
+      "total_cost_usd": 4.9937
+    }
+  },
+  "validation": {
+    "total_associations": 5349,
+    "total_combinations": 647,
+    "issues": {
+      "invalid_allele_format": 1234,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3640,
+      "nonsignificant_p": 82,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 316.8
+}
+=== Cycle 15/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 299.4 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0296,
+    "total_tokens_input": 155669,
+    "total_tokens_output": 10479,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 20299,
+      "completed": 9131,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -7784,
+      "total_associations": 5356,
+      "total_combinations": 647,
+      "total_cost_usd": 5.0233
+    }
+  },
+  "validation": {
+    "total_associations": 5356,
+    "total_combinations": 647,
+    "issues": {
+      "invalid_allele_format": 1234,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3646,
+      "nonsignificant_p": 82,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 299.4
+}
+=== Cycle 16/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 297.6 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.0289,
+    "total_tokens_input": 152962,
+    "total_tokens_output": 9883,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 20399,
+      "completed": 9231,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -7884,
+      "total_associations": 5364,
+      "total_combinations": 647,
+      "total_cost_usd": 5.0522
+    }
+  },
+  "validation": {
+    "total_associations": 5364,
+    "total_combinations": 647,
+    "issues": {
+      "invalid_allele_format": 1236,
+      "inconsistent_or_effect": 31,
+      "missing_p_value": 3654,
+      "nonsignificant_p": 82,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 297.6
+}
+=== Cycle 17/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 1569.3 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.1216,
+    "total_tokens_input": 655169,
+    "total_tokens_output": 38789,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 20499,
+      "completed": 9331,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -7984,
+      "total_associations": 5614,
+      "total_combinations": 673,
+      "total_cost_usd": 5.1738
+    }
+  },
+  "validation": {
+    "total_associations": 5614,
+    "total_combinations": 673,
+    "issues": {
+      "invalid_allele_format": 1255,
+      "inconsistent_or_effect": 33,
+      "missing_p_value": 3808,
+      "nonsignificant_p": 86,
+      "extreme_or": 35
+    }
+  },
+  "elapsed_seconds": 1569.3
+}
+=== Cycle 18/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 1715.2 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.1435,
+    "total_tokens_input": 776396,
+    "total_tokens_output": 45129,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 20599,
+      "completed": 9431,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -8084,
+      "total_associations": 5916,
+      "total_combinations": 717,
+      "total_cost_usd": 5.3173
+    }
+  },
+  "validation": {
+    "total_associations": 5916,
+    "total_combinations": 717,
+    "issues": {
+      "invalid_allele_format": 1286,
+      "inconsistent_or_effect": 33,
+      "missing_p_value": 3993,
+      "nonsignificant_p": 92,
+      "extreme_or": 36
+    }
+  },
+  "elapsed_seconds": 1715.2
+}
+=== Cycle 19/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+=== Cycle 1/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 3914.0 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.1467,
+    "total_tokens_input": 840939,
+    "total_tokens_output": 34284,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 20826,
+      "completed": 9658,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -8311,
+      "total_associations": 6462,
+      "total_combinations": 780,
+      "total_cost_usd": 5.6478
+    }
+  },
+  "validation": {
+    "total_associations": 6462,
+    "total_combinations": 780,
+    "issues": {
+      "invalid_allele_format": 1379,
+      "inconsistent_or_effect": 42,
+      "missing_p_value": 4388,
+      "nonsignificant_p": 108,
+      "extreme_or": 36
+    }
+  },
+  "elapsed_seconds": 3914.0
+}
+=== Cycle 2/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 1621.3 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.1427,
+    "total_tokens_input": 822932,
+    "total_tokens_output": 32125,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 20926,
+      "completed": 9758,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -8411,
+      "total_associations": 6659,
+      "total_combinations": 796,
+      "total_cost_usd": 5.7905
+    }
+  },
+  "validation": {
+    "total_associations": 6659,
+    "total_combinations": 796,
+    "issues": {
+      "invalid_allele_format": 1416,
+      "inconsistent_or_effect": 43,
+      "missing_p_value": 4540,
+      "nonsignificant_p": 111,
+      "extreme_or": 36
+    }
+  },
+  "elapsed_seconds": 1621.3
+}
+=== Cycle 3/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 1101.9 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.1497,
+    "total_tokens_input": 909022,
+    "total_tokens_output": 22272,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 21026,
+      "completed": 9858,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -8511,
+      "total_associations": 6763,
+      "total_combinations": 802,
+      "total_cost_usd": 5.9403
+    }
+  },
+  "validation": {
+    "total_associations": 6763,
+    "total_combinations": 802,
+    "issues": {
+      "invalid_allele_format": 1433,
+      "inconsistent_or_effect": 43,
+      "missing_p_value": 4630,
+      "nonsignificant_p": 111,
+      "extreme_or": 36
+    }
+  },
+  "elapsed_seconds": 1101.9
+}
+=== Cycle 4/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 3181.9 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.144,
+    "total_tokens_input": 846087,
+    "total_tokens_output": 28471,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 21126,
+      "completed": 9958,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -8611,
+      "total_associations": 6915,
+      "total_combinations": 820,
+      "total_cost_usd": 6.0842
+    }
+  },
+  "validation": {
+    "total_associations": 6915,
+    "total_combinations": 820,
+    "issues": {
+      "invalid_allele_format": 1473,
+      "inconsistent_or_effect": 46,
+      "missing_p_value": 4745,
+      "nonsignificant_p": 114,
+      "extreme_or": 36
+    }
+  },
+  "elapsed_seconds": 3181.9
+}
+=== Cycle 5/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 1556.6 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.1276,
+    "total_tokens_input": 676693,
+    "total_tokens_output": 43504,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 21226,
+      "completed": 10058,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -8711,
+      "total_associations": 7227,
+      "total_combinations": 835,
+      "total_cost_usd": 6.2119
+    }
+  },
+  "validation": {
+    "total_associations": 7227,
+    "total_combinations": 835,
+    "issues": {
+      "invalid_allele_format": 1569,
+      "inconsistent_or_effect": 46,
+      "missing_p_value": 4925,
+      "nonsignificant_p": 124,
+      "extreme_or": 43
+    }
+  },
+  "elapsed_seconds": 1556.6
+}
+=== Cycle 6/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
+
+Pipeline completed in 1106.0 seconds
+{
+  "extraction": {
+    "processed": 100,
+    "completed": 100,
+    "failed": 0,
+    "skipped": 0,
+    "total_cost": 0.116,
+    "total_tokens_input": 652595,
+    "total_tokens_output": 30241,
+    "overall_stats": {
+      "total_papers": 12515,
+      "extraction_attempts": 21326,
+      "completed": 10158,
+      "failed": 239,
+      "skipped": 10929,
+      "pending": -8811,
+      "total_associations": 7387,
+      "total_combinations": 857,
+      "total_cost_usd": 6.3279
+    }
+  },
+  "validation": {
+    "total_associations": 7387,
+    "total_combinations": 857,
+    "issues": {
+      "invalid_allele_format": 1607,
+      "inconsistent_or_effect": 48,
+      "missing_p_value": 4984,
+      "nonsignificant_p": 128,
+      "extreme_or": 46
+    }
+  },
+  "elapsed_seconds": 1106.0
+}
+=== Cycle 7/50 ===
+============================================================
+HLA LITERATURE MINING PIPELINE
+============================================================
